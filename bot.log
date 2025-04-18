@@ -7080,3 +7080,1190 @@ client_session: <aiohttp.client.ClientSession object at 0x0000020553790F80>
 2025-04-18 08:56:32,654 - INFO - Polling stopped
 2025-04-18 08:56:32,913 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
 2025-04-18 08:56:32,915 - INFO - Бот остановлен!
+2025-04-18 09:13:25,134 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:13:25,134 - INFO - Инициализация базы данных начата...
+2025-04-18 09:13:25,135 - INFO - Создание таблицы users...
+2025-04-18 09:13:25,136 - INFO - Создание таблицы direction...
+2025-04-18 09:13:25,136 - INFO - Создание таблицы directionList...
+2025-04-18 09:13:25,136 - INFO - Создание таблицы banList...
+2025-04-18 09:13:25,137 - INFO - Создание таблицы report...
+2025-04-18 09:13:25,137 - INFO - База данных успешно инициализирована.
+2025-04-18 09:13:25,138 - INFO - База данных успешно инициализирована.
+2025-04-18 09:13:25,477 - INFO - Бот успешно запущен!
+2025-04-18 09:13:25,477 - INFO - Start polling
+2025-04-18 09:13:25,585 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:13:31,302 - INFO - Update id=813233683 is handled. Duration 359 ms by bot id=7997483559
+2025-04-18 09:13:32,505 - INFO - Update id=813233684 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 09:13:35,184 - INFO - Update id=813233685 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 09:13:58,597 - INFO - Polling stopped
+2025-04-18 09:13:58,851 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:13:58,852 - INFO - Бот остановлен!
+2025-04-18 09:14:07,793 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:14:07,794 - INFO - Инициализация базы данных начата...
+2025-04-18 09:14:07,795 - INFO - Создание таблицы users...
+2025-04-18 09:14:07,795 - INFO - Создание таблицы direction...
+2025-04-18 09:14:07,796 - INFO - Создание таблицы directionList...
+2025-04-18 09:14:07,796 - INFO - Создание таблицы banList...
+2025-04-18 09:14:07,796 - INFO - Создание таблицы report...
+2025-04-18 09:14:07,797 - INFO - База данных успешно инициализирована.
+2025-04-18 09:14:07,797 - INFO - База данных успешно инициализирована.
+2025-04-18 09:14:08,268 - INFO - Бот успешно запущен!
+2025-04-18 09:14:08,268 - INFO - Start polling
+2025-04-18 09:14:08,377 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:14:10,973 - INFO - Update id=813233686 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 09:14:11,880 - INFO - Update id=813233687 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 09:14:14,185 - INFO - Update id=813233688 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 09:14:21,454 - INFO - Update id=813233689 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:14:22,774 - INFO - Update id=813233690 is handled. Duration 109 ms by bot id=7997483559
+2025-04-18 09:14:24,010 - INFO - Update id=813233691 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:14:25,004 - INFO - Update id=813233692 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 09:21:14,526 - INFO - Polling stopped
+2025-04-18 09:21:14,790 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:21:14,791 - INFO - Бот остановлен!
+2025-04-18 09:23:09,175 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:23:09,175 - INFO - Инициализация базы данных начата...
+2025-04-18 09:23:09,176 - INFO - Создание таблицы users...
+2025-04-18 09:23:09,177 - INFO - Создание таблицы direction...
+2025-04-18 09:23:09,177 - INFO - Создание таблицы directionList...
+2025-04-18 09:23:09,177 - INFO - Создание таблицы banList...
+2025-04-18 09:23:09,178 - INFO - Создание таблицы report...
+2025-04-18 09:23:09,178 - INFO - База данных успешно инициализирована.
+2025-04-18 09:23:09,178 - INFO - База данных успешно инициализирована.
+2025-04-18 09:23:09,501 - INFO - Бот успешно запущен!
+2025-04-18 09:23:09,502 - INFO - Start polling
+2025-04-18 09:23:09,610 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:23:11,529 - INFO - Update id=813233693 is handled. Duration 375 ms by bot id=7997483559
+2025-04-18 09:23:15,531 - INFO - Update id=813233694 is handled. Duration 219 ms by bot id=7997483559
+2025-04-18 09:23:16,760 - INFO - Update id=813233695 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:18,064 - INFO - Update id=813233696 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 09:23:20,490 - INFO - Update id=813233697 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:21,759 - INFO - Update id=813233698 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:24,020 - INFO - Update id=813233699 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 09:23:25,068 - INFO - Update id=813233700 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:26,607 - INFO - Update id=813233701 is handled. Duration 157 ms by bot id=7997483559
+2025-04-18 09:23:30,466 - INFO - Update id=813233702 is handled. Duration 327 ms by bot id=7997483559
+2025-04-18 09:23:32,184 - INFO - Update id=813233703 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:33,494 - INFO - Update id=813233704 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:34,678 - INFO - Update id=813233705 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:35,353 - INFO - Update id=813233706 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:38,736 - INFO - Update id=813233707 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:23:39,977 - INFO - Update id=813233708 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:24:02,036 - INFO - Update id=813233709 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 09:24:10,869 - INFO - Update id=813233710 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:24:23,210 - INFO - Update id=813233711 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:24:26,471 - INFO - Update id=813233712 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:24:28,250 - INFO - Update id=813233713 is handled. Duration 750 ms by bot id=7997483559
+2025-04-18 09:24:40,253 - INFO - Update id=813233714 is handled. Duration 172 ms by bot id=7997483559
+2025-04-18 09:24:41,849 - INFO - Update id=813233715 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:24:47,398 - INFO - Update id=813233716 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 09:24:51,614 - INFO - Update id=813233717 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 09:24:52,871 - INFO - Update id=813233718 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:24:53,887 - INFO - Update id=813233719 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:24:55,236 - INFO - Update id=813233720 is handled. Duration 264 ms by bot id=7997483559
+2025-04-18 09:24:57,686 - INFO - Update id=813233721 is not handled. Duration 14 ms by bot id=7997483559
+2025-04-18 09:31:20,966 - INFO - Polling stopped
+2025-04-18 09:31:21,232 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:31:21,233 - INFO - Бот остановлен!
+2025-04-18 09:31:21,361 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002960349DD60>
+2025-04-18 09:32:42,158 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:32:42,158 - INFO - Инициализация базы данных начата...
+2025-04-18 09:32:42,160 - INFO - Создание таблицы users...
+2025-04-18 09:32:42,161 - INFO - Создание таблицы direction...
+2025-04-18 09:32:42,161 - INFO - Создание таблицы directionList...
+2025-04-18 09:32:42,162 - INFO - Создание таблицы banList...
+2025-04-18 09:32:42,162 - INFO - Создание таблицы report...
+2025-04-18 09:32:42,163 - INFO - База данных успешно инициализирована.
+2025-04-18 09:32:42,163 - INFO - База данных успешно инициализирована.
+2025-04-18 09:32:42,490 - INFO - Бот успешно запущен!
+2025-04-18 09:32:42,490 - INFO - Start polling
+2025-04-18 09:32:42,595 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:32:46,161 - INFO - Update id=813233722 is handled. Duration 358 ms by bot id=7997483559
+2025-04-18 09:32:47,265 - INFO - Update id=813233723 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 09:32:48,145 - INFO - Update id=813233724 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:32:49,215 - INFO - Update id=813233725 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:32:51,133 - INFO - Update id=813233726 is handled. Duration 1030 ms by bot id=7997483559
+2025-04-18 09:32:52,147 - INFO - Update id=813233727 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:32:55,188 - INFO - Update id=813233728 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 09:33:02,289 - INFO - Update id=813233729 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:33:24,635 - INFO - Update id=813233730 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 09:33:28,038 - INFO - Update id=813233731 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 09:33:29,910 - INFO - Update id=813233732 is handled. Duration 827 ms by bot id=7997483559
+2025-04-18 09:36:02,183 - INFO - Polling stopped
+2025-04-18 09:36:02,435 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:36:02,438 - INFO - Бот остановлен!
+2025-04-18 09:36:02,569 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002820EE188C0>
+2025-04-18 09:36:06,334 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:36:06,336 - INFO - Инициализация базы данных начата...
+2025-04-18 09:36:06,340 - INFO - Создание таблицы users...
+2025-04-18 09:36:06,342 - INFO - Создание таблицы direction...
+2025-04-18 09:36:06,345 - INFO - Создание таблицы directionList...
+2025-04-18 09:36:06,346 - INFO - Создание таблицы banList...
+2025-04-18 09:36:06,346 - INFO - Создание таблицы report...
+2025-04-18 09:36:06,347 - INFO - База данных успешно инициализирована.
+2025-04-18 09:36:06,347 - INFO - База данных успешно инициализирована.
+2025-04-18 09:36:06,680 - INFO - Бот успешно запущен!
+2025-04-18 09:36:06,680 - INFO - Start polling
+2025-04-18 09:36:06,786 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:36:12,566 - INFO - Update id=813233733 is handled. Duration 358 ms by bot id=7997483559
+2025-04-18 09:36:13,834 - INFO - Update id=813233734 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:36:14,628 - INFO - Update id=813233735 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:36:15,335 - INFO - Update id=813233736 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:36:17,109 - INFO - Update id=813233737 is handled. Duration 1077 ms by bot id=7997483559
+2025-04-18 09:36:18,002 - INFO - Update id=813233738 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 09:36:19,795 - INFO - Update id=813233739 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:36:32,323 - INFO - Update id=813233740 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:36:42,295 - INFO - Update id=813233741 is handled. Duration 235 ms by bot id=7997483559
+2025-04-18 09:36:44,816 - INFO - Update id=813233742 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:36:45,905 - INFO - Update id=813233743 is handled. Duration 172 ms by bot id=7997483559
+2025-04-18 09:40:13,847 - INFO - Polling stopped
+2025-04-18 09:40:14,101 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:40:14,103 - INFO - Бот остановлен!
+2025-04-18 09:40:14,228 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001D7495A93A0>
+2025-04-18 09:40:17,909 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:40:17,909 - INFO - Инициализация базы данных начата...
+2025-04-18 09:40:17,910 - INFO - Создание таблицы users...
+2025-04-18 09:40:17,911 - INFO - Создание таблицы direction...
+2025-04-18 09:40:17,911 - INFO - Создание таблицы directionList...
+2025-04-18 09:40:17,911 - INFO - Создание таблицы banList...
+2025-04-18 09:40:17,912 - INFO - Создание таблицы report...
+2025-04-18 09:40:17,912 - INFO - База данных успешно инициализирована.
+2025-04-18 09:40:17,912 - INFO - База данных успешно инициализирована.
+2025-04-18 09:40:18,257 - INFO - Бот успешно запущен!
+2025-04-18 09:40:18,257 - INFO - Start polling
+2025-04-18 09:40:18,366 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:40:22,200 - INFO - Update id=813233744 is handled. Duration 342 ms by bot id=7997483559
+2025-04-18 09:40:23,564 - INFO - Update id=813233745 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 09:40:30,234 - INFO - Update id=813233746 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 09:40:34,898 - INFO - Update id=813233747 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:40:35,956 - INFO - Update id=813233748 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:40:37,083 - INFO - Update id=813233749 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:40:37,949 - INFO - Update id=813233750 is handled. Duration 172 ms by bot id=7997483559
+2025-04-18 09:40:39,932 - INFO - Update id=813233751 is handled. Duration 1188 ms by bot id=7997483559
+2025-04-18 09:40:40,651 - INFO - Update id=813233752 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:40:42,039 - INFO - Update id=813233753 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:40:55,818 - INFO - Update id=813233754 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:41:05,480 - INFO - Update id=813233755 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 09:41:12,680 - INFO - Update id=813233756 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 09:41:14,635 - INFO - Update id=813233757 is handled. Duration 766 ms by bot id=7997483559
+2025-04-18 09:44:14,354 - INFO - Update id=813233758 is handled. Duration 329 ms by bot id=7997483559
+2025-04-18 09:44:15,449 - INFO - Update id=813233759 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 09:44:16,348 - INFO - Update id=813233760 is handled. Duration 157 ms by bot id=7997483559
+2025-04-18 09:44:17,792 - INFO - Update id=813233761 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:44:20,507 - INFO - Update id=813233762 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 09:56:37,536 - INFO - Polling stopped
+2025-04-18 09:56:37,789 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:56:37,791 - INFO - Бот остановлен!
+2025-04-18 09:56:37,921 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000277FB2FDD60>
+2025-04-18 09:56:41,694 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:56:41,694 - INFO - Инициализация базы данных начата...
+2025-04-18 09:56:41,695 - INFO - Создание таблицы users...
+2025-04-18 09:56:41,696 - INFO - Создание таблицы direction...
+2025-04-18 09:56:41,697 - INFO - Создание таблицы directionList...
+2025-04-18 09:56:41,697 - INFO - Создание таблицы banList...
+2025-04-18 09:56:41,697 - INFO - Создание таблицы report...
+2025-04-18 09:56:41,698 - INFO - База данных успешно инициализирована.
+2025-04-18 09:56:41,698 - INFO - База данных успешно инициализирована.
+2025-04-18 09:56:42,202 - INFO - Бот успешно запущен!
+2025-04-18 09:56:42,202 - INFO - Start polling
+2025-04-18 09:56:42,310 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:56:46,371 - INFO - Update id=813233763 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 09:56:59,303 - INFO - Update id=813233764 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 09:57:00,246 - INFO - Update id=813233765 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:57:01,032 - INFO - Update id=813233766 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:57:03,326 - INFO - Update id=813233767 is handled. Duration 1344 ms by bot id=7997483559
+2025-04-18 09:57:04,000 - INFO - Update id=813233768 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 09:57:05,566 - INFO - Update id=813233769 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 09:57:11,714 - INFO - Update id=813233770 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 09:57:18,149 - INFO - Update id=813233771 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 09:57:20,564 - INFO - Update id=813233772 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:57:21,659 - INFO - Update id=813233773 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 09:57:49,816 - INFO - Polling stopped
+2025-04-18 09:57:50,077 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:57:50,078 - INFO - Бот остановлен!
+2025-04-18 09:57:50,200 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002A37EAC16D0>
+2025-04-18 09:57:53,605 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 09:57:53,605 - INFO - Инициализация базы данных начата...
+2025-04-18 09:57:53,606 - INFO - Создание таблицы users...
+2025-04-18 09:57:53,607 - INFO - Создание таблицы direction...
+2025-04-18 09:57:53,607 - INFO - Создание таблицы directionList...
+2025-04-18 09:57:53,607 - INFO - Создание таблицы banList...
+2025-04-18 09:57:53,608 - INFO - Создание таблицы report...
+2025-04-18 09:57:53,608 - INFO - База данных успешно инициализирована.
+2025-04-18 09:57:53,608 - INFO - База данных успешно инициализирована.
+2025-04-18 09:57:53,935 - INFO - Бот успешно запущен!
+2025-04-18 09:57:53,935 - INFO - Start polling
+2025-04-18 09:57:54,058 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 09:57:59,356 - INFO - Update id=813233774 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 09:58:00,353 - INFO - Update id=813233775 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 09:58:06,425 - INFO - Update id=813233776 is handled. Duration 157 ms by bot id=7997483559
+2025-04-18 09:58:10,284 - INFO - Update id=813233777 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 09:58:12,918 - INFO - Update id=813233778 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 09:58:14,764 - INFO - Update id=813233779 is handled. Duration 842 ms by bot id=7997483559
+2025-04-18 09:58:42,497 - INFO - Update id=813233780 is handled. Duration 390 ms by bot id=7997483559
+2025-04-18 09:58:43,613 - INFO - Update id=813233781 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 09:58:47,000 - INFO - Update id=813233782 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:58:48,497 - INFO - Update id=813233783 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 09:58:49,507 - INFO - Update id=813233784 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:01:47,984 - INFO - Polling stopped
+2025-04-18 10:01:48,240 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:01:48,242 - INFO - Бот остановлен!
+2025-04-18 10:01:48,433 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002797E005280>
+2025-04-18 10:02:45,195 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:02:45,195 - INFO - Инициализация базы данных начата...
+2025-04-18 10:02:45,196 - INFO - Создание таблицы users...
+2025-04-18 10:02:45,197 - INFO - Создание таблицы direction...
+2025-04-18 10:02:45,198 - INFO - Создание таблицы directionList...
+2025-04-18 10:02:45,198 - INFO - Создание таблицы banList...
+2025-04-18 10:02:45,198 - INFO - Создание таблицы report...
+2025-04-18 10:02:45,199 - INFO - База данных успешно инициализирована.
+2025-04-18 10:02:45,199 - INFO - База данных успешно инициализирована.
+2025-04-18 10:02:45,582 - INFO - Бот успешно запущен!
+2025-04-18 10:02:45,583 - INFO - Start polling
+2025-04-18 10:02:45,689 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:02:46,895 - INFO - Update id=813233785 is handled. Duration 390 ms by bot id=7997483559
+2025-04-18 10:02:48,430 - INFO - Update id=813233786 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 10:02:50,017 - INFO - Update id=813233787 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:03:18,667 - INFO - Update id=813233788 is handled. Duration 375 ms by bot id=7997483559
+2025-04-18 10:03:19,617 - INFO - Update id=813233789 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:03:21,049 - INFO - Update id=813233790 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:03:27,331 - INFO - Update id=813233791 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:03:35,632 - INFO - Update id=813233792 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:03:38,155 - INFO - Update id=813233793 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:03:39,012 - INFO - Update id=813233794 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 10:03:39,012 - ERROR - Cause exception while process update id=813233794 by bot id=7997483559
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_botFix\handlers\directions.py", line 190, in countine_crete_direction
+    direction_id_str = get_last_direction_id()[0] + 1
+                       ~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-04-18 10:04:01,449 - INFO - Polling stopped
+2025-04-18 10:04:01,694 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:04:01,696 - INFO - Бот остановлен!
+2025-04-18 10:05:43,137 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:05:43,137 - INFO - Инициализация базы данных начата...
+2025-04-18 10:05:43,138 - INFO - Создание таблицы users...
+2025-04-18 10:05:43,139 - INFO - Создание таблицы direction...
+2025-04-18 10:05:43,139 - INFO - Создание таблицы directionList...
+2025-04-18 10:05:43,140 - INFO - Создание таблицы banList...
+2025-04-18 10:05:43,140 - INFO - Создание таблицы report...
+2025-04-18 10:05:43,141 - INFO - База данных успешно инициализирована.
+2025-04-18 10:05:43,141 - INFO - База данных успешно инициализирована.
+2025-04-18 10:05:43,488 - INFO - Бот успешно запущен!
+2025-04-18 10:05:43,489 - INFO - Start polling
+2025-04-18 10:05:43,606 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:05:49,449 - INFO - Update id=813233795 is handled. Duration 342 ms by bot id=7997483559
+2025-04-18 10:05:50,888 - INFO - Update id=813233796 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:05:53,893 - INFO - Update id=813233797 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:05:56,899 - INFO - Update id=813233798 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:06:00,463 - INFO - Update id=813233799 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 10:06:02,076 - INFO - Update id=813233800 is handled. Duration 780 ms by bot id=7997483559
+2025-04-18 10:06:12,831 - INFO - Update id=813233801 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 10:06:19,766 - INFO - Update id=813233802 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:06:21,078 - INFO - Update id=813233803 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 10:06:22,445 - INFO - Update id=813233804 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 10:06:23,471 - INFO - Update id=813233805 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 10:06:26,638 - INFO - Update id=813233806 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 10:10:57,354 - INFO - Polling stopped
+2025-04-18 10:10:57,613 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:10:57,614 - INFO - Бот остановлен!
+2025-04-18 10:10:57,748 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000015A240DD190>
+2025-04-18 10:17:58,540 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:17:58,540 - INFO - Инициализация базы данных начата...
+2025-04-18 10:17:58,541 - INFO - Создание таблицы users...
+2025-04-18 10:17:58,542 - INFO - Создание таблицы direction...
+2025-04-18 10:17:58,542 - INFO - Создание таблицы directionList...
+2025-04-18 10:17:58,543 - INFO - Создание таблицы banList...
+2025-04-18 10:17:58,543 - INFO - Создание таблицы report...
+2025-04-18 10:17:58,543 - INFO - База данных успешно инициализирована.
+2025-04-18 10:17:58,544 - INFO - База данных успешно инициализирована.
+2025-04-18 10:17:58,876 - INFO - Бот успешно запущен!
+2025-04-18 10:17:58,876 - INFO - Start polling
+2025-04-18 10:17:58,982 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:18:02,142 - INFO - Update id=813233807 is handled. Duration 359 ms by bot id=7997483559
+2025-04-18 10:18:03,194 - INFO - Update id=813233808 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 10:18:04,373 - INFO - Update id=813233809 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:18:05,142 - INFO - Update id=813233810 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:18:06,848 - INFO - Update id=813233811 is handled. Duration 1063 ms by bot id=7997483559
+2025-04-18 10:18:07,875 - INFO - Update id=813233812 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:18:09,397 - INFO - Update id=813233813 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:18:13,598 - INFO - Update id=813233814 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:18:16,915 - INFO - Update id=813233815 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 10:18:19,073 - INFO - Update id=813233816 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 10:18:20,874 - INFO - Update id=813233817 is handled. Duration 577 ms by bot id=7997483559
+2025-04-18 10:18:50,353 - INFO - Update id=813233818 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 10:18:52,665 - INFO - Update id=813233819 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:18:55,691 - INFO - Update id=813233820 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 10:24:26,820 - INFO - Polling stopped
+2025-04-18 10:24:27,074 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:24:27,075 - INFO - Бот остановлен!
+2025-04-18 10:24:27,238 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002B8CFF79460>
+2025-04-18 10:24:31,567 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:24:31,567 - INFO - Инициализация базы данных начата...
+2025-04-18 10:24:31,569 - INFO - Создание таблицы users...
+2025-04-18 10:24:31,574 - INFO - Создание таблицы direction...
+2025-04-18 10:24:31,575 - INFO - Создание таблицы directionList...
+2025-04-18 10:24:31,577 - INFO - Создание таблицы banList...
+2025-04-18 10:24:31,578 - INFO - Создание таблицы report...
+2025-04-18 10:24:31,579 - INFO - База данных успешно инициализирована.
+2025-04-18 10:24:31,580 - INFO - База данных успешно инициализирована.
+2025-04-18 10:24:31,922 - INFO - Бот успешно запущен!
+2025-04-18 10:24:31,922 - INFO - Start polling
+2025-04-18 10:24:32,033 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:26:26,716 - INFO - Update id=813233821 is handled. Duration 422 ms by bot id=7997483559
+2025-04-18 10:26:28,716 - INFO - Update id=813233822 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 10:26:31,147 - INFO - Update id=813233823 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:26:32,260 - INFO - Update id=813233824 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:26:33,282 - INFO - Update id=813233825 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:26:34,209 - INFO - Update id=813233826 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:26:39,342 - INFO - Update id=813233827 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:26:40,210 - INFO - Update id=813233828 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:26:42,321 - INFO - Update id=813233829 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 10:26:43,510 - INFO - Update id=813233830 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:30:37,971 - INFO - Polling stopped
+2025-04-18 10:30:38,231 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:30:38,233 - INFO - Бот остановлен!
+2025-04-18 10:32:38,826 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:32:38,826 - INFO - Инициализация базы данных начата...
+2025-04-18 10:32:38,827 - INFO - Создание таблицы users...
+2025-04-18 10:32:38,828 - INFO - Создание таблицы direction...
+2025-04-18 10:32:38,828 - INFO - Создание таблицы directionList...
+2025-04-18 10:32:38,829 - INFO - Создание таблицы banList...
+2025-04-18 10:32:38,829 - INFO - Создание таблицы report...
+2025-04-18 10:32:38,830 - INFO - База данных успешно инициализирована.
+2025-04-18 10:32:38,830 - INFO - База данных успешно инициализирована.
+2025-04-18 10:32:39,156 - INFO - Бот успешно запущен!
+2025-04-18 10:32:39,157 - INFO - Start polling
+2025-04-18 10:32:39,265 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:32:46,740 - INFO - Update id=813233831 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 10:32:47,571 - INFO - Update id=813233832 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:32:52,256 - INFO - Update id=813233833 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:32:53,013 - INFO - Update id=813233834 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 10:32:55,787 - INFO - Update id=813233835 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:32:56,710 - INFO - Update id=813233836 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:32:57,574 - INFO - Update id=813233837 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:32:58,215 - INFO - Update id=813233838 is handled. Duration 109 ms by bot id=7997483559
+2025-04-18 10:33:00,191 - INFO - Update id=813233839 is handled. Duration 1092 ms by bot id=7997483559
+2025-04-18 10:33:01,475 - INFO - Update id=813233840 is handled. Duration 157 ms by bot id=7997483559
+2025-04-18 10:33:02,545 - INFO - Update id=813233841 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 10:35:34,807 - INFO - Update id=813233842 is handled. Duration 328 ms by bot id=7997483559
+2025-04-18 10:35:36,053 - INFO - Update id=813233843 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 10:35:38,870 - INFO - Update id=813233844 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:35:41,406 - INFO - Update id=813233845 is handled. Duration 936 ms by bot id=7997483559
+2025-04-18 10:35:44,634 - INFO - Update id=813233846 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:35:45,931 - INFO - Update id=813233847 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 10:35:49,464 - INFO - Update id=813233848 is handled. Duration 250 ms by bot id=7997483559
+2025-04-18 10:35:52,730 - INFO - Update id=813233849 is handled. Duration 157 ms by bot id=7997483559
+2025-04-18 10:35:54,534 - INFO - Update id=813233850 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:35:55,583 - INFO - Update id=813233851 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:35:56,683 - INFO - Update id=813233852 is handled. Duration 235 ms by bot id=7997483559
+2025-04-18 10:35:58,778 - INFO - Update id=813233853 is handled. Duration 1265 ms by bot id=7997483559
+2025-04-18 10:36:00,718 - INFO - Update id=813233854 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:36:02,826 - INFO - Update id=813233855 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 10:36:05,334 - INFO - Update id=813233856 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:36:06,896 - INFO - Update id=813233857 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:36:08,011 - INFO - Update id=813233858 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:36:09,563 - INFO - Update id=813233859 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:37:23,052 - INFO - Update id=813233860 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 10:37:27,435 - INFO - Update id=813233861 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:37:28,660 - INFO - Update id=813233862 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 10:37:31,939 - INFO - Update id=813233863 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:37:32,870 - INFO - Update id=813233864 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:37:35,149 - INFO - Update id=813233865 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:37:36,934 - INFO - Update id=813233866 is handled. Duration 782 ms by bot id=7997483559
+2025-04-18 10:37:43,041 - INFO - Update id=813233867 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:37:44,067 - INFO - Update id=813233868 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 10:39:12,508 - INFO - Polling stopped
+2025-04-18 10:39:12,761 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:39:12,762 - INFO - Бот остановлен!
+2025-04-18 10:39:12,909 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000227C5B5E060>
+2025-04-18 10:40:10,964 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:40:10,964 - INFO - Инициализация базы данных начата...
+2025-04-18 10:40:10,965 - INFO - Создание таблицы users...
+2025-04-18 10:40:10,966 - INFO - Создание таблицы direction...
+2025-04-18 10:40:10,966 - INFO - Создание таблицы directionList...
+2025-04-18 10:40:10,966 - INFO - Создание таблицы banList...
+2025-04-18 10:40:10,967 - INFO - Создание таблицы report...
+2025-04-18 10:40:10,967 - INFO - База данных успешно инициализирована.
+2025-04-18 10:40:10,967 - INFO - База данных успешно инициализирована.
+2025-04-18 10:40:11,301 - INFO - Бот успешно запущен!
+2025-04-18 10:40:11,301 - INFO - Start polling
+2025-04-18 10:40:11,408 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:40:24,719 - INFO - Update id=813233869 is handled. Duration 359 ms by bot id=7997483559
+2025-04-18 10:40:25,767 - INFO - Update id=813233870 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:40:27,030 - INFO - Update id=813233871 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:40:29,473 - INFO - Update id=813233872 is handled. Duration 250 ms by bot id=7997483559
+2025-04-18 10:40:30,621 - INFO - Update id=813233873 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:40:57,310 - INFO - Update id=813233874 is handled. Duration 375 ms by bot id=7997483559
+2025-04-18 10:41:00,207 - INFO - Update id=813233875 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 10:41:01,078 - INFO - Update id=813233876 is handled. Duration 266 ms by bot id=7997483559
+2025-04-18 10:41:02,636 - INFO - Update id=813233877 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 10:41:02,636 - ERROR - Cause exception while process update id=813233877 by bot id=7997483559
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_botFix\handlers\directions.py", line 136, in create_new_direction_price_price
+    direction_id = last_direction_id[0] + 1  # Увеличиваем последний ID на 1
+                   ~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2025-04-18 10:44:18,069 - INFO - Polling stopped
+2025-04-18 10:44:18,324 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:44:18,326 - INFO - Бот остановлен!
+2025-04-18 10:44:22,427 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:44:22,428 - INFO - Инициализация базы данных начата...
+2025-04-18 10:44:22,429 - INFO - Создание таблицы users...
+2025-04-18 10:44:22,430 - INFO - Создание таблицы direction...
+2025-04-18 10:44:22,430 - INFO - Создание таблицы directionList...
+2025-04-18 10:44:22,431 - INFO - Создание таблицы banList...
+2025-04-18 10:44:22,431 - INFO - Создание таблицы report...
+2025-04-18 10:44:22,432 - INFO - База данных успешно инициализирована.
+2025-04-18 10:44:22,432 - INFO - База данных успешно инициализирована.
+2025-04-18 10:44:22,840 - INFO - Бот успешно запущен!
+2025-04-18 10:44:22,841 - INFO - Start polling
+2025-04-18 10:44:22,947 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:44:28,524 - INFO - Update id=813233878 is handled. Duration 436 ms by bot id=7997483559
+2025-04-18 10:44:29,557 - INFO - Update id=813233879 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 10:44:32,001 - INFO - Update id=813233880 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:44:32,985 - INFO - Update id=813233881 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 10:44:35,392 - INFO - Update id=813233882 is handled. Duration 217 ms by bot id=7997483559
+2025-04-18 10:44:37,117 - INFO - Update id=813233883 is handled. Duration 797 ms by bot id=7997483559
+2025-04-18 10:44:43,639 - INFO - Update id=813233884 is handled. Duration 217 ms by bot id=7997483559
+2025-04-18 10:44:44,957 - INFO - Update id=813233885 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 10:47:38,404 - INFO - Polling stopped
+2025-04-18 10:47:38,661 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:47:38,662 - INFO - Бот остановлен!
+2025-04-18 10:47:38,785 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000018333D65340>
+2025-04-18 10:47:42,734 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:47:42,734 - INFO - Инициализация базы данных начата...
+2025-04-18 10:47:42,735 - INFO - Создание таблицы users...
+2025-04-18 10:47:42,736 - INFO - Создание таблицы direction...
+2025-04-18 10:47:42,736 - INFO - Создание таблицы directionList...
+2025-04-18 10:47:42,737 - INFO - Создание таблицы banList...
+2025-04-18 10:47:42,737 - INFO - Создание таблицы report...
+2025-04-18 10:47:42,738 - INFO - База данных успешно инициализирована.
+2025-04-18 10:47:42,738 - INFO - База данных успешно инициализирована.
+2025-04-18 10:47:43,091 - INFO - Бот успешно запущен!
+2025-04-18 10:47:43,092 - INFO - Start polling
+2025-04-18 10:47:43,207 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:47:44,784 - INFO - Update id=813233886 is handled. Duration 358 ms by bot id=7997483559
+2025-04-18 10:47:45,769 - INFO - Update id=813233887 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 10:47:45,769 - ERROR - Cause exception while process update id=813233887 by bot id=7997483559
+ValidationError: 1 validation error for InlineKeyboardButton
+text
+  Input should be a valid string [type=string_type, input_value=19, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_botFix\handlers\directions.py", line 321, in get_all_direction
+    buttons.append([InlineKeyboardButton(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+text
+  Input should be a valid string [type=string_type, input_value=19, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+2025-04-18 10:48:44,868 - INFO - Polling stopped
+2025-04-18 10:48:45,133 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:48:45,134 - INFO - Бот остановлен!
+2025-04-18 10:48:56,254 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:48:56,254 - INFO - Инициализация базы данных начата...
+2025-04-18 10:48:56,256 - INFO - Создание таблицы users...
+2025-04-18 10:48:56,257 - INFO - Создание таблицы direction...
+2025-04-18 10:48:56,257 - INFO - Создание таблицы directionList...
+2025-04-18 10:48:56,258 - INFO - Создание таблицы banList...
+2025-04-18 10:48:56,258 - INFO - Создание таблицы report...
+2025-04-18 10:48:56,258 - INFO - База данных успешно инициализирована.
+2025-04-18 10:48:56,259 - INFO - База данных успешно инициализирована.
+2025-04-18 10:48:56,599 - INFO - Бот успешно запущен!
+2025-04-18 10:48:56,600 - INFO - Start polling
+2025-04-18 10:48:56,709 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:49:01,452 - INFO - Update id=813233888 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 10:49:03,839 - INFO - Update id=813233889 is handled. Duration 250 ms by bot id=7997483559
+2025-04-18 10:49:24,924 - INFO - Polling stopped
+2025-04-18 10:49:25,198 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:49:25,199 - INFO - Бот остановлен!
+2025-04-18 10:49:44,304 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:49:44,305 - INFO - Инициализация базы данных начата...
+2025-04-18 10:49:44,306 - INFO - Создание таблицы users...
+2025-04-18 10:49:44,306 - INFO - Создание таблицы direction...
+2025-04-18 10:49:44,307 - INFO - Создание таблицы directionList...
+2025-04-18 10:49:44,307 - INFO - Создание таблицы banList...
+2025-04-18 10:49:44,307 - INFO - Создание таблицы report...
+2025-04-18 10:49:44,308 - INFO - База данных успешно инициализирована.
+2025-04-18 10:49:44,308 - INFO - База данных успешно инициализирована.
+2025-04-18 10:49:44,690 - INFO - Бот успешно запущен!
+2025-04-18 10:49:44,704 - INFO - Start polling
+2025-04-18 10:49:44,820 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:49:53,719 - INFO - Update id=813233890 is handled. Duration 390 ms by bot id=7997483559
+2025-04-18 10:49:54,970 - INFO - Update id=813233891 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 10:51:46,340 - INFO - Polling stopped
+2025-04-18 10:51:46,598 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:51:46,599 - INFO - Бот остановлен!
+2025-04-18 10:51:50,987 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:51:50,987 - INFO - Инициализация базы данных начата...
+2025-04-18 10:51:50,988 - INFO - Создание таблицы users...
+2025-04-18 10:51:50,989 - INFO - Создание таблицы direction...
+2025-04-18 10:51:50,990 - INFO - Создание таблицы directionList...
+2025-04-18 10:51:50,990 - INFO - Создание таблицы banList...
+2025-04-18 10:51:50,990 - INFO - Создание таблицы report...
+2025-04-18 10:51:50,991 - INFO - База данных успешно инициализирована.
+2025-04-18 10:51:50,991 - INFO - База данных успешно инициализирована.
+2025-04-18 10:51:51,357 - INFO - Бот успешно запущен!
+2025-04-18 10:51:51,357 - INFO - Start polling
+2025-04-18 10:51:51,466 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:51:53,883 - INFO - Update id=813233892 is handled. Duration 390 ms by bot id=7997483559
+2025-04-18 10:51:55,749 - INFO - Update id=813233893 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 10:51:57,307 - INFO - Update id=813233894 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:51:58,533 - INFO - Update id=813233895 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:51:59,628 - INFO - Update id=813233896 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 10:52:01,102 - INFO - Update id=813233897 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 10:54:25,429 - INFO - Polling stopped
+2025-04-18 10:54:25,684 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:54:25,685 - INFO - Бот остановлен!
+2025-04-18 10:54:33,559 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 10:54:33,559 - INFO - Инициализация базы данных начата...
+2025-04-18 10:54:33,560 - INFO - Создание таблицы users...
+2025-04-18 10:54:33,561 - INFO - Создание таблицы direction...
+2025-04-18 10:54:33,561 - INFO - Создание таблицы directionList...
+2025-04-18 10:54:33,562 - INFO - Создание таблицы banList...
+2025-04-18 10:54:33,562 - INFO - Создание таблицы report...
+2025-04-18 10:54:33,562 - INFO - База данных успешно инициализирована.
+2025-04-18 10:54:33,563 - INFO - База данных успешно инициализирована.
+2025-04-18 10:54:33,892 - INFO - Бот успешно запущен!
+2025-04-18 10:54:33,892 - INFO - Start polling
+2025-04-18 10:54:33,998 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 10:54:35,842 - INFO - Update id=813233898 is handled. Duration 375 ms by bot id=7997483559
+2025-04-18 10:54:37,060 - INFO - Update id=813233899 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 10:54:38,505 - INFO - Update id=813233900 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 11:06:16,588 - INFO - Update id=813233901 is handled. Duration 422 ms by bot id=7997483559
+2025-04-18 11:06:23,397 - INFO - Update id=813233902 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 11:06:31,643 - INFO - Update id=813233903 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 11:06:34,075 - INFO - Update id=813233904 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 11:06:35,168 - INFO - Update id=813233905 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 11:06:45,957 - INFO - Polling stopped
+2025-04-18 11:06:46,221 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 11:06:46,223 - INFO - Бот остановлен!
+2025-04-18 11:07:19,186 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 11:07:19,186 - INFO - Инициализация базы данных начата...
+2025-04-18 11:07:19,188 - INFO - Создание таблицы users...
+2025-04-18 11:07:19,189 - INFO - Создание таблицы direction...
+2025-04-18 11:07:19,190 - INFO - Создание таблицы directionList...
+2025-04-18 11:07:19,190 - INFO - Создание таблицы banList...
+2025-04-18 11:07:19,190 - INFO - Создание таблицы report...
+2025-04-18 11:07:19,191 - INFO - База данных успешно инициализирована.
+2025-04-18 11:07:19,191 - INFO - База данных успешно инициализирована.
+2025-04-18 11:07:19,542 - INFO - Бот успешно запущен!
+2025-04-18 11:07:19,543 - INFO - Start polling
+2025-04-18 11:07:19,654 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 11:07:21,861 - INFO - Update id=813233906 is handled. Duration 358 ms by bot id=7997483559
+2025-04-18 11:07:23,255 - INFO - Update id=813233907 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 11:07:27,494 - INFO - Update id=813233908 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 11:07:30,585 - INFO - Update id=813233909 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 11:07:33,264 - INFO - Update id=813233910 is handled. Duration 156 ms by bot id=7997483559
+2025-04-18 11:07:37,635 - INFO - Update id=813233911 is handled. Duration 156 ms by bot id=7997483559
+2025-04-18 11:07:39,395 - INFO - Update id=813233912 is handled. Duration 734 ms by bot id=7997483559
+2025-04-18 17:14:45,081 - INFO - Polling stopped
+2025-04-18 17:14:45,339 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:14:45,340 - INFO - Бот остановлен!
+2025-04-18 17:14:45,467 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001A37927D070>
+2025-04-18 17:16:50,441 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:16:50,442 - INFO - Инициализация базы данных начата...
+2025-04-18 17:16:50,443 - INFO - Создание таблицы users...
+2025-04-18 17:16:50,444 - INFO - Создание таблицы direction...
+2025-04-18 17:16:50,444 - INFO - Создание таблицы directionList...
+2025-04-18 17:16:50,445 - INFO - Создание таблицы banList...
+2025-04-18 17:16:50,445 - INFO - Создание таблицы report...
+2025-04-18 17:16:50,445 - INFO - База данных успешно инициализирована.
+2025-04-18 17:16:50,446 - INFO - База данных успешно инициализирована.
+2025-04-18 17:16:50,831 - INFO - Бот успешно запущен!
+2025-04-18 17:16:50,831 - INFO - Start polling
+2025-04-18 17:16:50,942 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:16:57,877 - INFO - Update id=813233913 is handled. Duration 405 ms by bot id=7997483559
+2025-04-18 17:16:59,770 - INFO - Update id=813233914 is handled. Duration 250 ms by bot id=7997483559
+2025-04-18 17:17:01,182 - INFO - Update id=813233915 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:17:04,330 - INFO - Update id=813233916 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 17:17:05,559 - INFO - Update id=813233917 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:17:41,291 - INFO - Update id=813233918 is handled. Duration 1266 ms by bot id=7997483559
+2025-04-18 17:17:44,306 - INFO - Update id=813233919 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 17:17:52,366 - INFO - Update id=813233920 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:17:56,059 - INFO - Update id=813233921 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:17:59,492 - INFO - Update id=813233922 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:18:01,491 - INFO - Update id=813233923 is handled. Duration 844 ms by bot id=7997483559
+2025-04-18 17:19:13,936 - INFO - Update id=813233924 is handled. Duration 359 ms by bot id=7997483559
+2025-04-18 17:19:15,133 - INFO - Update id=813233925 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:20:02,993 - INFO - Polling stopped
+2025-04-18 17:20:03,254 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:20:03,255 - INFO - Бот остановлен!
+2025-04-18 17:20:03,404 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002CE5F17E060>
+2025-04-18 17:20:13,021 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:20:13,021 - INFO - Инициализация базы данных начата...
+2025-04-18 17:20:13,023 - INFO - Создание таблицы users...
+2025-04-18 17:20:13,024 - INFO - Создание таблицы direction...
+2025-04-18 17:20:13,024 - INFO - Создание таблицы directionList...
+2025-04-18 17:20:13,024 - INFO - Создание таблицы banList...
+2025-04-18 17:20:13,025 - INFO - Создание таблицы report...
+2025-04-18 17:20:13,025 - INFO - База данных успешно инициализирована.
+2025-04-18 17:20:13,025 - INFO - База данных успешно инициализирована.
+2025-04-18 17:20:13,432 - INFO - Бот успешно запущен!
+2025-04-18 17:20:13,433 - INFO - Start polling
+2025-04-18 17:20:13,543 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:20:16,212 - INFO - Update id=813233926 is handled. Duration 375 ms by bot id=7997483559
+2025-04-18 17:20:17,140 - INFO - Update id=813233927 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:20:18,217 - INFO - Update id=813233928 is handled. Duration 204 ms by bot id=7997483559
+2025-04-18 17:20:20,319 - INFO - Update id=813233929 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:21:08,074 - INFO - Polling stopped
+2025-04-18 17:21:08,337 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:21:08,338 - INFO - Бот остановлен!
+2025-04-18 17:21:15,879 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:21:15,879 - INFO - Инициализация базы данных начата...
+2025-04-18 17:21:15,880 - INFO - Создание таблицы users...
+2025-04-18 17:21:15,881 - INFO - Создание таблицы direction...
+2025-04-18 17:21:15,882 - INFO - Создание таблицы directionList...
+2025-04-18 17:21:15,882 - INFO - Создание таблицы banList...
+2025-04-18 17:21:15,883 - INFO - Создание таблицы report...
+2025-04-18 17:21:15,883 - INFO - База данных успешно инициализирована.
+2025-04-18 17:21:15,883 - INFO - База данных успешно инициализирована.
+2025-04-18 17:21:16,321 - INFO - Бот успешно запущен!
+2025-04-18 17:21:16,322 - INFO - Start polling
+2025-04-18 17:21:16,432 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:21:18,513 - INFO - Update id=813233930 is handled. Duration 405 ms by bot id=7997483559
+2025-04-18 17:21:19,490 - INFO - Update id=813233931 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 17:21:21,016 - INFO - Update id=813233932 is handled. Duration 250 ms by bot id=7997483559
+2025-04-18 17:21:22,034 - INFO - Update id=813233933 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 17:21:28,420 - INFO - Update id=813233934 is not handled. Duration 15 ms by bot id=7997483559
+2025-04-18 17:22:28,402 - INFO - Polling stopped
+2025-04-18 17:22:28,659 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:22:28,660 - INFO - Бот остановлен!
+2025-04-18 17:22:32,748 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:22:32,749 - INFO - Инициализация базы данных начата...
+2025-04-18 17:22:32,750 - INFO - Создание таблицы users...
+2025-04-18 17:22:32,750 - INFO - Создание таблицы direction...
+2025-04-18 17:22:32,751 - INFO - Создание таблицы directionList...
+2025-04-18 17:22:32,751 - INFO - Создание таблицы banList...
+2025-04-18 17:22:32,751 - INFO - Создание таблицы report...
+2025-04-18 17:22:32,752 - INFO - База данных успешно инициализирована.
+2025-04-18 17:22:32,752 - INFO - База данных успешно инициализирована.
+2025-04-18 17:22:33,109 - INFO - Бот успешно запущен!
+2025-04-18 17:22:33,109 - INFO - Start polling
+2025-04-18 17:22:33,221 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:22:36,036 - INFO - Update id=813233935 is handled. Duration 359 ms by bot id=7997483559
+2025-04-18 17:22:37,114 - INFO - Update id=813233936 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:22:38,503 - INFO - Update id=813233937 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:22:39,436 - INFO - Update id=813233938 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:22:42,761 - INFO - Update id=813233939 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 17:26:31,099 - INFO - Polling stopped
+2025-04-18 17:26:31,362 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:26:31,363 - INFO - Бот остановлен!
+2025-04-18 17:27:14,706 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:27:14,706 - INFO - Инициализация базы данных начата...
+2025-04-18 17:27:14,707 - INFO - Создание таблицы users...
+2025-04-18 17:27:14,708 - INFO - Создание таблицы direction...
+2025-04-18 17:27:14,708 - INFO - Создание таблицы directionList...
+2025-04-18 17:27:14,709 - INFO - Создание таблицы banList...
+2025-04-18 17:27:14,709 - INFO - Создание таблицы report...
+2025-04-18 17:27:14,710 - INFO - База данных успешно инициализирована.
+2025-04-18 17:27:14,710 - INFO - База данных успешно инициализирована.
+2025-04-18 17:27:15,049 - INFO - Бот успешно запущен!
+2025-04-18 17:27:15,050 - INFO - Start polling
+2025-04-18 17:27:15,163 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:27:33,843 - INFO - Update id=813233940 is handled. Duration 360 ms by bot id=7997483559
+2025-04-18 17:27:34,810 - INFO - Update id=813233941 is handled. Duration 172 ms by bot id=7997483559
+2025-04-18 17:27:35,660 - INFO - Update id=813233942 is handled. Duration 234 ms by bot id=7997483559
+2025-04-18 17:27:36,598 - INFO - Update id=813233943 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:27:40,464 - INFO - Update id=813233944 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 17:31:57,171 - INFO - Polling stopped
+2025-04-18 17:31:57,433 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:31:57,435 - INFO - Бот остановлен!
+2025-04-18 17:32:01,329 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:32:01,330 - INFO - Инициализация базы данных начата...
+2025-04-18 17:32:01,331 - INFO - Создание таблицы users...
+2025-04-18 17:32:01,332 - INFO - Создание таблицы direction...
+2025-04-18 17:32:01,332 - INFO - Создание таблицы directionList...
+2025-04-18 17:32:01,333 - INFO - Создание таблицы banList...
+2025-04-18 17:32:01,333 - INFO - Создание таблицы report...
+2025-04-18 17:32:01,333 - INFO - База данных успешно инициализирована.
+2025-04-18 17:32:01,334 - INFO - База данных успешно инициализирована.
+2025-04-18 17:32:01,676 - INFO - Бот успешно запущен!
+2025-04-18 17:32:01,676 - INFO - Start polling
+2025-04-18 17:32:01,786 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:32:03,590 - INFO - Update id=813233945 is handled. Duration 344 ms by bot id=7997483559
+2025-04-18 17:32:04,755 - INFO - Update id=813233946 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:32:05,744 - INFO - Update id=813233947 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:32:07,018 - INFO - Update id=813233948 is handled. Duration 436 ms by bot id=7997483559
+2025-04-18 17:32:15,092 - INFO - Update id=813233949 is not handled. Duration 15 ms by bot id=7997483559
+2025-04-18 17:33:19,523 - INFO - Update id=813233950 is handled. Duration 452 ms by bot id=7997483559
+2025-04-18 17:33:20,847 - INFO - Update id=813233951 is handled. Duration 187 ms by bot id=7997483559
+2025-04-18 17:33:21,873 - INFO - Update id=813233952 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:33:22,816 - INFO - Update id=813233953 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:33:25,045 - INFO - Update id=813233954 is handled. Duration 1422 ms by bot id=7997483559
+2025-04-18 17:33:27,162 - INFO - Polling stopped
+2025-04-18 17:33:27,424 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:33:27,425 - INFO - Бот остановлен!
+2025-04-18 17:33:27,553 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000213800E6000>
+2025-04-18 17:33:27,554 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x00000213FFE199D0>, 31738.687)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000213FFF4E270>
+2025-04-18 17:40:00,846 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:40:00,846 - INFO - Инициализация базы данных начата...
+2025-04-18 17:40:00,847 - INFO - Создание таблицы users...
+2025-04-18 17:40:00,848 - INFO - Создание таблицы direction...
+2025-04-18 17:40:00,848 - INFO - Создание таблицы directionList...
+2025-04-18 17:40:00,849 - INFO - Создание таблицы banList...
+2025-04-18 17:40:00,849 - INFO - Создание таблицы report...
+2025-04-18 17:40:00,850 - INFO - База данных успешно инициализирована.
+2025-04-18 17:40:00,850 - INFO - База данных успешно инициализирована.
+2025-04-18 17:40:01,249 - INFO - Бот успешно запущен!
+2025-04-18 17:40:01,251 - INFO - Start polling
+2025-04-18 17:40:01,360 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:40:03,994 - INFO - Update id=813233955 is handled. Duration 405 ms by bot id=7997483559
+2025-04-18 17:40:06,011 - INFO - Update id=813233956 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 17:40:11,191 - INFO - Update id=813233957 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:40:15,260 - INFO - Update id=813233958 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:40:18,534 - INFO - Update id=813233959 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:40:20,448 - INFO - Update id=813233960 is handled. Duration 750 ms by bot id=7997483559
+2025-04-18 17:40:33,832 - INFO - Update id=813233961 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 17:40:35,131 - INFO - Update id=813233962 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:40:38,337 - INFO - Update id=813233963 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:40:42,381 - INFO - Update id=813233964 is handled. Duration 296 ms by bot id=7997483559
+2025-04-18 17:41:55,076 - INFO - Polling stopped
+2025-04-18 17:41:55,327 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:41:55,329 - INFO - Бот остановлен!
+2025-04-18 17:41:55,516 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001EBFFD98D70>
+2025-04-18 17:42:18,948 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:42:18,949 - INFO - Инициализация базы данных начата...
+2025-04-18 17:42:18,950 - INFO - Создание таблицы users...
+2025-04-18 17:42:18,950 - INFO - Создание таблицы direction...
+2025-04-18 17:42:18,950 - INFO - Создание таблицы directionList...
+2025-04-18 17:42:18,951 - INFO - Создание таблицы banList...
+2025-04-18 17:42:18,951 - INFO - Создание таблицы report...
+2025-04-18 17:42:18,951 - INFO - База данных успешно инициализирована.
+2025-04-18 17:42:18,952 - INFO - База данных успешно инициализирована.
+2025-04-18 17:42:19,428 - INFO - Бот успешно запущен!
+2025-04-18 17:42:19,428 - INFO - Start polling
+2025-04-18 17:42:19,539 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:42:22,501 - INFO - Update id=813233965 is handled. Duration 343 ms by bot id=7997483559
+2025-04-18 17:42:23,524 - INFO - Update id=813233966 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:42:24,609 - INFO - Update id=813233967 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:42:25,674 - INFO - Update id=813233968 is handled. Duration 328 ms by bot id=7997483559
+2025-04-18 17:42:43,534 - INFO - Update id=813233969 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 17:43:17,971 - INFO - Polling stopped
+2025-04-18 17:43:18,227 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:43:18,229 - INFO - Бот остановлен!
+2025-04-18 17:45:21,011 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:45:21,012 - INFO - Инициализация базы данных начата...
+2025-04-18 17:45:21,013 - INFO - Создание таблицы users...
+2025-04-18 17:45:21,015 - INFO - Создание таблицы direction...
+2025-04-18 17:45:21,016 - INFO - Создание таблицы directionList...
+2025-04-18 17:45:21,016 - INFO - Создание таблицы banList...
+2025-04-18 17:45:21,017 - INFO - Создание таблицы report...
+2025-04-18 17:45:21,017 - INFO - База данных успешно инициализирована.
+2025-04-18 17:45:21,017 - INFO - База данных успешно инициализирована.
+2025-04-18 17:45:21,377 - INFO - Бот успешно запущен!
+2025-04-18 17:45:21,378 - INFO - Start polling
+2025-04-18 17:45:21,485 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:45:23,849 - INFO - Update id=813233970 is handled. Duration 375 ms by bot id=7997483559
+2025-04-18 17:45:25,038 - INFO - Update id=813233971 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 17:45:26,192 - INFO - Update id=813233972 is handled. Duration 250 ms by bot id=7997483559
+2025-04-18 17:45:27,264 - INFO - Update id=813233973 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 17:45:31,633 - INFO - Update id=813233974 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 17:45:31,633 - ERROR - Cause exception while process update id=813233974 by bot id=7997483559
+AttributeError: 'FSMContext' object has no attribute 'proxy'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_botFix\handlers\directions.py", line 450, in countine_setn_you_price
+    async with state.proxy() as data:
+               ^^^^^^^^^^^
+AttributeError: 'FSMContext' object has no attribute 'proxy'
+2025-04-18 17:46:05,091 - INFO - Polling stopped
+2025-04-18 17:46:05,351 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:46:05,352 - INFO - Бот остановлен!
+2025-04-18 17:46:39,497 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:46:39,498 - INFO - Инициализация базы данных начата...
+2025-04-18 17:46:39,499 - INFO - Создание таблицы users...
+2025-04-18 17:46:39,500 - INFO - Создание таблицы direction...
+2025-04-18 17:46:39,500 - INFO - Создание таблицы directionList...
+2025-04-18 17:46:39,500 - INFO - Создание таблицы banList...
+2025-04-18 17:46:39,501 - INFO - Создание таблицы report...
+2025-04-18 17:46:39,501 - INFO - База данных успешно инициализирована.
+2025-04-18 17:46:39,501 - INFO - База данных успешно инициализирована.
+2025-04-18 17:46:39,845 - INFO - Бот успешно запущен!
+2025-04-18 17:46:39,845 - INFO - Start polling
+2025-04-18 17:46:39,952 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:46:42,647 - INFO - Update id=813233975 is handled. Duration 358 ms by bot id=7997483559
+2025-04-18 17:46:43,653 - INFO - Update id=813233976 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:46:44,495 - INFO - Update id=813233977 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:46:45,504 - INFO - Update id=813233978 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:46:49,679 - INFO - Update id=813233979 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 17:46:50,831 - INFO - Update id=813233980 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 17:46:50,831 - ERROR - Cause exception while process update id=813233980 by bot id=7997483559
+AttributeError: 'int' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_botFix\handlers\directions.py", line 480, in create_new_direction_price
+    direction_new_price = int(direction_new_price_str.replace(' ', ''))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'replace'
+2025-04-18 17:47:18,683 - INFO - Polling stopped
+2025-04-18 17:47:18,949 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:47:18,951 - INFO - Бот остановлен!
+2025-04-18 17:48:34,560 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:48:34,560 - INFO - Инициализация базы данных начата...
+2025-04-18 17:48:34,561 - INFO - Создание таблицы users...
+2025-04-18 17:48:34,562 - INFO - Создание таблицы direction...
+2025-04-18 17:48:34,562 - INFO - Создание таблицы directionList...
+2025-04-18 17:48:34,562 - INFO - Создание таблицы banList...
+2025-04-18 17:48:34,563 - INFO - Создание таблицы report...
+2025-04-18 17:48:34,563 - INFO - База данных успешно инициализирована.
+2025-04-18 17:48:34,563 - INFO - База данных успешно инициализирована.
+2025-04-18 17:48:35,009 - INFO - Бот успешно запущен!
+2025-04-18 17:48:35,010 - INFO - Start polling
+2025-04-18 17:48:35,116 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:48:37,938 - INFO - Update id=813233981 is handled. Duration 359 ms by bot id=7997483559
+2025-04-18 17:48:38,829 - INFO - Update id=813233982 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:48:39,745 - INFO - Update id=813233983 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:48:40,737 - INFO - Update id=813233984 is handled. Duration 202 ms by bot id=7997483559
+2025-04-18 17:48:44,279 - INFO - Update id=813233985 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 17:48:45,414 - INFO - Update id=813233986 is not handled. Duration 0 ms by bot id=7997483559
+2025-04-18 17:48:45,415 - ERROR - Cause exception while process update id=813233986 by bot id=7997483559
+AttributeError: 'int' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_botFix\handlers\directions.py", line 481, in create_new_direction_price
+    direction_new_price = int(direction_new_price_str.replace(' ', ''))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'replace'
+2025-04-18 17:50:26,708 - INFO - Polling stopped
+2025-04-18 17:50:26,971 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:50:26,971 - INFO - Бот остановлен!
+2025-04-18 17:50:38,314 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 17:50:38,314 - INFO - Инициализация базы данных начата...
+2025-04-18 17:50:38,315 - INFO - Создание таблицы users...
+2025-04-18 17:50:38,316 - INFO - Создание таблицы direction...
+2025-04-18 17:50:38,316 - INFO - Создание таблицы directionList...
+2025-04-18 17:50:38,317 - INFO - Создание таблицы banList...
+2025-04-18 17:50:38,317 - INFO - Создание таблицы report...
+2025-04-18 17:50:38,317 - INFO - База данных успешно инициализирована.
+2025-04-18 17:50:38,318 - INFO - База данных успешно инициализирована.
+2025-04-18 17:50:38,657 - INFO - Бот успешно запущен!
+2025-04-18 17:50:38,657 - INFO - Start polling
+2025-04-18 17:50:38,767 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:50:40,984 - INFO - Update id=813233987 is handled. Duration 389 ms by bot id=7997483559
+2025-04-18 17:50:41,926 - INFO - Update id=813233988 is handled. Duration 156 ms by bot id=7997483559
+2025-04-18 17:50:42,726 - INFO - Update id=813233989 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 17:50:43,730 - INFO - Update id=813233990 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 17:50:47,273 - INFO - Update id=813233991 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 17:50:49,298 - INFO - Update id=813233992 is handled. Duration 953 ms by bot id=7997483559
+2025-04-18 17:51:03,566 - INFO - Update id=813233993 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 17:51:05,084 - INFO - Update id=813233994 is handled. Duration 187 ms by bot id=7997483559
+2025-04-18 17:51:06,047 - INFO - Update id=813233995 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 17:51:07,646 - INFO - Update id=813233996 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 17:51:11,427 - INFO - Update id=813233997 is handled. Duration 219 ms by bot id=7997483559
+2025-04-18 17:51:17,284 - INFO - Update id=813233998 is handled. Duration 780 ms by bot id=7997483559
+2025-04-18 17:51:19,281 - INFO - Update id=813233999 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 17:51:30,995 - INFO - Polling stopped
+2025-04-18 17:51:31,248 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 17:51:31,250 - INFO - Бот остановлен!
+2025-04-18 17:51:31,397 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001824F275F10>
+2025-04-18 17:51:31,397 - ERROR - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000001824F16A150>, 32810.937)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000001824F275F70>

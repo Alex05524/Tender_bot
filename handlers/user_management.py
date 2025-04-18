@@ -252,34 +252,36 @@ async def list_managers(callback_query: types.CallbackQuery):
     Отображение списка всех менеджеров и администраторов.
     """
     ID = callback_query.from_user.id
+    user_id = await get_telegram_id_user(ID)
     user_role = get_user_role(ID)
+    user_data = get_user_data_by_id(ID)
 
     if user_role and user_role[0] == 'admin':
         # Получаем список менеджеров и администраторов
         all_managers = await get_managers()
         if not all_managers:
-            await callback_query.message.edit_text("Список менеджеров и администраторов пуст.")
+            await callback_query.message.edit_text("❌ Список менеджеров и администраторов пуст.")
             return
 
-        # Форматируем данные для вывода
-        formatted_data = '\n'.join([
-            f"{i + 1}. ID: {telegram_id}, Имя: {username}, Роль: {role}"
-            for i, (telegram_id, username, role) in enumerate(all_managers)
+        # Форматируем список для красивого вывода
+        formatted_data = "\n".join([
+            f"👤 <b>{username}</b>\n🆔 ID: <code>{telegram_id}</code>\n🔖 Роль: <i>{role}</i>\n"
+            for telegram_id, username, role in all_managers
         ])
 
-        # Создаём клавиатуру с кнопкой возврата
+        # Создаём кнопки для возврата
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text='🔙 Вернуться назад', callback_data='get_back_to_admin_menu')]
+            [InlineKeyboardButton(text="🔙 Вернуться назад", callback_data="get_back_to_admin_menu")]
         ])
 
-        # Отправляем сообщение с данными
+        # Отправляем сообщение с форматированным текстом
         await callback_query.message.edit_text(
-            f"Список менеджеров и администраторов:\n\n{formatted_data}",
-            reply_markup=keyboard
+            f"<b>Список менеджеров и администраторов:</b>\n\n{formatted_data}",
+            reply_markup=keyboard,
+            parse_mode="HTML"  # Используем HTML для форматирования текста
         )
-        print(f"Список менеджеров и администраторов:\n{formatted_data}")
     else:
-        await callback_query.message.edit_text("У вас нет прав.")
+        await callback_query.message.edit_text("❌ У вас нет прав.")
 
 
 @router.callback_query(F.data == 'main')

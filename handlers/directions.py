@@ -1,5 +1,6 @@
 import os
 import asyncio
+import aiogram
 from aiogram import Bot, Router, types, F
 from aiogram.fsm.context import FSMContext
 from aiogram.filters import StateFilter
@@ -16,7 +17,7 @@ from db.direction_list import (
 from db.reports import (
     add_info_in_report, add_info_in_report_insert_direction_id, report_close_get_price,
     set_winner_name_report, close_direction_set_status, close_direction_set_who_close_direction,
-    get_last_id_report, update_price
+    get_last_id_report
 )
 from db.users import (
     get_user_role, get_user_data_by_id, get_admin_and_managers_ids, get_direction_winner,
@@ -59,8 +60,8 @@ async def create_new_direction_summary(callback_query: types.CallbackQuery, stat
     ID = callback_query.from_user.id
 
     # Получаем роль пользователя
-    user_id = get_telegram_id_user(ID)
-    user_role = get_user_role(ID)
+    user_id = await get_telegram_id_user(ID)
+    user_role = await get_user_role(ID)
     user_data = get_user_data_by_id(ID)
     if not user_role:
         await callback_query.message.edit_text("❌ Ошибка: роль пользователя не найдена.")
@@ -120,8 +121,6 @@ async def create_new_direction_price_price(message: types.Message, state: FSMCon
 
     # Получаем данные из состояния
     data = await state.get_data()
-    status = 'Open'
-    users_id = message.from_user.id
     summary = data.get("direction_summary")
     description = data.get("direction_description")
     price = data.get("direction_price")
@@ -156,7 +155,9 @@ async def countine_crete_direction(callback_query: types.CallbackQuery, state: F
     """
     Обработчик для завершения создания нового направления.
     """
-    status = 'Open'
+    direction_status = 'Open'  # Статус направления для таблицы direction
+    close_name = 'null'  # Поле close_name должно быть null
+    new_price = 'null'  # Поле new_price должно быть null
 
     # Получаем данные из состояния
     data = await state.get_data()
@@ -165,7 +166,6 @@ async def countine_crete_direction(callback_query: types.CallbackQuery, state: F
     description = data.get('direction_description')
     price = data.get('direction_price')
     ID = callback_query.from_user.id
-    users_id = callback_query.from_user.id
 
     # Получаем роль пользователя
     user_role = get_user_role(ID)
@@ -176,39 +176,64 @@ async def countine_crete_direction(callback_query: types.CallbackQuery, state: F
     # Получаем имя пользователя, открывшего направление
     who_open_direction = await get_username_by_id(ID)
 
+    # Получаем название компании пользователя
+    user_data = get_user_data_by_id(ID)
+    company_name = user_data[5] if user_data and len(user_data) > 5 else 'null'
+
     # Создаем клавиатуру для возврата на главную или создания нового направления
     get_to_main = InlineKeyboardButton(text='🔚 Вернуться на главную', callback_data='main')
     create_another_direction = InlineKeyboardButton(text='🔂 Зарегистрировать еще одно направление', callback_data='open_direction')
     k = InlineKeyboardMarkup(inline_keyboard=[[get_to_main], [create_another_direction]])
 
-    # Генерация ID направления
-    direction_id_str = get_last_direction_id()[0] + 1
-    direction_id = int(direction_id_str)
-
-    # Генерация ID для отчета
+        # Генерация ID направления
+    last_direction_id = get_last_direction_id()
     try:
-        last_id = await get_last_id_report()  # Предполагается, что возвращается int
-        last_id += 1  # Увеличиваем ID на 1
+        if last_direction_id is None or last_direction_id[0] is None:
+            direction_id = 1  # Если таблица пуста или результат None, начинаем с ID = 1
+        else:
+            direction_id = last_direction_id[0] + 1  # Увеличиваем последний ID на 1
+    except Exception as e:
+        print(f"Ошибка при генерации ID направления: {e}")
+        direction_id = 1  # Устанавливаем ID = 1 в случае ошибки
+
+        # Генерация ID для отчета
+    try:
+        last_id = await get_last_id_report()  # Предполагается, что возвращается int или None
+        if last_id is None:
+            last_id = 1  # Если таблица пуста, начинаем с ID = 1
+        else:
+            last_id += 1  # Увеличиваем ID на 1
     except Exception as e:
         print(f"Ошибка при получении последнего ID отчета: {e}")
         await callback_query.message.edit_text("❌ Ошибка при создании направления. Попробуйте позже.")
         return
 
-    company_send_price = 'null'
-    finish_price = 'null'
-    company_winner_name = 'null'
-    who_close_direct = 'null'
-
     # Добавление данных в таблицы direction и report
     try:
-        add_direction_info(direction_id, users_id, summary, description, price, status)
-        await add_info_in_report(who_open_direction, summary, price, finish_price, company_winner_name, status, who_close_direct)
-        await add_info_in_report_insert_direction_id(direction_id, last_id)
-        print(f"Направление {summary} успешно добавлено в базу данных.")
+        # Добавляем данные в таблицу direction с корректным статусом Open
+        add_direction_info(direction_id, ID, summary, description, price, direction_status)
+        print(f"Направление {summary} успешно добавлено в таблицу direction с ID {direction_id}.")
     except Exception as e:
-        print(f"Ошибка при добавлении направления в базу данных: {e}")
-        await callback_query.message.edit_text("❌ Ошибка при создании направления. Попробуйте позже.")
-        return
+        print(f"Ошибка при добавлении направления в таблицу direction: {e}")
+        
+        await add_info_in_report(who_open_direction, summary, price, new_price, company_name, direction_status, close_name)
+        await add_info_in_report_insert_direction_id(direction_id, last_id)
+
+        # Добавление данных в таблицу directionList
+        try:
+            insert_direction_list_info(
+                ID,  # Telegram ID
+                company_name,  # Название компании
+                summary,  # Название направления
+                price,  # Старая цена
+                new_price,  # Новая цена (null)
+                'active',  # Статус направления для directionList
+            )
+            print(f"Направление {summary} успешно добавлено в таблицу directionList.")
+        except Exception as e:
+            print(f"Ошибка при добавлении направления в таблицу directionList: {e}")
+            await callback_query.message.edit_text("❌ Ошибка при создании направления. Попробуйте позже.")
+            return
 
     # Уведомление об успешном создании направления
     await callback_query.message.answer('✅ Направление было открыто', reply_markup=k)
@@ -273,7 +298,7 @@ async def get_all_direction(callback_query: types.CallbackQuery):
         # Если направления есть, добавляем их в клавиатуру
         for direction_name in all_directions:
             buttons.append([InlineKeyboardButton(
-                text=direction_name,
+                text=str(direction_name),  # Преобразуем значение в строку
                 callback_data=f'direction_{direction_name}'
             )])
         # Добавляем кнопку возврата
@@ -292,10 +317,11 @@ async def get_info_from_direction(callback_query: types.CallbackQuery, state: FS
     Обработчик для получения информации о направлении.
     """
     ID = callback_query.from_user.id
-    user_id = get_telegram_id_user(ID)
+    direction_name = callback_query.data.replace('direction_', '')
+
+    # Получаем данные о пользователе и направлении
     user_role = get_user_role(ID)
     user_data = get_user_data_by_id(ID)
-    direction_name = callback_query.data.replace('direction_', '')
     direction_info = get_direction_info(direction_name)
 
     # Проверяем, существует ли информация о направлении
@@ -316,30 +342,28 @@ async def get_info_from_direction(callback_query: types.CallbackQuery, state: FS
         ])
         await callback_query.message.edit_text(
             f"⚠ Вот информация по данному направлению:\n"
-            f"Название: {direction_info[3]}\n"
-            f"Описание: {direction_info[4]}\n"
+            f"Название: {direction_info[3]}, ID: {direction_info[1]}\n"
+            f"Подробное описание: {direction_info[4]}\n"
             f"Начальная цена: {direction_info[5]} тг.",
             reply_markup=keyboard
         )
     else:
-        ID = callback_query.from_user.id
-        direction_info = direction_info
-        user_data = get_user_data_by_id(ID)
+        # Если пользователь обычный пользователь
+        print(f"{user_data[2]} перешел в направление - {direction_info[1]}")
 
         # Сохраняем данные о направлении в состоянии
         await state.update_data(direction_all_info=direction_info)
-        print(f"Данные о направлении сохранены в состоянии: {direction_info}")
 
         # Создаем клавиатуру для пользователей
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="💵 Предложить свою цену", callback_data="sent_you_price")],
-            [InlineKeyboardButton(text="🔙 Вернуться назад", callback_data="main")],
+            [InlineKeyboardButton(text="🔙 Вернуться назад", callback_data="main")]
         ])
 
         await callback_query.message.edit_text(
             f"⚠ Вот информация по данному направлению:\n"
-            f"Название: {direction_info[3]}\n"
-            f"Описание: {direction_info[4]}\n"
+            f"Название: {direction_info[3]}, ID: {direction_info[1]}\n"
+            f"Подробное описание: {direction_info[4]}\n"
             f"Начальная цена: {direction_info[5]} тг.",
             reply_markup=keyboard
         )
@@ -347,8 +371,6 @@ async def get_info_from_direction(callback_query: types.CallbackQuery, state: FS
         # Устанавливаем состояние
         await state.set_state(SentDirectionPrice.getIdDirection)
         print("Состояние SentDirectionPrice.getIdDirection установлено.")
-        current_state = await state.get_state()
-        print(f"Текущее состояние: {current_state}")
 
 @router.callback_query(F.data == 'sent_you_price', StateFilter(SentDirectionPrice.getIdDirection))
 async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext):
@@ -356,6 +378,8 @@ async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext)
     Обработчик для отклика пользователя на направление с предложением своей цены.
     """
     ID = callback_query.from_user.id
+
+    # Получаем название компании пользователя
     company_name_tuple = get_user_company_by_telegram_id(ID)
     if not company_name_tuple:
         await callback_query.message.edit_text("❌ Ошибка: информация о компании не найдена.")
@@ -367,35 +391,76 @@ async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext)
     # Получаем данные о направлении из состояния
     data = await state.get_data()
     direction_all_info = data.get('direction_all_info')
-    if not direction_all_info:
-        await callback_query.message.edit_text("❌ Ошибка: данные о направлении не найдены.")
+    if not direction_all_info or len(direction_all_info) < 6:
+        await callback_query.message.edit_text("❌ Ошибка: данные о направлении некорректны.")
         return
 
     direction_name = direction_all_info[3]
-    print(f"Направление: {direction_name}")
     direction_start_price = direction_all_info[5]
 
-    # Сохраняем данные о направлении в состоянии
-    await state.update_data(direction_name_for_update=direction_name)
+    print(f"Направление: {direction_name}, Начальная цена: {direction_start_price}")
 
     # Проверяем, отправляла ли компания цену для данного направления
-    check = get_direction_list_direction_by_company(company_name, direction_name)
+    try:
+        check = get_direction_list_direction_by_company(company_name, direction_name)
+    except Exception as e:
+        print(f"Ошибка при проверке отправки цены: {e}")
+        await callback_query.message.edit_text("❌ Ошибка при проверке данных. Попробуйте позже.")
+        return
+
     print(f"Проверка отправки цены: {check}")
 
     # Создаем клавиатуру
-    k = InlineKeyboardMarkup(inline_keyboard=[
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text='📋 Список направлений, на которые я откликнулся', callback_data='list_my_direction')]
     ])
 
     if check:
+        # Если компания уже отправляла цену
         await callback_query.message.edit_text(
             "Вы уже отправляли цену для данного направления. "
             "Обновить цену можно в меню, доступном по кнопке ниже.",
-            reply_markup=k
+            reply_markup=keyboard
         )
     else:
+        # Если компания еще не отправляла цену
         await state.set_state(SentDirectionPrice.enterNewDirectionPrice)
-        await callback_query.message.answer("💲 Пожалуйста, укажите вашу цену для данного направления.")
+        await callback_query.message.answer(
+            f"💲 Пожалуйста, укажите вашу цену для данного направления. "
+            f"Минимальная цена: {direction_start_price} тг."
+        )
+        print("Состояние SentDirectionPrice.enterNewDirectionPrice установлено.")
+
+@router.message(StateFilter(SentDirectionPrice.enterNewDirectionPrice))
+async def countine_setn_you_price(message: types.Message, state: FSMContext):
+    """
+    Обработчик для подтверждения новой цены, предложенной пользователем.
+    """
+    # Проверяем, является ли введенная цена числом
+    if not message.text.isdigit():
+        await message.answer("❌ Ошибка: цена должна быть числом. Попробуйте снова.")
+        return
+
+    # Получаем новую цену
+    new_price = int(message.text)
+    if new_price <= 0:
+        await message.answer("❌ Ошибка: цена должна быть больше 0. Попробуйте снова.")
+        return
+
+    # Сохраняем новую цену в состоянии
+    await state.update_data(direction_new_price=new_price)
+
+    # Создаем клавиатуру для подтверждения
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text='✅ Да', callback_data='sent_my_new_price')],
+        [InlineKeyboardButton(text='❌ Нет', callback_data='dont_sent_you_price')]
+    ])
+
+    # Отправляем сообщение с подтверждением
+    await message.answer(
+        f"Вы хотите предложить {new_price} тг?",
+        reply_markup=keyboard
+    )
 
 @router.callback_query(F.data == 'sent_my_new_price', StateFilter(SentDirectionPrice.enterNewDirectionPrice))
 async def create_new_direction_price(callback_query: types.CallbackQuery, state: FSMContext):
@@ -412,8 +477,8 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
         return
 
     try:
-        direction_old_price = int(direction_all_info[5].replace(' ', ''))
-        direction_new_price = int(direction_new_price_str.replace(' ', ''))
+        direction_old_price = int(str(direction_all_info[5]).replace(' ', ''))
+        direction_new_price = int(str(direction_new_price_str).replace(' ', ''))
         direction_name = direction_all_info[3]
         direction_id = direction_all_info[1]
     except (ValueError, IndexError) as e:
@@ -426,15 +491,17 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
 
     # Проверяем, что новая цена меньше начальной
     if direction_new_price >= direction_old_price:
-        keyboard = InlineKeyboardMarkup()
-        cancel_renew_price = InlineKeyboardButton(text='🔚 Вернуться в главное меню', callback_data='accept_user_data')
-        keyboard.row(cancel_renew_price)
+        keyboard = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text='🔚 Вернуться в главное меню', callback_data='accept_user_data')]
+        ])
         await callback_query.message.edit_text(
-            f"🚫 Новая цена не может быть больше или равна начальной!\nВведите /start и снова предложите цену в доступных направлениях.",
+            "🚫 Новая цена не может быть больше или равна начальной!\n"
+            "Введите /start и снова предложите цену в доступных направлениях.",
             reply_markup=keyboard
         )
         return
 
+    # Получаем данные пользователя
     ID = callback_query.from_user.id
     user_data = get_user_data_by_id(ID)
     if not user_data:
@@ -455,14 +522,10 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
 
     # Уведомляем пользователя об успешной записи
     await callback_query.message.edit_text(
-        f"✅ Хорошо, мы добавили ваше предложение к остальным. Нажмите /start, чтобы вернуться в главное меню."
+        "✅ Хорошо, мы добавили ваше предложение к остальным. Нажмите /start, чтобы вернуться в главное меню."
     )
 
     # Уведомляем администраторов, менеджеров и пользователей
-    admins_id = get_admins_telegram_ids('admin')  # Добавлено await
-    managers_id = get_manager_telegram_ids('manager')  # Добавлено await
-    users_id = get_users_telegram_ids('user')  # Добавлено await
-
     notification_text = (
         f"Поставщик предложил цену!\n"
         f"Название компании поставщика: {company_name}\n"
@@ -470,37 +533,27 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
         f"Цена: {direction_new_price} тг."
     )
 
-    # Уведомляем администраторов
-    for admin_id in admins_id:
-        try:
-            await bot.send_message(admin_id, notification_text)
-        except TelegramBadRequest as e:
-            print(f"Чат не найден для admin_id: {admin_id}")
-        except Exception as e:
-            print(f"Ошибка при отправке сообщения администратору {admin_id}: {e}")
+    roles = {
+        'admin': get_admins_telegram_ids('admin'),
+        'manager': get_manager_telegram_ids('manager'),
+        'user': get_users_telegram_ids('user')
+    }
 
-    # Уведомляем менеджеров
-    for manager_id in managers_id:
-        try:
-            await bot.send_message(manager_id, notification_text)
-        except TelegramBadRequest as e:
-            print(f"Чат не найден для manager_id: {manager_id}")
-        except Exception as e:
-            print(f"Ошибка при отправке сообщения менеджеру {manager_id}: {e}")
-
-    # Уведомляем пользователей
-    for user_id in users_id:
-        try:
-            await bot.send_message(
-                user_id,
-                f"Была предложена новая цена\n"
-                f"Направление: {direction_name}\n"
-                f"Цена: {direction_new_price} тг."
-            )
-        except TelegramBadRequest as e:
-            print(f"Чат не найден для user_id: {user_id}")
-        except Exception as e:
-            print(f"Ошибка при отправке сообщения пользователю {user_id}: {e}")
+    for role, ids in roles.items():
+        for user_id in ids:
+            try:
+                await bot.send_message(
+                    int(user_id),
+                    notification_text if role != 'user' else (
+                        f"Была предложена новая цена\n"
+                        f"Направление: {direction_name}\n"
+                        f"Цена: {direction_new_price} тг."
+                    )
+                )
+            except aiogram.utils.exceptions.ChatNotFound:
+                print(f"Чат не найден для user_id: {user_id}")
+            except Exception as e:
+                print(f"Произошла ошибка при отправке сообщения пользователю {user_id}: {e}")
 
 @router.callback_query(F.data == 'dont_sent_you_price')
 async def cancel_new_direction_price(callback_query: types.CallbackQuery):
@@ -656,6 +709,17 @@ async def accept_close_direction(callback_query: types.CallbackQuery, state: FSM
     winner_id = await get_telegram_id_company(direction_winner_name)
     winners = await get_telegram_id_by_comapny(direction_winner_name)
     print(f"ID победителя: {winner_id}, Telegram ID победителей: {winners}")
+        # Уведомляем победителя
+    if winner_id:
+        try:
+            await bot.send_message(
+                int(winner_id),
+                f"Поздравляем, Вы выиграли следующее направление - {direction_name_for_close}"
+            )
+        except TelegramBadRequest as e:
+            print(f"Ошибка при отправке сообщения победителю {winner_id}: {e}")
+    else:
+        print(f"Ошибка: ID победителя для компании {direction_winner_name} не найден.")
 
     # Уведомление о закрытии
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
@@ -1064,9 +1128,11 @@ async def get_all_username(callback_query: types.CallbackQuery):
     ID = callback_query.from_user.id
 
     # Получаем данные пользователя
+    user_id = await get_telegram_id_user(ID)
     user_role = get_user_role(ID)
+    user_data = get_user_data_by_id(ID)
     if not user_role:
-        await callback_query.message.edit_text("❌ Ошибка: роль пользователя не найдена.")
+        await callback_query.message.edit_text("Ошибка: роль пользователя не найдена.")
         return
 
     # Проверяем роль пользователя
@@ -1078,20 +1144,23 @@ async def get_all_username(callback_query: types.CallbackQuery):
         # Получаем список всех пользователей
         all_usernames = await get_all_users()
         if not all_usernames:
-            await callback_query.message.edit_text("❌ Список поставщиков пуст.", reply_markup=keyboard)
+            await callback_query.message.edit_text("Список поставщиков пуст.", reply_markup=keyboard)
             return
 
         # Форматируем данные для отображения
-        formatted_data = '\n'.join(
-            [f"{i + 1}. ID - {telegram_id}, {name}, {company}, {phone}" 
-             for i, (telegram_id, name, company, phone) in enumerate(all_usernames)]
-        )
+        formatted_data = "\n\n".join([
+            f"👤 Имя: {name}\n"
+            f"🆔 ID: {telegram_id}\n"
+            f"🏢 Компания: {company}\n"
+            f"📞 Телефон: {phone}"
+            for telegram_id, name, company, phone in all_usernames
+        ])
 
         # Отправляем сообщение с данными
         await callback_query.message.edit_text(
-            f"📜 Список поставщиков:\n{formatted_data}\n",
+            f"📜 Список поставщиков:\n\n{formatted_data}",
             reply_markup=keyboard
         )
         print(f"Отформатированный список поставщиков:\n{formatted_data}")
     else:
-        await callback_query.message.edit_text("❌ У вас нет прав для выполнения этого действия.")
+        await callback_query.message.edit_text("У вас нет прав для выполнения этого действия.")

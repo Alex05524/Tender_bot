@@ -173,18 +173,31 @@ def get_direction_list_direction_by_company(company_name, direction_name):
     conn = sqlite3.connect('telegram.db')
     cursor = conn.cursor()
 
-    query = '''
-    SELECT * FROM directionList
-    WHERE company_name = ?
-    AND direction = ?
-    AND direction_status = 'active'
-    '''
-    cursor.execute(query, (company_name, direction_name))
-    result = cursor.fetchone()
-    conn.close()
+    try:
+        # Приведение данных к строковому типу
+        company_name = str(company_name).strip()
+        direction_name = str(direction_name).strip()
 
-    print(f"Результат проверки направления: {result}")
-    return result
+        # SQL-запрос для проверки
+        select_query = '''
+        SELECT * FROM directionList
+        WHERE company_name = ?
+        AND direction = ?
+        AND direction_status = 'active'
+        '''
+
+        cursor.execute(select_query, (company_name, direction_name))
+        direction_list_info = cursor.fetchone()
+
+        # Логирование результата
+        print(f"Список направлений для проверки на отклик:\n{direction_list_info}\nКомпания: {company_name}")
+
+        return direction_list_info
+    except sqlite3.Error as e:
+        print(f"Ошибка при выполнении запроса get_direction_list_direction_by_company: {e}")
+        return None
+    finally:
+        conn.close()
 
 def close_direction_l(direction_name_for_close):
     conn = sqlite3.connect('telegram.db')

@@ -264,9 +264,9 @@ async def get_managers():
     async with aiosqlite.connect(DATABASE_PATH) as db:
         try:
             query = '''
-            SELECT telegram_id, username, role
+            SELECT telegram_id, username, user_role
             FROM users
-            WHERE role IN ('manager', 'admin')
+            WHERE user_role IN ('manager', 'admin')
             '''
             cursor = await db.execute(query)
             result = await cursor.fetchall()
@@ -410,24 +410,6 @@ def get_users_telegram_ids(user_role):
     conn.close()
 
     return users_telegram_ids
-
-async def get_all_users():
-    """
-    Асинхронное получение всех пользователей с ролью 'user'.
-    """
-    async with aiosqlite.connect(DATABASE_PATH) as db:
-        select_query = '''
-        SELECT 
-            telegram_id,
-            username,
-            company_name,
-            phone
-        FROM users
-        WHERE user_role = 'user'
-        '''
-        cursor = await db.execute(select_query)
-        all_users = [row for row in await cursor.fetchall()]
-        return all_users
     
 async def get_direction_winner():
     """

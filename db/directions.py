@@ -140,20 +140,22 @@ def set_winner_name(direction_winner_name, direction_name_for_close):
     conn.close()
 
 def get_last_direction_id():
+    """
+    Возвращает последний ID из таблицы direction.
+    """
     conn = sqlite3.connect('telegram.db')
     cursor = conn.cursor()
 
-
-    select_query = '''
-    select direction_id from direction d 
-    order by direction_id desc
-    limit 1
-    '''
-
-    cursor.execute(select_query)
-
-    result = cursor.fetchone()
-    return result
+    query = "SELECT MAX(id) FROM direction"
+    try:
+        cursor.execute(query)
+        result = cursor.fetchone()
+        return result if result and result[0] is not None else None
+    except sqlite3.Error as e:
+        print(f"Ошибка при выполнении запроса get_last_direction_id: {e}")
+        return None
+    finally:
+        conn.close()
 
 def update_new_user_price(new_price, company_name, direction_name):
     conn = sqlite3.connect('telegram.db')
