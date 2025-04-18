@@ -35,6 +35,7 @@ router = Router()
 token=str(os.getenv('BOT_TOKEN'))
 bot = Bot(token=token)
 
+## Получаем список всех направлений
 @router.callback_query(lambda c: c.data == "open_direction")
 async def create_new_direction_summary(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -51,7 +52,7 @@ async def create_new_direction_summary(callback_query: types.CallbackQuery, stat
         print(f"Пользователь с ID {ID} имеет роль: {user_role}")
         await callback_query.message.edit_text("❌ У вас нет прав для выполнения этого действия.")
 
-
+# Получаем данные из состояния
 @router.callback_query(F.data == "open_direction_renew", StateFilter(CreateLot.price))
 async def create_new_direction_summary(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -79,7 +80,7 @@ async def create_new_direction_summary(callback_query: types.CallbackQuery, stat
     else:
         await callback_query.message.edit_text("❌ У вас нет прав для выполнения этого действия.")
 
-
+# Получаем данные из состояния
 @router.message(F.text & ~F.text.startswith('/'), StateFilter(CreateLot.summary))
 async def create_new_direction_description(message: types.Message, state: FSMContext):
     """
@@ -99,7 +100,7 @@ async def create_new_direction_description(message: types.Message, state: FSMCon
         await state.set_state(CreateLot.description)  # Переход к следующему состоянию
         await message.answer("✒ Введите подробное описание направления.")
 
-
+# Получаем данные из состояния
 @router.message(F.text & ~F.text.startswith('/'), StateFilter(CreateLot.description))
 async def create_new_direction_price(message: types.Message, state: FSMContext):
     """
@@ -110,7 +111,7 @@ async def create_new_direction_price(message: types.Message, state: FSMContext):
     await message.answer("✒ Введите стартовую цену.")
     await state.set_state(CreateLot.price)
 
-
+# Получаем данные из состояния
 @router.message(F.text & ~F.text.startswith('/'), StateFilter(CreateLot.price))
 async def create_new_direction_price_price(message: types.Message, state: FSMContext):
     """
@@ -149,7 +150,7 @@ async def create_new_direction_price_price(message: types.Message, state: FSMCon
             reply_markup=keyboard
         )
 
-
+# Подтверждение создания нового направления
 @router.callback_query(F.data == 'create_direction', StateFilter(CreateLot.price))
 async def countine_crete_direction(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -274,6 +275,7 @@ async def countine_crete_direction(callback_query: types.CallbackQuery, state: F
         except Exception as e:
             print(f"Ошибка при отправке сообщения пользователю {user_id}: {e}")
 
+# Уведомляем компанию о создании направления
 @router.callback_query(F.data == 'list_directionn', StateFilter('*'))
 async def get_all_direction(callback_query: types.CallbackQuery):
     """
@@ -311,6 +313,7 @@ async def get_all_direction(callback_query: types.CallbackQuery):
             reply_markup=keyboard
         )
 
+# Получаем информацию о направлении
 @router.callback_query(F.data.startswith('direction_'), StateFilter('*'))
 async def get_info_from_direction(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -372,6 +375,7 @@ async def get_info_from_direction(callback_query: types.CallbackQuery, state: FS
         await state.set_state(SentDirectionPrice.getIdDirection)
         print("Состояние SentDirectionPrice.getIdDirection установлено.")
 
+# Подтверждение новой цены 0
 @router.callback_query(F.data == 'sent_you_price', StateFilter(SentDirectionPrice.getIdDirection))
 async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -431,6 +435,7 @@ async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext)
         )
         print("Состояние SentDirectionPrice.enterNewDirectionPrice установлено.")
 
+# Подтверждение новой цены 1
 @router.message(StateFilter(SentDirectionPrice.enterNewDirectionPrice))
 async def countine_setn_you_price(message: types.Message, state: FSMContext):
     """
@@ -445,6 +450,40 @@ async def countine_setn_you_price(message: types.Message, state: FSMContext):
     new_price = int(message.text)
     if new_price <= 0:
         await message.answer("❌ Ошибка: цена должна быть больше 0. Попробуйте снова.")
+        return
+
+    # Получаем данные о направлении из состояния
+    data = await state.get_data()
+    direction_all_info = data.get('direction_all_info')
+    if not direction_all_info:
+        await message.answer("❌ Ошибка: данные о направлении не найдены.")
+        return
+
+    # Получаем начальную цену направления
+    direction_start_price = int(direction_all_info[5])
+
+    # Проверяем, что новая цена не выше начальной
+    if new_price > direction_start_price:
+        await message.answer(
+            f"❌ Ошибка: цена не может быть выше начальной ({direction_start_price} тг). Попробуйте снова."
+        )
+        return
+
+    # Получаем название компании пользователя
+    user_id = message.from_user.id
+    user_data = get_user_data_by_id(user_id)
+    if not user_data:
+        await message.answer("❌ Ошибка: информация о пользователе не найдена.")
+        return
+
+    company_name = user_data[5]
+
+    # Проверяем, не равна ли новая цена ранее предложенной
+    previous_price = get_my_price_for_direction(company_name, direction_all_info[3])
+    if previous_price and new_price == int(previous_price[0]):
+        await message.answer(
+            f"❌ Ошибка: новая цена не может быть равна ранее предложенной ({previous_price[0]} тг). Попробуйте снова."
+        )
         return
 
     # Сохраняем новую цену в состоянии
@@ -462,6 +501,7 @@ async def countine_setn_you_price(message: types.Message, state: FSMContext):
         reply_markup=keyboard
     )
 
+# Подтверждение новой цены 2
 @router.callback_query(F.data == 'sent_my_new_price', StateFilter(SentDirectionPrice.enterNewDirectionPrice))
 async def create_new_direction_price(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -486,8 +526,14 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
         await callback_query.message.edit_text("❌ Ошибка при обработке данных о направлении.")
         return
 
-    # Завершаем состояние
-    await state.clear()
+    # Получаем данные пользователя
+    ID = callback_query.from_user.id
+    user_data = get_user_data_by_id(ID)
+    if not user_data:
+        await callback_query.message.edit_text("❌ Ошибка: информация о пользователе не найдена.")
+        return
+
+    company_name = user_data[5]
 
     # Проверяем, что новая цена меньше начальной
     if direction_new_price >= direction_old_price:
@@ -501,17 +547,23 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
         )
         return
 
-    # Получаем данные пользователя
-    ID = callback_query.from_user.id
-    user_data = get_user_data_by_id(ID)
-    if not user_data:
-        await callback_query.message.edit_text("❌ Ошибка: информация о пользователе не найдена.")
+    # Проверяем, что новая цена не равна ранее предложенной
+    previous_price = get_my_price_for_direction(company_name, direction_name)
+    if previous_price and direction_new_price == int(previous_price[0]):
+        keyboard = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text='🔚 Вернуться в главное меню', callback_data='accept_user_data')]
+        ])
+        await callback_query.message.edit_text(
+            f"🚫 Новая цена не может быть равна ранее предложенной ({previous_price[0]} тг).",
+            reply_markup=keyboard
+        )
         return
 
-    company_name = user_data[5]
-    direction_status = 'active'
+    # Завершаем состояние
+    await state.clear()
 
     # Вставляем данные в таблицу direction_list
+    direction_status = 'active'
     try:
         insert_direction_list_info(ID, company_name, direction_name, direction_old_price, direction_new_price, direction_status)
         print(f"Данные успешно добавлены: {ID}, {company_name}, {direction_name}, {direction_old_price}, {direction_new_price}, {direction_status}")
@@ -555,12 +607,14 @@ async def create_new_direction_price(callback_query: types.CallbackQuery, state:
             except Exception as e:
                 print(f"Произошла ошибка при отправке сообщения пользователю {user_id}: {e}")
 
+# Стейт для отмены отправки цены
 @router.callback_query(F.data == 'dont_sent_you_price')
 async def cancel_new_direction_price(callback_query: types.CallbackQuery):
     await callback_query.message.edit_text('⛔ Отменено')
 
 #### Закрытие направления ####
 
+# Получаем список всех направлений для закрытия
 @router.callback_query(F.data == 'close_direction')
 async def close_direction(callback_query: types.CallbackQuery):
     """
@@ -588,8 +642,7 @@ async def close_direction(callback_query: types.CallbackQuery):
     else:
         await callback_query.message.answer('❌ У вас нет доступа для выполнения этого действия.')
 
-
-
+# Получаем информацию о направлении для закрытия
 @router.callback_query(F.data.startswith('cdirection_'))
 async def get_info_from_direction(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -620,6 +673,7 @@ async def get_info_from_direction(callback_query: types.CallbackQuery, state: FS
 
     await callback_query.message.edit_text("Выберите победителя направления:", reply_markup=keyboard)
 
+# Получаем информацию о победителе направления
 @router.callback_query(F.data.startswith("winners_"), StateFilter(CloseDirection.chooseDirectionForClose))
 async def accept_direction_winner(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -653,7 +707,7 @@ async def accept_direction_winner(callback_query: types.CallbackQuery, state: FS
     # Устанавливаем состояние
     await state.set_state(CloseDirection.chooseDirectionWinner)
 
-
+# Подтверждение закрытия направления
 @router.callback_query(F.data == 'yes_close_direction', StateFilter(CloseDirection.chooseDirectionWinner))
 async def accept_close_direction(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -775,7 +829,7 @@ async def accept_close_direction(callback_query: types.CallbackQuery, state: FSM
         int(price_for_close) if price_for_close else 0,
         direction_winner_name
     )
-
+# Уведомление пользователей о закрытии направления
 async def notify_users_about_direction_closure(direction_name: str, direction_description: str, final_price: int, winner_name: str):
     """
     Уведомляет пользователей с ролью user о закрытии направления.
@@ -898,6 +952,7 @@ async def update_price(callback_query: types.CallbackQuery, state: FSMContext):
         reply_markup=keyboard
     )
 
+# Запрос новой цены
 @router.callback_query(F.data == 'update_you_price', StateFilter('*'))
 async def update_you_price(callback_query: types.CallbackQuery, state: FSMContext):
     """
@@ -919,6 +974,7 @@ async def update_you_price(callback_query: types.CallbackQuery, state: FSMContex
         f"💲 Введите новую цену для направления: {direction_name}"
     )
 
+# Подтверждение новой цены
 @router.message(StateFilter("awaiting_new_price"))
 async def set_new_price(message: types.Message, state: FSMContext):
     """
@@ -931,6 +987,30 @@ async def set_new_price(message: types.Message, state: FSMContext):
     new_price = int(message.text)
     if new_price <= 0:
         await message.answer("❌ Ошибка: цена должна быть больше 0. Попробуйте снова.")
+        return
+
+    # Получаем данные о направлении из состояния
+    data = await state.get_data()
+    direction_name = data.get('direction_name')
+
+    if not direction_name:
+        await message.answer("❌ Ошибка: данные о направлении не найдены.")
+        return
+
+    # Получаем текущую цену для направления
+    user_id = message.from_user.id
+    direction_info = select_my_directionlist(direction_name, user_id)
+    if not direction_info:
+        await message.answer("❌ Ошибка: информация о направлении не найдена.")
+        return
+
+    current_price = int(direction_info[0][1])  # Текущая цена
+
+    # Проверяем, что новая цена меньше текущей
+    if new_price >= current_price:
+        await message.answer(
+            f"❌ Ошибка: новая цена должна быть меньше текущей ({current_price} тг). Попробуйте снова."
+        )
         return
 
     # Сохраняем новую цену в состоянии
@@ -948,8 +1028,7 @@ async def set_new_price(message: types.Message, state: FSMContext):
         reply_markup=keyboard
     )
 
-
-
+# Подтверждение новой цены
 @router.callback_query(F.data.startswith('mydirection_'), StateFilter('*'))
 async def get_list_my_direvtion(callback_query: types.CallbackQuery, state: FSMContext):
     """
