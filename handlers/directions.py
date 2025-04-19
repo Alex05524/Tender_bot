@@ -422,7 +422,7 @@ async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext)
     if check:
         # Если компания уже отправляла цену
         await callback_query.message.edit_text(
-            "Вы уже отправляли цену для данного направления. "
+            "⚠ Вы уже отправляли цену для данного направления. "
             "Обновить цену можно в меню, доступном по кнопке ниже.",
             reply_markup=keyboard
         )
@@ -431,7 +431,7 @@ async def sent_you_price(callback_query: types.CallbackQuery, state: FSMContext)
         await state.set_state(SentDirectionPrice.enterNewDirectionPrice)
         await callback_query.message.answer(
             f"💲 Пожалуйста, укажите вашу цену для данного направления. "
-            f"Минимальная цена: {direction_start_price} тг."
+            f"💵 Минимальная цена: {direction_start_price} тг."
         )
         print("Состояние SentDirectionPrice.enterNewDirectionPrice установлено.")
 
@@ -497,7 +497,7 @@ async def countine_setn_you_price(message: types.Message, state: FSMContext):
 
     # Отправляем сообщение с подтверждением
     await message.answer(
-        f"Вы хотите предложить {new_price} тг?",
+        f"❓ Вы хотите предложить {new_price} тг?",
         reply_markup=keyboard
     )
 
