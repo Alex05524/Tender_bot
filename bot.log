@@ -8938,3 +8938,276 @@ client_session: <aiohttp.client.ClientSession object at 0x000001E8FEFBDD10>
 2025-04-19 21:00:06,743 - INFO - Polling stopped
 2025-04-19 21:00:06,998 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
 2025-04-19 21:00:06,999 - INFO - Бот остановлен!
+2025-04-19 21:08:17,667 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 21:08:17,668 - INFO - Инициализация базы данных начата...
+2025-04-19 21:08:17,669 - INFO - Создание таблицы users...
+2025-04-19 21:08:17,669 - INFO - Создание таблицы direction...
+2025-04-19 21:08:17,670 - INFO - Создание таблицы directionList...
+2025-04-19 21:08:17,670 - INFO - Создание таблицы banList...
+2025-04-19 21:08:17,671 - INFO - Создание таблицы report...
+2025-04-19 21:08:17,671 - INFO - База данных успешно инициализирована.
+2025-04-19 21:08:17,671 - INFO - База данных успешно инициализирована.
+2025-04-19 21:08:18,010 - INFO - Бот успешно запущен!
+2025-04-19 21:08:18,011 - INFO - Start polling
+2025-04-19 21:08:18,114 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:08:22,653 - INFO - Update id=813234352 is handled. Duration 367 ms by bot id=7997483559
+2025-04-19 21:08:22,666 - INFO - Update id=813234351 is handled. Duration 380 ms by bot id=7997483559
+2025-04-19 21:08:23,813 - INFO - Update id=813234353 is handled. Duration 142 ms by bot id=7997483559
+2025-04-19 21:08:31,078 - INFO - Update id=813234354 is handled. Duration 140 ms by bot id=7997483559
+2025-04-19 21:08:54,299 - INFO - Update id=813234355 is handled. Duration 157 ms by bot id=7997483559
+2025-04-19 21:09:08,751 - INFO - Update id=813234356 is handled. Duration 146 ms by bot id=7997483559
+2025-04-19 21:09:23,113 - INFO - Update id=813234357 is not handled. Duration 5 ms by bot id=7997483559
+2025-04-19 21:11:06,023 - INFO - Polling stopped
+2025-04-19 21:11:06,280 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:11:06,281 - INFO - Бот остановлен!
+2025-04-19 21:13:22,808 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 21:13:22,808 - INFO - Инициализация базы данных начата...
+2025-04-19 21:13:22,809 - INFO - Создание таблицы users...
+2025-04-19 21:13:22,810 - INFO - Создание таблицы direction...
+2025-04-19 21:13:22,811 - INFO - Создание таблицы directionList...
+2025-04-19 21:13:22,811 - INFO - Создание таблицы banList...
+2025-04-19 21:13:22,811 - INFO - Создание таблицы report...
+2025-04-19 21:13:22,812 - INFO - База данных успешно инициализирована.
+2025-04-19 21:13:22,812 - INFO - База данных успешно инициализирована.
+2025-04-19 21:13:23,155 - INFO - Бот успешно запущен!
+2025-04-19 21:13:23,156 - INFO - Start polling
+2025-04-19 21:13:23,257 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:13:25,878 - INFO - Update id=813234358 is handled. Duration 365 ms by bot id=7997483559
+2025-04-19 21:13:31,909 - INFO - Update id=813234359 is handled. Duration 243 ms by bot id=7997483559
+2025-04-19 21:13:33,911 - INFO - Update id=813234360 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 21:13:34,982 - INFO - Update id=813234361 is handled. Duration 114 ms by bot id=7997483559
+2025-04-19 21:13:37,019 - INFO - Update id=813234362 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 21:13:44,489 - INFO - Update id=813234363 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 21:13:46,066 - INFO - Update id=813234364 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 21:13:47,232 - INFO - Update id=813234365 is handled. Duration 118 ms by bot id=7997483559
+2025-04-19 21:13:48,437 - INFO - Update id=813234366 is handled. Duration 154 ms by bot id=7997483559
+2025-04-19 21:13:49,725 - INFO - Update id=813234367 is handled. Duration 172 ms by bot id=7997483559
+2025-04-19 21:13:50,414 - INFO - Update id=813234368 is handled. Duration 166 ms by bot id=7997483559
+2025-04-19 21:13:51,587 - INFO - Update id=813234369 is handled. Duration 139 ms by bot id=7997483559
+2025-04-19 21:13:52,765 - INFO - Update id=813234370 is handled. Duration 128 ms by bot id=7997483559
+2025-04-19 21:13:57,554 - INFO - Update id=813234371 is handled. Duration 115 ms by bot id=7997483559
+2025-04-19 21:13:58,978 - INFO - Update id=813234372 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 21:14:00,095 - INFO - Update id=813234373 is handled. Duration 116 ms by bot id=7997483559
+2025-04-19 21:14:02,049 - INFO - Update id=813234374 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 21:14:03,771 - INFO - Update id=813234375 is handled. Duration 224 ms by bot id=7997483559
+2025-04-19 21:14:05,578 - INFO - Update id=813234376 is handled. Duration 196 ms by bot id=7997483559
+2025-04-19 21:14:07,194 - INFO - Update id=813234377 is handled. Duration 162 ms by bot id=7997483559
+2025-04-19 21:16:51,399 - INFO - Polling stopped
+2025-04-19 21:16:51,661 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:16:51,662 - INFO - Бот остановлен!
+2025-04-19 21:16:56,203 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 21:16:56,203 - INFO - Инициализация базы данных начата...
+2025-04-19 21:16:56,204 - INFO - Создание таблицы users...
+2025-04-19 21:16:56,205 - INFO - Создание таблицы direction...
+2025-04-19 21:16:56,205 - INFO - Создание таблицы directionList...
+2025-04-19 21:16:56,206 - INFO - Создание таблицы banList...
+2025-04-19 21:16:56,206 - INFO - Создание таблицы report...
+2025-04-19 21:16:56,207 - INFO - База данных успешно инициализирована.
+2025-04-19 21:16:56,207 - INFO - База данных успешно инициализирована.
+2025-04-19 21:16:56,540 - INFO - Бот успешно запущен!
+2025-04-19 21:16:56,540 - INFO - Start polling
+2025-04-19 21:16:56,643 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:16:58,527 - INFO - Update id=813234378 is handled. Duration 348 ms by bot id=7997483559
+2025-04-19 21:17:03,052 - INFO - Update id=813234379 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 21:17:04,646 - INFO - Update id=813234380 is handled. Duration 148 ms by bot id=7997483559
+2025-04-19 21:17:06,026 - INFO - Update id=813234381 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 21:17:09,847 - INFO - Update id=813234382 is handled. Duration 135 ms by bot id=7997483559
+2025-04-19 21:17:10,971 - INFO - Update id=813234383 is not handled. Duration 4 ms by bot id=7997483559
+2025-04-19 21:17:10,972 - ERROR - Cause exception while process update id=813234383 by bot id=7997483559
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\Desktop\Workplace\Tender_bot\handlers\user_management.py", line 743, in cancel_action
+    f"🚹 Твое ФИО: {user_data[2]}\n🏢 Твоя компания: {user_data[5]}\n📞 Твой номер телефона: {user_data[6]}",
+                    ~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-04-19 21:17:20,423 - INFO - Polling stopped
+2025-04-19 21:17:20,676 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:17:20,677 - INFO - Бот остановлен!
+2025-04-19 21:17:38,818 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 21:17:38,819 - INFO - Инициализация базы данных начата...
+2025-04-19 21:17:38,819 - INFO - Создание таблицы users...
+2025-04-19 21:17:38,820 - INFO - Создание таблицы direction...
+2025-04-19 21:17:38,821 - INFO - Создание таблицы directionList...
+2025-04-19 21:17:38,821 - INFO - Создание таблицы banList...
+2025-04-19 21:17:38,821 - INFO - Создание таблицы report...
+2025-04-19 21:17:38,822 - INFO - База данных успешно инициализирована.
+2025-04-19 21:17:38,822 - INFO - База данных успешно инициализирована.
+2025-04-19 21:17:39,157 - INFO - Бот успешно запущен!
+2025-04-19 21:17:39,158 - INFO - Start polling
+2025-04-19 21:17:39,263 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:17:41,060 - INFO - Update id=813234384 is handled. Duration 347 ms by bot id=7997483559
+2025-04-19 21:17:43,219 - INFO - Update id=813234385 is handled. Duration 132 ms by bot id=7997483559
+2025-04-19 21:17:44,309 - INFO - Update id=813234386 is handled. Duration 122 ms by bot id=7997483559
+2025-04-19 21:17:45,463 - INFO - Update id=813234387 is handled. Duration 165 ms by bot id=7997483559
+2025-04-19 21:17:47,893 - INFO - Update id=813234388 is handled. Duration 156 ms by bot id=7997483559
+2025-04-19 21:17:49,088 - INFO - Update id=813234389 is not handled. Duration 3 ms by bot id=7997483559
+2025-04-19 21:17:49,089 - ERROR - Cause exception while process update id=813234389 by bot id=7997483559
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\alex0\Desktop\Workplace\Tender_bot\handlers\user_management.py", line 744, in cancel_action
+    f"🚹 Твое ФИО: {user_data[2]}\n🏢 Твоя компания: {user_data[5]}\n📞 Твой номер телефона: {user_data[6]}",
+                    ~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-04-19 21:18:53,391 - INFO - Polling stopped
+2025-04-19 21:18:53,657 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:18:53,658 - INFO - Бот остановлен!
+2025-04-19 21:18:57,157 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 21:18:57,157 - INFO - Инициализация базы данных начата...
+2025-04-19 21:18:57,158 - INFO - Создание таблицы users...
+2025-04-19 21:18:57,158 - INFO - Создание таблицы direction...
+2025-04-19 21:18:57,159 - INFO - Создание таблицы directionList...
+2025-04-19 21:18:57,159 - INFO - Создание таблицы banList...
+2025-04-19 21:18:57,160 - INFO - Создание таблицы report...
+2025-04-19 21:18:57,161 - INFO - База данных успешно инициализирована.
+2025-04-19 21:18:57,161 - INFO - База данных успешно инициализирована.
+2025-04-19 21:18:57,499 - INFO - Бот успешно запущен!
+2025-04-19 21:18:57,499 - INFO - Start polling
+2025-04-19 21:18:57,607 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:18:59,572 - INFO - Update id=813234390 is handled. Duration 369 ms by bot id=7997483559
+2025-04-19 21:19:01,050 - INFO - Update id=813234391 is handled. Duration 214 ms by bot id=7997483559
+2025-04-19 21:19:02,258 - INFO - Update id=813234392 is handled. Duration 179 ms by bot id=7997483559
+2025-04-19 21:19:03,364 - INFO - Update id=813234393 is handled. Duration 161 ms by bot id=7997483559
+2025-04-19 21:19:05,260 - INFO - Update id=813234394 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 21:19:06,519 - INFO - Update id=813234395 is handled. Duration 250 ms by bot id=7997483559
+2025-04-19 21:20:09,614 - INFO - Polling stopped
+2025-04-19 21:20:09,875 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:20:09,876 - INFO - Бот остановлен!
+2025-04-19 21:20:17,222 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 21:20:17,222 - INFO - Инициализация базы данных начата...
+2025-04-19 21:20:17,223 - INFO - Создание таблицы users...
+2025-04-19 21:20:17,224 - INFO - Создание таблицы direction...
+2025-04-19 21:20:17,225 - INFO - Создание таблицы directionList...
+2025-04-19 21:20:17,225 - INFO - Создание таблицы banList...
+2025-04-19 21:20:17,225 - INFO - Создание таблицы report...
+2025-04-19 21:20:17,226 - INFO - База данных успешно инициализирована.
+2025-04-19 21:20:17,226 - INFO - База данных успешно инициализирована.
+2025-04-19 21:20:17,536 - INFO - Бот успешно запущен!
+2025-04-19 21:20:17,536 - INFO - Start polling
+2025-04-19 21:20:17,635 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:20:20,124 - INFO - Update id=813234396 is handled. Duration 378 ms by bot id=7997483559
+2025-04-19 21:20:21,034 - INFO - Update id=813234397 is handled. Duration 132 ms by bot id=7997483559
+2025-04-19 21:20:23,739 - INFO - Update id=813234398 is handled. Duration 161 ms by bot id=7997483559
+2025-04-19 21:20:25,078 - INFO - Update id=813234399 is handled. Duration 204 ms by bot id=7997483559
+2025-04-19 21:20:27,225 - INFO - Update id=813234400 is handled. Duration 241 ms by bot id=7997483559
+2025-04-19 21:20:28,424 - INFO - Update id=813234401 is handled. Duration 251 ms by bot id=7997483559
+2025-04-19 21:20:33,774 - INFO - Polling stopped
+2025-04-19 21:20:34,037 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:20:34,038 - INFO - Бот остановлен!

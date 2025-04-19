@@ -508,7 +508,7 @@ async def get_my_profile(callback_query: types.CallbackQuery):
     Отображение профиля пользователя.
     """
     ID = callback_query.from_user.id
-    user_data = get_user_data_by_id(ID)  # Добавлено await
+    user_data = get_user_data_by_id(ID)
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text='📝 Редактировать данные', callback_data='change_user_data')],
         [InlineKeyboardButton(text='🔚 Вернуться в начало', callback_data='accept_user_data')]
@@ -553,7 +553,7 @@ async def create_new_username(message: types.Message, state: FSMContext):
     # Создаем клавиатуру для подтверждения
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="✅ Да, изменить ФИО", callback_data='change_new_username')],
-        [InlineKeyboardButton(text="⛔ Нет", callback_data='dont_change_new_username')]
+        [InlineKeyboardButton(text="⛔ Нет", callback_data='dont_change_')]
     ])
 
     # Получаем данные из состояния
@@ -604,7 +604,7 @@ async def change_company_name(message: types.Message, state: FSMContext):
     # Создаем клавиатуру для подтверждения
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="✅ Да, изменить название компании", callback_data='change_new_company_name')],
-        [InlineKeyboardButton(text="⛔ Нет", callback_data='dont_change_new_company_name')]
+        [InlineKeyboardButton(text="⛔ Нет", callback_data='dont_change_')]
     ])
     await message.answer(f"🏢 Вы хотите изменить название компании на {message.text}?", reply_markup=keyboard)
 
@@ -648,7 +648,7 @@ async def change_phone_number(message: types.Message, state: FSMContext):
     # Создаем клавиатуру для подтверждения
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="✅ Да, изменить номер телефона", callback_data='change_new_phone_number')],
-        [InlineKeyboardButton(text="⛔ Нет", callback_data='dont_change_new_phone_number')]
+        [InlineKeyboardButton(text="⛔ Нет", callback_data='dont_change_')]
     ])
     await message.answer(f"📞 Вы хотите изменить номер телефона на {message.text}?", reply_markup=keyboard)
 
@@ -713,3 +713,49 @@ async def set_role_command(message: types.Message):
         await message.reply(f"✅ Роль пользователя с ID {telegram_id} успешно изменена на {new_role}.")
     except Exception as e:
         await message.reply(f"❌ Произошла ошибка при обновлении роли: {e}")
+
+@router.callback_query(F.data.startswith('dont_change_'))
+async def cancel_action(callback_query: types.CallbackQuery, state: FSMContext):
+    """
+    Универсальный обработчик для отмены действий.
+    """
+    # Очищаем состояние
+    await state.clear()
+
+    ID = callback_query.from_user.id
+    user_data = get_user_data_by_id(ID)
+
+    # Проверяем, что данные пользователя существуют
+    if not user_data:
+        await callback_query.message.edit_text(
+            "❌ Ошибка: информация о пользователе не найдена. Попробуйте снова."
+        )
+        return
+
+    # Определяем действие, которое отменяется
+    action = callback_query.data.split('_')[-1]  # Извлекаем часть после "dont_change_"
+    action_mapping = {
+        "new_username": "изменение ФИО",
+        "new_company_name": "изменение названия компании",
+        "new_phone_number": "изменение номера телефона"
+    }
+
+    # Получаем описание действия
+    action_description = action_mapping.get(action, "действие")
+
+    # Отправляем сообщение об отмене
+    await callback_query.message.edit_text(
+        f"⛔ {action_description.capitalize()} отменено."
+    )
+
+    # Создаем клавиатуру для возврата в профиль
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text='📝 Редактировать данные', callback_data='change_user_data')],
+        [InlineKeyboardButton(text='🔚 Вернуться в начало', callback_data='accept_user_data')]
+    ])
+
+    # Отправляем сообщение с профилем пользователя
+    await callback_query.message.edit_text(
+        f"🚹 Твое ФИО: {user_data[2]}\n🏢 Твоя компания: {user_data[5]}\n📞 Твой номер телефона: {user_data[6]}",
+        reply_markup=keyboard
+    )
