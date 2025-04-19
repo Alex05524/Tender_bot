@@ -8338,3 +8338,603 @@ client_session: <aiohttp.client.ClientSession object at 0x0000027D54BADBD0>
 2025-04-18 20:17:32,657 - ERROR - Unclosed connector
 connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x0000027D54B6F050>, 90353.7275234)])']
 connector: <aiohttp.connector.TCPConnector object at 0x0000027D54BAD310>
+2025-04-18 20:18:12,711 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-18 20:18:12,747 - INFO - Инициализация базы данных начата...
+2025-04-18 20:18:12,748 - INFO - Создание таблицы users...
+2025-04-18 20:18:12,749 - INFO - Создание таблицы direction...
+2025-04-18 20:18:12,750 - INFO - Создание таблицы directionList...
+2025-04-18 20:18:12,753 - INFO - Создание таблицы banList...
+2025-04-18 20:18:12,754 - INFO - Создание таблицы report...
+2025-04-18 20:18:12,754 - INFO - База данных успешно инициализирована.
+2025-04-18 20:18:12,755 - INFO - База данных успешно инициализирована.
+2025-04-18 20:18:13,183 - INFO - Бот успешно запущен!
+2025-04-18 20:18:13,184 - INFO - Start polling
+2025-04-18 20:18:13,284 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 20:18:48,803 - INFO - Update id=813234063 is handled. Duration 351 ms by bot id=7997483559
+2025-04-18 20:18:51,723 - INFO - Update id=813234064 is handled. Duration 176 ms by bot id=7997483559
+2025-04-18 20:18:52,218 - INFO - Update id=813234065 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 20:18:53,362 - INFO - Update id=813234066 is handled. Duration 231 ms by bot id=7997483559
+2025-04-18 20:18:54,627 - INFO - Update id=813234067 is handled. Duration 123 ms by bot id=7997483559
+2025-04-18 20:18:55,798 - INFO - Update id=813234068 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 20:18:57,040 - INFO - Update id=813234069 is handled. Duration 120 ms by bot id=7997483559
+2025-04-18 20:19:02,457 - INFO - Update id=813234070 is handled. Duration 133 ms by bot id=7997483559
+2025-04-18 20:19:03,809 - INFO - Update id=813234071 is handled. Duration 145 ms by bot id=7997483559
+2025-04-18 20:19:07,761 - INFO - Update id=813234072 is handled. Duration 123 ms by bot id=7997483559
+2025-04-18 20:19:10,320 - INFO - Update id=813234073 is handled. Duration 855 ms by bot id=7997483559
+2025-04-18 20:19:15,112 - INFO - Update id=813234074 is handled. Duration 129 ms by bot id=7997483559
+2025-04-18 20:19:16,670 - INFO - Update id=813234075 is handled. Duration 119 ms by bot id=7997483559
+2025-04-18 20:19:18,088 - INFO - Update id=813234076 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 20:19:20,597 - INFO - Update id=813234077 is handled. Duration 122 ms by bot id=7997483559
+2025-04-18 20:19:24,166 - INFO - Update id=813234078 is handled. Duration 222 ms by bot id=7997483559
+2025-04-18 20:19:32,969 - INFO - Update id=813234079 is handled. Duration 181 ms by bot id=7997483559
+2025-04-18 20:19:39,739 - INFO - Update id=813234080 is handled. Duration 198 ms by bot id=7997483559
+2025-04-18 20:19:41,978 - INFO - Update id=813234081 is handled. Duration 1204 ms by bot id=7997483559
+2025-04-18 20:19:43,774 - INFO - Update id=813234082 is handled. Duration 150 ms by bot id=7997483559
+2025-04-18 20:19:45,369 - INFO - Update id=813234083 is handled. Duration 119 ms by bot id=7997483559
+2025-04-18 20:19:46,913 - INFO - Update id=813234084 is handled. Duration 121 ms by bot id=7997483559
+2025-04-18 20:19:47,978 - INFO - Update id=813234085 is handled. Duration 193 ms by bot id=7997483559
+2025-04-18 20:19:49,224 - INFO - Update id=813234086 is handled. Duration 227 ms by bot id=7997483559
+2025-04-18 20:19:56,479 - INFO - Update id=813234087 is handled. Duration 124 ms by bot id=7997483559
+2025-04-18 20:19:58,808 - INFO - Update id=813234088 is handled. Duration 1301 ms by bot id=7997483559
+2025-04-18 20:19:59,911 - INFO - Update id=813234089 is handled. Duration 167 ms by bot id=7997483559
+2025-04-18 20:20:01,392 - INFO - Update id=813234090 is handled. Duration 124 ms by bot id=7997483559
+2025-04-18 20:20:04,219 - INFO - Update id=813234091 is handled. Duration 129 ms by bot id=7997483559
+2025-04-18 20:20:06,509 - INFO - Update id=813234092 is handled. Duration 203 ms by bot id=7997483559
+2025-04-18 20:20:09,086 - INFO - Update id=813234093 is handled. Duration 127 ms by bot id=7997483559
+2025-04-18 20:21:30,090 - INFO - Update id=813234094 is handled. Duration 140 ms by bot id=7997483559
+2025-04-18 20:21:32,810 - INFO - Update id=813234095 is handled. Duration 158 ms by bot id=7997483559
+2025-04-18 20:21:34,419 - INFO - Update id=813234096 is handled. Duration 131 ms by bot id=7997483559
+2025-04-18 20:21:35,570 - INFO - Update id=813234097 is handled. Duration 132 ms by bot id=7997483559
+2025-04-18 20:21:36,516 - INFO - Update id=813234098 is handled. Duration 154 ms by bot id=7997483559
+2025-04-18 20:21:38,489 - INFO - Update id=813234099 is handled. Duration 160 ms by bot id=7997483559
+2025-04-18 20:21:42,430 - INFO - Update id=813234100 is handled. Duration 169 ms by bot id=7997483559
+2025-04-18 20:21:52,758 - INFO - Update id=813234101 is handled. Duration 143 ms by bot id=7997483559
+2025-04-18 20:21:59,412 - INFO - Update id=813234102 is handled. Duration 188 ms by bot id=7997483559
+2025-04-18 20:22:00,587 - INFO - Update id=813234103 is handled. Duration 204 ms by bot id=7997483559
+2025-04-18 20:22:02,665 - INFO - Update id=813234104 is handled. Duration 122 ms by bot id=7997483559
+2025-04-18 20:22:04,089 - INFO - Update id=813234105 is handled. Duration 143 ms by bot id=7997483559
+2025-04-18 20:22:08,097 - INFO - Update id=813234106 is handled. Duration 124 ms by bot id=7997483559
+2025-04-18 20:22:16,099 - INFO - Update id=813234107 is handled. Duration 272 ms by bot id=7997483559
+2025-04-18 20:22:25,789 - INFO - Update id=813234108 is handled. Duration 2242 ms by bot id=7997483559
+2025-04-18 20:23:02,955 - INFO - Update id=813234109 is handled. Duration 268 ms by bot id=7997483559
+2025-04-18 20:23:04,188 - INFO - Update id=813234110 is handled. Duration 123 ms by bot id=7997483559
+2025-04-18 20:23:19,614 - INFO - Update id=813234111 is handled. Duration 124 ms by bot id=7997483559
+2025-04-18 20:23:23,284 - INFO - Update id=813234112 is handled. Duration 141 ms by bot id=7997483559
+2025-04-18 20:23:27,369 - INFO - Update id=813234113 is handled. Duration 175 ms by bot id=7997483559
+2025-04-18 20:23:29,136 - INFO - Update id=813234114 is handled. Duration 166 ms by bot id=7997483559
+2025-04-18 20:23:31,226 - INFO - Update id=813234115 is handled. Duration 186 ms by bot id=7997483559
+2025-04-18 20:23:32,528 - INFO - Update id=813234116 is handled. Duration 199 ms by bot id=7997483559
+2025-04-18 20:23:34,742 - INFO - Update id=813234117 is handled. Duration 184 ms by bot id=7997483559
+2025-04-18 20:23:36,533 - INFO - Update id=813234118 is handled. Duration 138 ms by bot id=7997483559
+2025-04-18 20:23:38,539 - INFO - Update id=813234119 is handled. Duration 170 ms by bot id=7997483559
+2025-04-18 20:23:40,345 - INFO - Update id=813234120 is handled. Duration 192 ms by bot id=7997483559
+2025-04-18 20:23:41,612 - INFO - Update id=813234121 is handled. Duration 118 ms by bot id=7997483559
+2025-04-18 20:23:41,904 - INFO - Update id=813234122 is handled. Duration 121 ms by bot id=7997483559
+2025-04-18 20:23:43,362 - INFO - Update id=813234123 is handled. Duration 126 ms by bot id=7997483559
+2025-04-18 20:23:45,344 - INFO - Update id=813234124 is handled. Duration 155 ms by bot id=7997483559
+2025-04-18 20:23:47,927 - INFO - Update id=813234125 is handled. Duration 164 ms by bot id=7997483559
+2025-04-18 20:23:49,932 - INFO - Update id=813234126 is handled. Duration 122 ms by bot id=7997483559
+2025-04-18 20:23:51,062 - INFO - Update id=813234127 is handled. Duration 130 ms by bot id=7997483559
+2025-04-18 20:23:52,698 - INFO - Update id=813234128 is handled. Duration 127 ms by bot id=7997483559
+2025-04-18 20:24:01,024 - INFO - Update id=813234129 is handled. Duration 224 ms by bot id=7997483559
+2025-04-18 20:24:03,403 - INFO - Update id=813234130 is handled. Duration 154 ms by bot id=7997483559
+2025-04-18 20:24:05,150 - INFO - Update id=813234131 is handled. Duration 171 ms by bot id=7997483559
+2025-04-18 20:24:05,417 - INFO - Update id=813234132 is handled. Duration 338 ms by bot id=7997483559
+2025-04-18 20:24:08,349 - INFO - Update id=813234133 is handled. Duration 120 ms by bot id=7997483559
+2025-04-18 20:24:09,203 - INFO - Update id=813234134 is handled. Duration 154 ms by bot id=7997483559
+2025-04-18 20:24:18,129 - INFO - Update id=813234135 is handled. Duration 222 ms by bot id=7997483559
+2025-04-18 20:24:18,250 - INFO - Update id=813234136 is handled. Duration 208 ms by bot id=7997483559
+2025-04-18 20:24:19,535 - INFO - Update id=813234137 is handled. Duration 136 ms by bot id=7997483559
+2025-04-18 20:24:28,342 - INFO - Update id=813234138 is handled. Duration 266 ms by bot id=7997483559
+2025-04-18 20:24:29,564 - INFO - Update id=813234139 is handled. Duration 121 ms by bot id=7997483559
+2025-04-18 20:24:31,199 - INFO - Update id=813234140 is handled. Duration 125 ms by bot id=7997483559
+2025-04-18 20:24:32,464 - INFO - Update id=813234141 is handled. Duration 121 ms by bot id=7997483559
+2025-04-18 20:24:35,983 - INFO - Update id=813234142 is handled. Duration 129 ms by bot id=7997483559
+2025-04-18 20:24:40,508 - INFO - Update id=813234143 is handled. Duration 121 ms by bot id=7997483559
+2025-04-18 20:24:43,725 - INFO - Update id=813234144 is handled. Duration 132 ms by bot id=7997483559
+2025-04-18 20:24:51,720 - INFO - Update id=813234145 is handled. Duration 227 ms by bot id=7997483559
+2025-04-18 20:24:56,623 - INFO - Update id=813234146 is handled. Duration 139 ms by bot id=7997483559
+2025-04-18 20:25:03,988 - INFO - Update id=813234147 is handled. Duration 235 ms by bot id=7997483559
+2025-04-18 20:25:07,743 - INFO - Update id=813234148 is handled. Duration 127 ms by bot id=7997483559
+2025-04-18 20:25:08,790 - INFO - Update id=813234149 is handled. Duration 200 ms by bot id=7997483559
+2025-04-18 20:27:13,700 - INFO - Update id=813234150 is handled. Duration 123 ms by bot id=7997483559
+2025-04-18 20:27:15,009 - INFO - Update id=813234151 is handled. Duration 121 ms by bot id=7997483559
+2025-04-18 20:27:15,899 - INFO - Update id=813234152 is handled. Duration 120 ms by bot id=7997483559
+2025-04-18 20:27:17,194 - INFO - Update id=813234153 is handled. Duration 119 ms by bot id=7997483559
+2025-04-18 20:27:23,243 - INFO - Update id=813234154 is handled. Duration 133 ms by bot id=7997483559
+2025-04-18 20:27:25,191 - INFO - Update id=813234155 is handled. Duration 123 ms by bot id=7997483559
+2025-04-18 20:27:27,003 - INFO - Update id=813234156 is handled. Duration 136 ms by bot id=7997483559
+2025-04-18 20:27:31,828 - INFO - Update id=813234157 is handled. Duration 191 ms by bot id=7997483559
+2025-04-18 20:27:33,925 - INFO - Update id=813234158 is handled. Duration 1077 ms by bot id=7997483559
+2025-04-18 20:38:16,925 - INFO - Polling stopped
+2025-04-18 20:38:17,186 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-18 20:38:17,187 - INFO - Бот остановлен!
+2025-04-18 20:38:17,284 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000024E7EFBA210>
+2025-04-19 19:27:10,931 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:27:10,931 - INFO - Инициализация базы данных начата...
+2025-04-19 19:27:10,932 - INFO - Создание таблицы users...
+2025-04-19 19:27:10,942 - INFO - Создание таблицы direction...
+2025-04-19 19:27:10,943 - INFO - Создание таблицы directionList...
+2025-04-19 19:27:10,943 - INFO - Создание таблицы banList...
+2025-04-19 19:27:10,944 - INFO - Создание таблицы report...
+2025-04-19 19:27:10,944 - INFO - База данных успешно инициализирована.
+2025-04-19 19:27:10,945 - INFO - База данных успешно инициализирована.
+2025-04-19 19:27:11,356 - INFO - Бот успешно запущен!
+2025-04-19 19:27:11,357 - INFO - Start polling
+2025-04-19 19:27:11,460 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:27:31,431 - INFO - Update id=813234159 is handled. Duration 456 ms by bot id=7997483559
+2025-04-19 19:27:43,992 - INFO - Update id=813234160 is handled. Duration 161 ms by bot id=7997483559
+2025-04-19 19:27:45,686 - INFO - Update id=813234161 is handled. Duration 169 ms by bot id=7997483559
+2025-04-19 19:27:47,159 - INFO - Update id=813234162 is handled. Duration 131 ms by bot id=7997483559
+2025-04-19 19:27:48,591 - INFO - Update id=813234163 is handled. Duration 253 ms by bot id=7997483559
+2025-04-19 19:27:49,905 - INFO - Update id=813234164 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 19:27:52,019 - INFO - Update id=813234165 is handled. Duration 168 ms by bot id=7997483559
+2025-04-19 19:28:47,825 - INFO - Polling stopped
+2025-04-19 19:28:48,083 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:28:48,084 - INFO - Бот остановлен!
+2025-04-19 19:28:59,733 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:28:59,734 - INFO - Инициализация базы данных начата...
+2025-04-19 19:28:59,735 - INFO - Создание таблицы users...
+2025-04-19 19:28:59,735 - INFO - Создание таблицы direction...
+2025-04-19 19:28:59,736 - INFO - Создание таблицы directionList...
+2025-04-19 19:28:59,736 - INFO - Создание таблицы banList...
+2025-04-19 19:28:59,737 - INFO - Создание таблицы report...
+2025-04-19 19:28:59,737 - INFO - База данных успешно инициализирована.
+2025-04-19 19:28:59,737 - INFO - База данных успешно инициализирована.
+2025-04-19 19:29:00,208 - INFO - Бот успешно запущен!
+2025-04-19 19:29:00,209 - INFO - Start polling
+2025-04-19 19:29:00,315 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:29:03,589 - INFO - Update id=813234166 is handled. Duration 337 ms by bot id=7997483559
+2025-04-19 19:29:04,948 - INFO - Update id=813234167 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 19:29:07,115 - INFO - Update id=813234168 is handled. Duration 148 ms by bot id=7997483559
+2025-04-19 19:29:08,899 - INFO - Update id=813234169 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 19:29:10,437 - INFO - Update id=813234170 is handled. Duration 217 ms by bot id=7997483559
+2025-04-19 19:29:18,262 - INFO - Update id=813234171 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 19:29:20,247 - INFO - Update id=813234172 is handled. Duration 132 ms by bot id=7997483559
+2025-04-19 19:29:21,788 - INFO - Update id=813234173 is handled. Duration 172 ms by bot id=7997483559
+2025-04-19 19:29:29,320 - INFO - Polling stopped
+2025-04-19 19:29:29,573 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:29:29,574 - INFO - Бот остановлен!
+2025-04-19 19:31:54,881 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:31:54,881 - INFO - Инициализация базы данных начата...
+2025-04-19 19:31:54,882 - INFO - Создание таблицы users...
+2025-04-19 19:31:54,883 - INFO - Создание таблицы direction...
+2025-04-19 19:31:54,883 - INFO - Создание таблицы directionList...
+2025-04-19 19:31:54,884 - INFO - Создание таблицы banList...
+2025-04-19 19:31:54,884 - INFO - Создание таблицы report...
+2025-04-19 19:31:54,885 - INFO - База данных успешно инициализирована.
+2025-04-19 19:31:54,885 - INFO - База данных успешно инициализирована.
+2025-04-19 19:31:55,215 - INFO - Бот успешно запущен!
+2025-04-19 19:31:55,216 - INFO - Start polling
+2025-04-19 19:31:55,319 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:31:57,723 - INFO - Update id=813234174 is handled. Duration 348 ms by bot id=7997483559
+2025-04-19 19:31:59,459 - INFO - Update id=813234175 is handled. Duration 150 ms by bot id=7997483559
+2025-04-19 19:32:02,198 - INFO - Update id=813234176 is handled. Duration 183 ms by bot id=7997483559
+2025-04-19 19:32:03,539 - INFO - Update id=813234177 is handled. Duration 181 ms by bot id=7997483559
+2025-04-19 19:32:06,676 - INFO - Update id=813234178 is handled. Duration 221 ms by bot id=7997483559
+2025-04-19 19:32:08,123 - INFO - Update id=813234179 is handled. Duration 137 ms by bot id=7997483559
+2025-04-19 19:32:10,317 - INFO - Update id=813234180 is handled. Duration 150 ms by bot id=7997483559
+2025-04-19 19:32:11,738 - INFO - Update id=813234181 is handled. Duration 208 ms by bot id=7997483559
+2025-04-19 19:32:13,666 - INFO - Update id=813234182 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 19:32:14,662 - INFO - Update id=813234183 is handled. Duration 169 ms by bot id=7997483559
+2025-04-19 19:32:16,256 - INFO - Update id=813234184 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 19:32:23,913 - INFO - Update id=813234185 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 19:32:25,269 - INFO - Update id=813234186 is handled. Duration 170 ms by bot id=7997483559
+2025-04-19 19:32:26,907 - INFO - Update id=813234187 is handled. Duration 167 ms by bot id=7997483559
+2025-04-19 19:32:28,092 - INFO - Update id=813234188 is handled. Duration 245 ms by bot id=7997483559
+2025-04-19 19:32:32,057 - INFO - Update id=813234189 is handled. Duration 158 ms by bot id=7997483559
+2025-04-19 19:32:34,577 - INFO - Update id=813234190 is handled. Duration 148 ms by bot id=7997483559
+2025-04-19 19:32:40,132 - INFO - Update id=813234191 is handled. Duration 122 ms by bot id=7997483559
+2025-04-19 19:32:41,673 - INFO - Update id=813234192 is handled. Duration 208 ms by bot id=7997483559
+2025-04-19 19:32:52,505 - INFO - Update id=813234193 is handled. Duration 132 ms by bot id=7997483559
+2025-04-19 19:32:54,361 - INFO - Update id=813234194 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 19:32:55,805 - INFO - Update id=813234195 is handled. Duration 129 ms by bot id=7997483559
+2025-04-19 19:32:57,462 - INFO - Update id=813234196 is handled. Duration 249 ms by bot id=7997483559
+2025-04-19 19:33:00,564 - INFO - Update id=813234197 is handled. Duration 142 ms by bot id=7997483559
+2025-04-19 19:33:03,450 - INFO - Update id=813234198 is handled. Duration 145 ms by bot id=7997483559
+2025-04-19 19:33:04,807 - INFO - Update id=813234199 is handled. Duration 145 ms by bot id=7997483559
+2025-04-19 19:33:20,375 - INFO - Update id=813234200 is handled. Duration 173 ms by bot id=7997483559
+2025-04-19 19:33:25,084 - INFO - Update id=813234201 is handled. Duration 276 ms by bot id=7997483559
+2025-04-19 19:33:27,731 - INFO - Update id=813234202 is handled. Duration 155 ms by bot id=7997483559
+2025-04-19 19:33:29,283 - INFO - Update id=813234203 is handled. Duration 222 ms by bot id=7997483559
+2025-04-19 19:33:30,320 - INFO - Update id=813234204 is handled. Duration 128 ms by bot id=7997483559
+2025-04-19 19:33:31,958 - INFO - Update id=813234205 is handled. Duration 186 ms by bot id=7997483559
+2025-04-19 19:33:34,237 - INFO - Update id=813234206 is handled. Duration 204 ms by bot id=7997483559
+2025-04-19 19:34:00,552 - INFO - Polling stopped
+2025-04-19 19:34:00,804 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:34:00,805 - INFO - Бот остановлен!
+2025-04-19 19:34:27,994 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:34:27,994 - INFO - Инициализация базы данных начата...
+2025-04-19 19:34:27,995 - INFO - Создание таблицы users...
+2025-04-19 19:34:27,996 - INFO - Создание таблицы direction...
+2025-04-19 19:34:27,996 - INFO - Создание таблицы directionList...
+2025-04-19 19:34:27,997 - INFO - Создание таблицы banList...
+2025-04-19 19:34:27,997 - INFO - Создание таблицы report...
+2025-04-19 19:34:27,998 - INFO - База данных успешно инициализирована.
+2025-04-19 19:34:27,998 - INFO - База данных успешно инициализирована.
+2025-04-19 19:34:28,334 - INFO - Бот успешно запущен!
+2025-04-19 19:34:28,334 - INFO - Start polling
+2025-04-19 19:34:28,439 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:34:30,225 - INFO - Update id=813234207 is handled. Duration 346 ms by bot id=7997483559
+2025-04-19 19:34:33,638 - INFO - Update id=813234208 is handled. Duration 234 ms by bot id=7997483559
+2025-04-19 19:34:44,142 - INFO - Update id=813234209 is handled. Duration 148 ms by bot id=7997483559
+2025-04-19 19:35:07,331 - INFO - Update id=813234210 is handled. Duration 1426 ms by bot id=7997483559
+2025-04-19 19:35:08,757 - INFO - Update id=813234211 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 19:35:19,288 - INFO - Update id=813234212 is handled. Duration 122 ms by bot id=7997483559
+2025-04-19 19:35:20,802 - INFO - Update id=813234213 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 19:35:23,887 - INFO - Update id=813234214 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 19:35:31,498 - INFO - Update id=813234215 is handled. Duration 129 ms by bot id=7997483559
+2025-04-19 19:35:36,719 - INFO - Update id=813234216 is handled. Duration 141 ms by bot id=7997483559
+2025-04-19 19:35:40,815 - INFO - Update id=813234217 is handled. Duration 162 ms by bot id=7997483559
+2025-04-19 19:35:42,800 - INFO - Update id=813234218 is handled. Duration 146 ms by bot id=7997483559
+2025-04-19 19:35:43,965 - INFO - Update id=813234219 is handled. Duration 236 ms by bot id=7997483559
+2025-04-19 19:35:44,960 - INFO - Update id=813234220 is handled. Duration 191 ms by bot id=7997483559
+2025-04-19 19:35:46,705 - INFO - Update id=813234221 is handled. Duration 127 ms by bot id=7997483559
+2025-04-19 19:35:56,683 - INFO - Update id=813234222 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 19:35:58,732 - INFO - Update id=813234223 is handled. Duration 826 ms by bot id=7997483559
+2025-04-19 19:36:04,877 - INFO - Update id=813234224 is handled. Duration 152 ms by bot id=7997483559
+2025-04-19 19:36:24,148 - INFO - Update id=813234225 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 19:36:26,249 - INFO - Update id=813234226 is handled. Duration 133 ms by bot id=7997483559
+2025-04-19 19:36:39,760 - INFO - Update id=813234227 is handled. Duration 167 ms by bot id=7997483559
+2025-04-19 19:36:41,206 - INFO - Update id=813234228 is handled. Duration 120 ms by bot id=7997483559
+2025-04-19 19:36:43,782 - INFO - Update id=813234229 is handled. Duration 128 ms by bot id=7997483559
+2025-04-19 19:36:47,003 - INFO - Update id=813234230 is handled. Duration 166 ms by bot id=7997483559
+2025-04-19 19:36:49,539 - INFO - Update id=813234231 is handled. Duration 128 ms by bot id=7997483559
+2025-04-19 19:36:52,530 - INFO - Update id=813234232 is handled. Duration 1164 ms by bot id=7997483559
+2025-04-19 19:36:56,741 - INFO - Update id=813234233 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 19:36:59,803 - INFO - Update id=813234234 is handled. Duration 213 ms by bot id=7997483559
+2025-04-19 19:37:58,008 - INFO - Polling stopped
+2025-04-19 19:37:58,274 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:37:58,275 - INFO - Бот остановлен!
+2025-04-19 19:37:58,373 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000165D7A99F90>
+2025-04-19 19:38:08,512 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:38:08,513 - INFO - Инициализация базы данных начата...
+2025-04-19 19:38:08,514 - INFO - Создание таблицы users...
+2025-04-19 19:38:08,514 - INFO - Создание таблицы direction...
+2025-04-19 19:38:08,515 - INFO - Создание таблицы directionList...
+2025-04-19 19:38:08,515 - INFO - Создание таблицы banList...
+2025-04-19 19:38:08,515 - INFO - Создание таблицы report...
+2025-04-19 19:38:08,516 - INFO - База данных успешно инициализирована.
+2025-04-19 19:38:08,516 - INFO - База данных успешно инициализирована.
+2025-04-19 19:38:08,881 - INFO - Бот успешно запущен!
+2025-04-19 19:38:08,882 - INFO - Start polling
+2025-04-19 19:38:08,993 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:38:09,481 - INFO - Update id=813234235 is handled. Duration 359 ms by bot id=7997483559
+2025-04-19 19:38:11,600 - INFO - Update id=813234236 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 19:38:13,019 - INFO - Update id=813234237 is handled. Duration 139 ms by bot id=7997483559
+2025-04-19 19:38:58,751 - INFO - Polling stopped
+2025-04-19 19:38:59,012 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:38:59,013 - INFO - Бот остановлен!
+2025-04-19 19:39:04,789 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:39:04,790 - INFO - Инициализация базы данных начата...
+2025-04-19 19:39:04,790 - INFO - Создание таблицы users...
+2025-04-19 19:39:04,791 - INFO - Создание таблицы direction...
+2025-04-19 19:39:04,792 - INFO - Создание таблицы directionList...
+2025-04-19 19:39:04,792 - INFO - Создание таблицы banList...
+2025-04-19 19:39:04,793 - INFO - Создание таблицы report...
+2025-04-19 19:39:04,793 - INFO - База данных успешно инициализирована.
+2025-04-19 19:39:04,793 - INFO - База данных успешно инициализирована.
+2025-04-19 19:39:05,149 - INFO - Бот успешно запущен!
+2025-04-19 19:39:05,149 - INFO - Start polling
+2025-04-19 19:39:05,260 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:39:07,623 - INFO - Update id=813234238 is handled. Duration 375 ms by bot id=7997483559
+2025-04-19 19:39:08,818 - INFO - Update id=813234239 is handled. Duration 208 ms by bot id=7997483559
+2025-04-19 19:39:09,797 - INFO - Update id=813234240 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 19:39:10,927 - INFO - Update id=813234241 is handled. Duration 155 ms by bot id=7997483559
+2025-04-19 19:39:12,644 - INFO - Update id=813234242 is handled. Duration 156 ms by bot id=7997483559
+2025-04-19 19:40:26,871 - INFO - Polling stopped
+2025-04-19 19:40:27,124 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:40:27,125 - INFO - Бот остановлен!
+2025-04-19 19:40:33,473 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:40:33,474 - INFO - Инициализация базы данных начата...
+2025-04-19 19:40:33,475 - INFO - Создание таблицы users...
+2025-04-19 19:40:33,476 - INFO - Создание таблицы direction...
+2025-04-19 19:40:33,476 - INFO - Создание таблицы directionList...
+2025-04-19 19:40:33,476 - INFO - Создание таблицы banList...
+2025-04-19 19:40:33,477 - INFO - Создание таблицы report...
+2025-04-19 19:40:33,477 - INFO - База данных успешно инициализирована.
+2025-04-19 19:40:33,478 - INFO - База данных успешно инициализирована.
+2025-04-19 19:40:33,857 - INFO - Бот успешно запущен!
+2025-04-19 19:40:33,857 - INFO - Start polling
+2025-04-19 19:40:33,964 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:40:35,998 - INFO - Update id=813234243 is handled. Duration 332 ms by bot id=7997483559
+2025-04-19 19:40:37,421 - INFO - Update id=813234244 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 19:40:38,735 - INFO - Update id=813234245 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 19:41:06,295 - INFO - Update id=813234246 is handled. Duration 209 ms by bot id=7997483559
+2025-04-19 19:41:11,070 - INFO - Update id=813234247 is handled. Duration 157 ms by bot id=7997483559
+2025-04-19 19:41:14,518 - INFO - Update id=813234248 is handled. Duration 941 ms by bot id=7997483559
+2025-04-19 19:44:39,287 - INFO - Polling stopped
+2025-04-19 19:44:39,547 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:44:39,548 - INFO - Бот остановлен!
+2025-04-19 19:44:39,648 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000256E77DDBD0>
+2025-04-19 19:44:44,252 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:44:44,252 - INFO - Инициализация базы данных начата...
+2025-04-19 19:44:44,253 - INFO - Создание таблицы users...
+2025-04-19 19:44:44,254 - INFO - Создание таблицы direction...
+2025-04-19 19:44:44,255 - INFO - Создание таблицы directionList...
+2025-04-19 19:44:44,255 - INFO - Создание таблицы banList...
+2025-04-19 19:44:44,255 - INFO - Создание таблицы report...
+2025-04-19 19:44:44,256 - INFO - База данных успешно инициализирована.
+2025-04-19 19:44:44,256 - INFO - База данных успешно инициализирована.
+2025-04-19 19:44:44,568 - INFO - Бот успешно запущен!
+2025-04-19 19:44:44,569 - INFO - Start polling
+2025-04-19 19:44:44,667 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:44:46,638 - INFO - Update id=813234249 is handled. Duration 351 ms by bot id=7997483559
+2025-04-19 19:44:48,237 - INFO - Update id=813234250 is handled. Duration 143 ms by bot id=7997483559
+2025-04-19 19:44:52,447 - INFO - Polling stopped
+2025-04-19 19:44:52,712 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:44:52,713 - INFO - Бот остановлен!
+2025-04-19 19:45:19,114 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:45:19,115 - INFO - Инициализация базы данных начата...
+2025-04-19 19:45:19,116 - INFO - Создание таблицы users...
+2025-04-19 19:45:19,116 - INFO - Создание таблицы direction...
+2025-04-19 19:45:19,117 - INFO - Создание таблицы directionList...
+2025-04-19 19:45:19,117 - INFO - Создание таблицы banList...
+2025-04-19 19:45:19,118 - INFO - Создание таблицы report...
+2025-04-19 19:45:19,118 - INFO - База данных успешно инициализирована.
+2025-04-19 19:45:19,119 - INFO - База данных успешно инициализирована.
+2025-04-19 19:45:19,430 - INFO - Бот успешно запущен!
+2025-04-19 19:45:19,430 - INFO - Start polling
+2025-04-19 19:45:19,531 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:45:21,765 - INFO - Update id=813234251 is handled. Duration 345 ms by bot id=7997483559
+2025-04-19 19:45:25,259 - INFO - Update id=813234252 is handled. Duration 133 ms by bot id=7997483559
+2025-04-19 19:45:26,638 - INFO - Update id=813234253 is handled. Duration 203 ms by bot id=7997483559
+2025-04-19 19:45:27,825 - INFO - Update id=813234254 is handled. Duration 196 ms by bot id=7997483559
+2025-04-19 19:45:34,126 - INFO - Update id=813234255 is handled. Duration 159 ms by bot id=7997483559
+2025-04-19 19:45:36,052 - INFO - Update id=813234256 is handled. Duration 867 ms by bot id=7997483559
+2025-04-19 19:45:46,840 - INFO - Update id=813234257 is handled. Duration 292 ms by bot id=7997483559
+2025-04-19 19:51:02,087 - INFO - Polling stopped
+2025-04-19 19:51:02,340 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:51:02,341 - INFO - Бот остановлен!
+2025-04-19 19:51:02,441 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000023A54F5DD10>
+2025-04-19 19:51:05,755 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 19:51:05,756 - INFO - Инициализация базы данных начата...
+2025-04-19 19:51:05,757 - INFO - Создание таблицы users...
+2025-04-19 19:51:05,757 - INFO - Создание таблицы direction...
+2025-04-19 19:51:05,758 - INFO - Создание таблицы directionList...
+2025-04-19 19:51:05,758 - INFO - Создание таблицы banList...
+2025-04-19 19:51:05,759 - INFO - Создание таблицы report...
+2025-04-19 19:51:05,759 - INFO - База данных успешно инициализирована.
+2025-04-19 19:51:05,759 - INFO - База данных успешно инициализирована.
+2025-04-19 19:51:06,108 - INFO - Бот успешно запущен!
+2025-04-19 19:51:06,108 - INFO - Start polling
+2025-04-19 19:51:06,214 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:51:08,310 - INFO - Update id=813234258 is handled. Duration 327 ms by bot id=7997483559
+2025-04-19 19:51:10,812 - INFO - Update id=813234259 is handled. Duration 134 ms by bot id=7997483559
+2025-04-19 19:51:12,019 - INFO - Update id=813234260 is handled. Duration 120 ms by bot id=7997483559
+2025-04-19 19:51:13,320 - INFO - Update id=813234261 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 19:51:17,126 - INFO - Update id=813234262 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 19:51:18,664 - INFO - Update id=813234263 is handled. Duration 567 ms by bot id=7997483559
+2025-04-19 19:51:25,860 - INFO - Update id=813234264 is handled. Duration 133 ms by bot id=7997483559
+2025-04-19 19:51:28,891 - INFO - Update id=813234265 is handled. Duration 177 ms by bot id=7997483559
+2025-04-19 19:51:34,018 - INFO - Update id=813234266 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 19:51:35,230 - INFO - Update id=813234267 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 19:51:38,926 - INFO - Update id=813234268 is handled. Duration 122 ms by bot id=7997483559
+2025-04-19 19:51:40,563 - INFO - Update id=813234269 is handled. Duration 139 ms by bot id=7997483559
+2025-04-19 19:51:41,915 - INFO - Update id=813234270 is handled. Duration 246 ms by bot id=7997483559
+2025-04-19 19:51:48,256 - INFO - Update id=813234271 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 19:51:58,476 - INFO - Update id=813234272 is handled. Duration 142 ms by bot id=7997483559
+2025-04-19 19:52:00,417 - INFO - Update id=813234273 is handled. Duration 530 ms by bot id=7997483559
+2025-04-19 19:52:05,661 - INFO - Update id=813234274 is handled. Duration 140 ms by bot id=7997483559
+2025-04-19 19:53:10,095 - INFO - Polling stopped
+2025-04-19 19:53:10,357 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 19:53:10,358 - INFO - Бот остановлен!
+2025-04-19 19:53:10,462 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DA769DDD10>
+2025-04-19 20:01:55,697 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:01:55,698 - INFO - Инициализация базы данных начата...
+2025-04-19 20:01:55,699 - INFO - Создание таблицы users...
+2025-04-19 20:01:55,699 - INFO - Создание таблицы direction...
+2025-04-19 20:01:55,700 - INFO - Создание таблицы directionList...
+2025-04-19 20:01:55,700 - INFO - Создание таблицы banList...
+2025-04-19 20:01:55,701 - INFO - Создание таблицы report...
+2025-04-19 20:01:55,701 - INFO - База данных успешно инициализирована.
+2025-04-19 20:01:55,702 - INFO - База данных успешно инициализирована.
+2025-04-19 20:01:56,038 - INFO - Бот успешно запущен!
+2025-04-19 20:01:56,039 - INFO - Start polling
+2025-04-19 20:01:56,140 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:01:58,688 - INFO - Update id=813234275 is handled. Duration 430 ms by bot id=7997483559
+2025-04-19 20:02:01,518 - INFO - Update id=813234276 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 20:02:02,960 - INFO - Update id=813234277 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 20:02:12,822 - INFO - Update id=813234278 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 20:02:14,988 - INFO - Update id=813234279 is handled. Duration 186 ms by bot id=7997483559
+2025-04-19 20:02:16,297 - INFO - Update id=813234280 is handled. Duration 120 ms by bot id=7997483559
+2025-04-19 20:02:18,156 - INFO - Update id=813234281 is handled. Duration 131 ms by bot id=7997483559
+2025-04-19 20:02:19,742 - INFO - Update id=813234282 is handled. Duration 216 ms by bot id=7997483559
+2025-04-19 20:02:21,305 - INFO - Update id=813234283 is handled. Duration 128 ms by bot id=7997483559
+2025-04-19 20:02:22,517 - INFO - Update id=813234284 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 20:02:35,258 - INFO - Update id=813234285 is handled. Duration 136 ms by bot id=7997483559
+2025-04-19 20:02:40,724 - INFO - Update id=813234286 is handled. Duration 138 ms by bot id=7997483559
+2025-04-19 20:02:50,321 - INFO - Update id=813234287 is handled. Duration 214 ms by bot id=7997483559
+2025-04-19 20:02:52,931 - INFO - Update id=813234288 is handled. Duration 550 ms by bot id=7997483559
+2025-04-19 20:08:13,311 - INFO - Update id=813234289 is handled. Duration 262 ms by bot id=7997483559
+2025-04-19 20:08:16,642 - INFO - Update id=813234290 is handled. Duration 118 ms by bot id=7997483559
+2025-04-19 20:10:02,933 - INFO - Polling stopped
+2025-04-19 20:10:03,192 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:10:03,193 - INFO - Бот остановлен!
+2025-04-19 20:10:03,292 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E8FEFBDD10>
+2025-04-19 20:10:08,145 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:10:08,145 - INFO - Инициализация базы данных начата...
+2025-04-19 20:10:08,146 - INFO - Создание таблицы users...
+2025-04-19 20:10:08,147 - INFO - Создание таблицы direction...
+2025-04-19 20:10:08,147 - INFO - Создание таблицы directionList...
+2025-04-19 20:10:08,148 - INFO - Создание таблицы banList...
+2025-04-19 20:10:08,148 - INFO - Создание таблицы report...
+2025-04-19 20:10:08,149 - INFO - База данных успешно инициализирована.
+2025-04-19 20:10:08,149 - INFO - База данных успешно инициализирована.
+2025-04-19 20:10:08,475 - INFO - Бот успешно запущен!
+2025-04-19 20:10:08,476 - INFO - Start polling
+2025-04-19 20:10:08,573 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:10:12,008 - INFO - Update id=813234291 is handled. Duration 463 ms by bot id=7997483559
+2025-04-19 20:10:13,411 - INFO - Update id=813234292 is handled. Duration 125 ms by bot id=7997483559
+2025-04-19 20:10:14,706 - INFO - Update id=813234293 is handled. Duration 113 ms by bot id=7997483559
+2025-04-19 20:10:40,049 - INFO - Update id=813234294 is handled. Duration 114 ms by bot id=7997483559
+2025-04-19 20:10:41,175 - INFO - Update id=813234295 is handled. Duration 116 ms by bot id=7997483559
+2025-04-19 20:10:42,204 - INFO - Update id=813234296 is handled. Duration 121 ms by bot id=7997483559
+2025-04-19 20:10:42,955 - INFO - Update id=813234297 is handled. Duration 114 ms by bot id=7997483559
+2025-04-19 20:10:43,998 - INFO - Update id=813234298 is handled. Duration 114 ms by bot id=7997483559
+2025-04-19 20:10:47,921 - INFO - Update id=813234299 is handled. Duration 131 ms by bot id=7997483559
+2025-04-19 20:10:51,358 - INFO - Update id=813234300 is handled. Duration 227 ms by bot id=7997483559
+2025-04-19 20:12:15,732 - INFO - Polling stopped
+2025-04-19 20:12:15,988 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:12:15,989 - INFO - Бот остановлен!
+2025-04-19 20:19:30,560 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:19:30,560 - INFO - Инициализация базы данных начата...
+2025-04-19 20:19:30,561 - INFO - Создание таблицы users...
+2025-04-19 20:19:30,562 - INFO - Создание таблицы direction...
+2025-04-19 20:19:30,562 - INFO - Создание таблицы directionList...
+2025-04-19 20:19:30,563 - INFO - Создание таблицы banList...
+2025-04-19 20:19:30,563 - INFO - Создание таблицы report...
+2025-04-19 20:19:30,564 - INFO - База данных успешно инициализирована.
+2025-04-19 20:19:30,564 - INFO - База данных успешно инициализирована.
+2025-04-19 20:19:30,892 - INFO - Бот успешно запущен!
+2025-04-19 20:19:30,892 - INFO - Start polling
+2025-04-19 20:19:30,989 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:19:32,970 - INFO - Update id=813234301 is handled. Duration 449 ms by bot id=7997483559
+2025-04-19 20:19:40,065 - INFO - Update id=813234302 is handled. Duration 120 ms by bot id=7997483559
+2025-04-19 20:21:59,555 - INFO - Polling stopped
+2025-04-19 20:21:59,813 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:21:59,814 - INFO - Бот остановлен!
+2025-04-19 20:22:04,099 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:22:04,100 - INFO - Инициализация базы данных начата...
+2025-04-19 20:22:04,101 - INFO - Создание таблицы users...
+2025-04-19 20:22:04,102 - INFO - Создание таблицы direction...
+2025-04-19 20:22:04,102 - INFO - Создание таблицы directionList...
+2025-04-19 20:22:04,103 - INFO - Создание таблицы banList...
+2025-04-19 20:22:04,103 - INFO - Создание таблицы report...
+2025-04-19 20:22:04,103 - INFO - База данных успешно инициализирована.
+2025-04-19 20:22:04,104 - INFO - База данных успешно инициализирована.
+2025-04-19 20:22:04,464 - INFO - Бот успешно запущен!
+2025-04-19 20:22:04,465 - INFO - Start polling
+2025-04-19 20:22:04,571 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:22:06,469 - INFO - Update id=813234303 is handled. Duration 324 ms by bot id=7997483559
+2025-04-19 20:22:07,562 - INFO - Update id=813234304 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 20:22:09,670 - INFO - Update id=813234305 is handled. Duration 115 ms by bot id=7997483559
+2025-04-19 20:22:11,532 - INFO - Update id=813234306 is handled. Duration 124 ms by bot id=7997483559
+2025-04-19 20:22:12,783 - INFO - Update id=813234307 is handled. Duration 155 ms by bot id=7997483559
+2025-04-19 20:25:36,715 - INFO - Polling stopped
+2025-04-19 20:25:36,970 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:25:36,971 - INFO - Бот остановлен!
+2025-04-19 20:31:44,879 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:31:44,879 - INFO - Инициализация базы данных начата...
+2025-04-19 20:31:44,880 - INFO - Создание таблицы users...
+2025-04-19 20:31:44,881 - INFO - Создание таблицы direction...
+2025-04-19 20:31:44,881 - INFO - Создание таблицы directionList...
+2025-04-19 20:31:44,881 - INFO - Создание таблицы banList...
+2025-04-19 20:31:44,882 - INFO - Создание таблицы report...
+2025-04-19 20:31:44,882 - INFO - База данных успешно инициализирована.
+2025-04-19 20:31:44,883 - INFO - База данных успешно инициализирована.
+2025-04-19 20:31:45,259 - INFO - Бот успешно запущен!
+2025-04-19 20:31:45,259 - INFO - Start polling
+2025-04-19 20:31:45,369 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:31:53,297 - INFO - Update id=813234308 is handled. Duration 348 ms by bot id=7997483559
+2025-04-19 20:31:54,974 - INFO - Update id=813234309 is handled. Duration 152 ms by bot id=7997483559
+2025-04-19 20:31:55,999 - INFO - Update id=813234310 is handled. Duration 120 ms by bot id=7997483559
+2025-04-19 20:31:57,427 - INFO - Update id=813234311 is handled. Duration 188 ms by bot id=7997483559
+2025-04-19 20:32:00,491 - INFO - Update id=813234312 is handled. Duration 134 ms by bot id=7997483559
+2025-04-19 20:32:01,524 - INFO - Update id=813234313 is handled. Duration 129 ms by bot id=7997483559
+2025-04-19 20:32:03,081 - INFO - Update id=813234314 is handled. Duration 130 ms by bot id=7997483559
+2025-04-19 20:32:04,164 - INFO - Update id=813234315 is handled. Duration 146 ms by bot id=7997483559
+2025-04-19 20:32:05,163 - INFO - Update id=813234316 is handled. Duration 117 ms by bot id=7997483559
+2025-04-19 20:32:06,823 - INFO - Update id=813234317 is handled. Duration 161 ms by bot id=7997483559
+2025-04-19 20:32:07,901 - INFO - Update id=813234318 is handled. Duration 173 ms by bot id=7997483559
+2025-04-19 20:32:09,649 - INFO - Update id=813234319 is handled. Duration 143 ms by bot id=7997483559
+2025-04-19 20:32:10,554 - INFO - Update id=813234320 is handled. Duration 115 ms by bot id=7997483559
+2025-04-19 20:32:11,582 - INFO - Update id=813234321 is handled. Duration 122 ms by bot id=7997483559
+2025-04-19 20:32:12,316 - INFO - Update id=813234322 is handled. Duration 131 ms by bot id=7997483559
+2025-04-19 20:32:13,155 - INFO - Update id=813234323 is handled. Duration 132 ms by bot id=7997483559
+2025-04-19 20:32:30,506 - INFO - Update id=813234324 is handled. Duration 2195 ms by bot id=7997483559
+2025-04-19 20:35:56,563 - INFO - Polling stopped
+2025-04-19 20:35:56,824 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:35:56,825 - INFO - Бот остановлен!
+2025-04-19 20:36:39,397 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:36:39,398 - INFO - Инициализация базы данных начата...
+2025-04-19 20:36:39,399 - INFO - Создание таблицы users...
+2025-04-19 20:36:39,400 - INFO - Создание таблицы direction...
+2025-04-19 20:36:39,400 - INFO - Создание таблицы directionList...
+2025-04-19 20:36:39,400 - INFO - Создание таблицы banList...
+2025-04-19 20:36:39,401 - INFO - Создание таблицы report...
+2025-04-19 20:36:39,401 - INFO - База данных успешно инициализирована.
+2025-04-19 20:36:39,402 - INFO - База данных успешно инициализирована.
+2025-04-19 20:36:39,737 - INFO - Бот успешно запущен!
+2025-04-19 20:36:39,738 - INFO - Start polling
+2025-04-19 20:36:39,842 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:36:43,052 - INFO - Update id=813234325 is handled. Duration 410 ms by bot id=7997483559
+2025-04-19 20:36:46,370 - INFO - Update id=813234326 is handled. Duration 2352 ms by bot id=7997483559
+2025-04-19 20:36:54,107 - INFO - Update id=813234327 is handled. Duration 128 ms by bot id=7997483559
+2025-04-19 20:37:06,482 - INFO - Polling stopped
+2025-04-19 20:37:06,747 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:37:06,749 - INFO - Бот остановлен!
+2025-04-19 20:38:26,102 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:38:26,103 - INFO - Инициализация базы данных начата...
+2025-04-19 20:38:26,104 - INFO - Создание таблицы users...
+2025-04-19 20:38:26,104 - INFO - Создание таблицы direction...
+2025-04-19 20:38:26,105 - INFO - Создание таблицы directionList...
+2025-04-19 20:38:26,105 - INFO - Создание таблицы banList...
+2025-04-19 20:38:26,106 - INFO - Создание таблицы report...
+2025-04-19 20:38:26,106 - INFO - База данных успешно инициализирована.
+2025-04-19 20:38:26,106 - INFO - База данных успешно инициализирована.
+2025-04-19 20:38:26,416 - INFO - Бот успешно запущен!
+2025-04-19 20:38:26,416 - INFO - Start polling
+2025-04-19 20:38:26,517 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:38:29,906 - INFO - Update id=813234328 is handled. Duration 343 ms by bot id=7997483559
+2025-04-19 20:38:33,700 - INFO - Update id=813234329 is handled. Duration 2416 ms by bot id=7997483559
+2025-04-19 20:38:41,033 - INFO - Update id=813234330 is handled. Duration 324 ms by bot id=7997483559
+2025-04-19 20:38:58,811 - INFO - Polling stopped
+2025-04-19 20:38:59,069 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:38:59,071 - INFO - Бот остановлен!
+2025-04-19 20:39:10,807 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:39:10,807 - INFO - Инициализация базы данных начата...
+2025-04-19 20:39:10,808 - INFO - Создание таблицы users...
+2025-04-19 20:39:10,809 - INFO - Создание таблицы direction...
+2025-04-19 20:39:10,809 - INFO - Создание таблицы directionList...
+2025-04-19 20:39:10,810 - INFO - Создание таблицы banList...
+2025-04-19 20:39:10,810 - INFO - Создание таблицы report...
+2025-04-19 20:39:10,810 - INFO - База данных успешно инициализирована.
+2025-04-19 20:39:10,810 - INFO - База данных успешно инициализирована.
+2025-04-19 20:39:11,154 - INFO - Бот успешно запущен!
+2025-04-19 20:39:11,155 - INFO - Start polling
+2025-04-19 20:39:11,256 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:39:14,681 - INFO - Update id=813234331 is handled. Duration 408 ms by bot id=7997483559
+2025-04-19 20:39:17,847 - INFO - Update id=813234332 is handled. Duration 2423 ms by bot id=7997483559
+2025-04-19 20:39:26,306 - INFO - Polling stopped
+2025-04-19 20:39:26,558 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:39:26,559 - INFO - Бот остановлен!
+2025-04-19 20:58:45,305 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-19 20:58:45,306 - INFO - Инициализация базы данных начата...
+2025-04-19 20:58:45,307 - INFO - Создание таблицы users...
+2025-04-19 20:58:45,308 - INFO - Создание таблицы direction...
+2025-04-19 20:58:45,308 - INFO - Создание таблицы directionList...
+2025-04-19 20:58:45,309 - INFO - Создание таблицы banList...
+2025-04-19 20:58:45,309 - INFO - Создание таблицы report...
+2025-04-19 20:58:45,310 - INFO - База данных успешно инициализирована.
+2025-04-19 20:58:45,310 - INFO - База данных успешно инициализирована.
+2025-04-19 20:58:45,641 - INFO - Бот успешно запущен!
+2025-04-19 20:58:45,641 - INFO - Start polling
+2025-04-19 20:58:45,746 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 20:58:49,834 - INFO - Update id=813234333 is handled. Duration 348 ms by bot id=7997483559
+2025-04-19 20:58:53,457 - INFO - Update id=813234334 is handled. Duration 2304 ms by bot id=7997483559
+2025-04-19 20:58:55,082 - INFO - Update id=813234335 is handled. Duration 164 ms by bot id=7997483559
+2025-04-19 20:58:57,602 - INFO - Update id=813234336 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 20:59:01,488 - INFO - Update id=813234337 is handled. Duration 165 ms by bot id=7997483559
+2025-04-19 20:59:03,695 - INFO - Update id=813234338 is handled. Duration 158 ms by bot id=7997483559
+2025-04-19 20:59:05,901 - INFO - Update id=813234339 is handled. Duration 229 ms by bot id=7997483559
+2025-04-19 20:59:06,845 - INFO - Update id=813234340 is handled. Duration 215 ms by bot id=7997483559
+2025-04-19 20:59:08,458 - INFO - Update id=813234341 is handled. Duration 138 ms by bot id=7997483559
+2025-04-19 20:59:10,490 - INFO - Update id=813234342 is handled. Duration 138 ms by bot id=7997483559
+2025-04-19 20:59:13,386 - INFO - Update id=813234343 is handled. Duration 231 ms by bot id=7997483559
+2025-04-19 20:59:14,378 - INFO - Update id=813234344 is handled. Duration 183 ms by bot id=7997483559
+2025-04-19 20:59:22,151 - INFO - Update id=813234345 is handled. Duration 252 ms by bot id=7997483559
+2025-04-19 20:59:25,886 - INFO - Update id=813234346 is handled. Duration 134 ms by bot id=7997483559
+2025-04-19 20:59:29,452 - INFO - Update id=813234347 is handled. Duration 123 ms by bot id=7997483559
+2025-04-19 20:59:30,315 - INFO - Update id=813234348 is handled. Duration 194 ms by bot id=7997483559
+2025-04-19 20:59:34,033 - INFO - Update id=813234349 is handled. Duration 126 ms by bot id=7997483559
+2025-04-19 20:59:38,371 - INFO - Update id=813234350 is handled. Duration 120 ms by bot id=7997483559
+2025-04-19 21:00:06,743 - INFO - Polling stopped
+2025-04-19 21:00:06,998 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-19 21:00:06,999 - INFO - Бот остановлен!

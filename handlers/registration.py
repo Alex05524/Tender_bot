@@ -1,13 +1,12 @@
-from aiogram import Bot, Router, types, F
+from aiogram import Router, types, F
 from aiogram.filters import Command, StateFilter
 from aiogram.fsm.context import FSMContext
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from states.states import RegistrationState
 from db.users import (
-    add_user, get_user_role, get_manager_telegram_ids, get_admins_telegram_ids, get_user_data_by_id
+    add_user, get_user_role, get_user_data_by_id
 )
 from db.ban_list import get_ban_ids
-from aiogram.exceptions import TelegramBadRequest
 
 ID = None
 
@@ -60,7 +59,7 @@ async def start_command(message: types.Message, state: FSMContext):
             [InlineKeyboardButton(text='📑 Сформировать отчет', callback_data='get_report')]
         ])
         await message.answer("👋 Привет, админ!", reply_markup=keyboard)
-        print(f"Админ {user_data[1]} авторизовался.")  # Предполагается, что имя пользователя хранится во 2-м столбце
+        print(f"Админ {user_data[2]} авторизовался.")  # Предполагается, что имя пользователя хранится во 2-м столбце
 
     elif user_role[0] == 'manager':
         # Меню для менеджера
@@ -72,7 +71,7 @@ async def start_command(message: types.Message, state: FSMContext):
             [InlineKeyboardButton(text='📑 Сформировать отчет', callback_data='get_report')]
         ])
         await message.answer("👋 Привет, Менеджер!", reply_markup=keyboard)
-        print(f"Менеджер {user_data[1]} авторизовался.")  # Предполагается, что имя пользователя хранится во 2-м столбце
+        print(f"Менеджер {user_data[2]} авторизовался.")  # Предполагается, что имя пользователя хранится во 2-м столбце
 
     else:
         # Меню для обычного пользователя
@@ -81,7 +80,7 @@ async def start_command(message: types.Message, state: FSMContext):
             [InlineKeyboardButton(text='📃 Список направлений', callback_data='list_directionn')],
             [InlineKeyboardButton(text='📋 Список направлений, на которые я откликнулся', callback_data='list_my_direction')],
         ])
-        await message.answer(f"👋 Здравствуйте, {user_data[1]}!", reply_markup=keyboard)  # Имя пользователя во 2-м столбце
+        await message.answer(f"👋 Здравствуйте, {user_data[2]}!", reply_markup=keyboard)  # Имя пользователя во 2-м столбце
 
 
 @router.message(F.text.startswith('/') == False, StateFilter(RegistrationState.WaitingForName))

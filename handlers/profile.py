@@ -47,7 +47,7 @@ async def change_user_data(callback_query: types.CallbackQuery):
     keyboard.row(change_phone)
     keyboard.row(get_back_to_main)
 
-    await callback_query.message.edit_text('Что нужно изменить?', reply_markup=keyboard)
+    await callback_query.message.edit_text('📝 Что нужно изменить?', reply_markup=keyboard)
 
 
 @router.callback_query(F.data == "change_user_name")
@@ -72,7 +72,7 @@ async def create_new_username(message: types.Message, state: FSMContext):
     keyboard = InlineKeyboardMarkup(row_width=1)
     keyboard.row(yes, no)
 
-    await message.answer(f"Вы хотите изменить ваше ФИО на - {data['new_username']}?", reply_markup=keyboard)
+    await message.answer(f"🗂 Вы хотите изменить ваше ФИО на - {data['new_username']}?", reply_markup=keyboard)
 
 
 @router.callback_query(F.data == "change_new_username", StateFilter(ChangeUserNmae.enterNewUsername))
@@ -87,7 +87,7 @@ async def continue_create_new_usernmae(callback_query: types.CallbackQuery, stat
     update_user_name(new_user_name, ID)
     await state.clear()
 
-    await callback_query.message.edit_text(f"Ваше ФИО было изменено на {new_user_name}")
+    await callback_query.message.edit_text(f"✅ Ваше ФИО было изменено на {new_user_name}")
 
 
 @router.callback_query(F.data == "change_company")
@@ -112,7 +112,7 @@ async def change_company_name(message: types.Message, state: FSMContext):
     keyboard = InlineKeyboardMarkup(row_width=2)
     keyboard.row(yes, no)
 
-    await message.answer(f"Вы хотите изменить название компании на {data['new_company_name']}?", reply_markup=keyboard)
+    await message.answer(f"🏢 Вы хотите изменить название компании на {data['new_company_name']}?", reply_markup=keyboard)
 
 
 @router.callback_query(F.data == "change_new_company_name", StateFilter(ChangeUserCompany.enterNewUserCompany))
@@ -127,7 +127,7 @@ async def continue_change_new_company_name(callback_query: types.CallbackQuery, 
     update_company_name(new_company_name, ID)
     await state.clear()
 
-    await callback_query.message.edit_text(f"Название Вашей компании было изменено на {new_company_name}")
+    await callback_query.message.edit_text(f"✅ Название Вашей компании было изменено на {new_company_name}")
 
 
 @router.callback_query(F.data == "change_phone")
@@ -152,7 +152,7 @@ async def change_phone_number(message: types.Message, state: FSMContext):
     keyboard = InlineKeyboardMarkup(row_width=2)
     keyboard.row(yes, no)
 
-    await message.answer(f"Вы хотите изменить номер телефона на {data['new_phone']}?", reply_markup=keyboard)
+    await message.answer(f"📞 Вы хотите изменить номер телефона на {data['new_phone']}?", reply_markup=keyboard)
 
 
 @router.callback_query(F.data == "change_new_phone_number", StateFilter(ChnageUserPhone.enterNewUserPhone))
@@ -167,4 +167,4 @@ async def countine_change_new_phone_number(callback_query: types.CallbackQuery, 
     update_phone_number(new_number, ID)
     await state.clear()
 
-    await callback_query.message.edit_text(f"Ваш номер телефона был изменен на {new_number}")
+    await callback_query.message.edit_text(f"✅ Ваш номер телефона был изменен на {new_number}")

@@ -1,5 +1,6 @@
 import os
 from aiogram import Router, types, F
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from db.reports import report_direction
 from db.users import get_user_role
 
@@ -39,6 +40,11 @@ async def get_report(callback_query: types.CallbackQuery):
         # Удаление файла после отправки
         if os.path.exists(report_file_path):
             os.remove(report_file_path)
+
+        keyboard = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="🔙 В главное меню", callback_data="main")]
+        ])
+        await callback_query.message.answer("🔙 Вы можете вернуться в главное меню:", reply_markup=keyboard)
 
     except Exception as e:
         # Обработка ошибок
