@@ -115,6 +115,7 @@ async def main():
     try:
         await bot.delete_webhook(drop_pending_updates=True)
         logging.info("Webhook успешно удален.")
+        await asyncio.sleep(2)  # Задержка для обработки удаления webhook
     except Exception as e:
         logging.error(f"Ошибка при удалении webhook: {e}")
         return  # Прерываем запуск, если не удалось удалить webhook
