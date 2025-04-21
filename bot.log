@@ -9211,3 +9211,125 @@ TypeError: 'NoneType' object is not subscriptable
 2025-04-19 21:20:33,774 - INFO - Polling stopped
 2025-04-19 21:20:34,037 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
 2025-04-19 21:20:34,038 - INFO - Бот остановлен!
+2025-04-21 09:30:03,303 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-21 09:30:03,304 - INFO - Инициализация базы данных начата...
+2025-04-21 09:30:03,304 - INFO - Создание таблицы users...
+2025-04-21 09:30:03,305 - INFO - Создание таблицы direction...
+2025-04-21 09:30:03,305 - INFO - Создание таблицы directionList...
+2025-04-21 09:30:03,306 - INFO - Создание таблицы banList...
+2025-04-21 09:30:03,306 - INFO - Создание таблицы report...
+2025-04-21 09:30:03,306 - INFO - База данных успешно инициализирована.
+2025-04-21 09:30:03,306 - INFO - База данных успешно инициализирована.
+2025-04-21 09:30:03,662 - INFO - Бот успешно запущен!
+2025-04-21 09:30:03,662 - INFO - Start polling
+2025-04-21 09:30:03,782 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 09:30:03,904 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:03,905 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7997483559)
+2025-04-21 09:30:08,025 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:08,025 - WARNING - Sleep for 1.298456 seconds and try again... (tryings = 1, bot id = 7997483559)
+2025-04-21 09:30:09,464 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:09,464 - WARNING - Sleep for 1.678858 seconds and try again... (tryings = 2, bot id = 7997483559)
+2025-04-21 09:30:14,259 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:14,260 - WARNING - Sleep for 2.191152 seconds and try again... (tryings = 3, bot id = 7997483559)
+2025-04-21 09:30:16,569 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:16,570 - WARNING - Sleep for 2.840317 seconds and try again... (tryings = 4, bot id = 7997483559)
+2025-04-21 09:30:22,519 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:22,519 - WARNING - Sleep for 3.646240 seconds and try again... (tryings = 5, bot id = 7997483559)
+2025-04-21 09:30:26,286 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:26,286 - WARNING - Sleep for 4.522416 seconds and try again... (tryings = 6, bot id = 7997483559)
+2025-04-21 09:30:30,924 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:30,924 - WARNING - Sleep for 5.085212 seconds and try again... (tryings = 7, bot id = 7997483559)
+2025-04-21 09:30:36,139 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:36,140 - WARNING - Sleep for 4.927251 seconds and try again... (tryings = 8, bot id = 7997483559)
+2025-04-21 09:30:41,197 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 09:30:41,198 - WARNING - Sleep for 4.954066 seconds and try again... (tryings = 9, bot id = 7997483559)
+2025-04-21 09:30:41,460 - INFO - Polling stopped
+2025-04-21 09:30:41,726 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 09:30:41,727 - INFO - Бот остановлен!
+2025-04-21 10:50:07,938 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-21 10:50:07,939 - INFO - Инициализация базы данных начата...
+2025-04-21 10:50:07,941 - INFO - Создание таблицы users...
+2025-04-21 10:50:07,950 - INFO - Создание таблицы direction...
+2025-04-21 10:50:07,950 - INFO - Создание таблицы directionList...
+2025-04-21 10:50:07,951 - INFO - Создание таблицы banList...
+2025-04-21 10:50:07,951 - INFO - Создание таблицы report...
+2025-04-21 10:50:07,952 - INFO - База данных успешно инициализирована.
+2025-04-21 10:50:07,952 - INFO - База данных успешно инициализирована.
+2025-04-21 10:50:08,318 - INFO - Бот успешно запущен!
+2025-04-21 10:50:08,319 - INFO - Start polling
+2025-04-21 10:50:08,435 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 10:50:08,557 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:08,558 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7997483559)
+2025-04-21 10:50:12,682 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:12,683 - WARNING - Sleep for 1.390166 seconds and try again... (tryings = 1, bot id = 7997483559)
+2025-04-21 10:50:14,197 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:14,198 - WARNING - Sleep for 1.674811 seconds and try again... (tryings = 2, bot id = 7997483559)
+2025-04-21 10:50:18,983 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:18,984 - WARNING - Sleep for 2.220343 seconds and try again... (tryings = 3, bot id = 7997483559)
+2025-04-21 10:50:21,314 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:21,315 - WARNING - Sleep for 2.956878 seconds and try again... (tryings = 4, bot id = 7997483559)
+2025-04-21 10:50:24,392 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:24,392 - WARNING - Sleep for 3.846266 seconds and try again... (tryings = 5, bot id = 7997483559)
+2025-04-21 10:50:28,359 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:28,360 - WARNING - Sleep for 4.787363 seconds and try again... (tryings = 6, bot id = 7997483559)
+2025-04-21 10:50:33,257 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:33,258 - WARNING - Sleep for 5.158423 seconds and try again... (tryings = 7, bot id = 7997483559)
+2025-04-21 10:50:38,528 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:38,529 - WARNING - Sleep for 5.183707 seconds and try again... (tryings = 8, bot id = 7997483559)
+2025-04-21 10:50:43,815 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 10:50:43,816 - WARNING - Sleep for 5.132910 seconds and try again... (tryings = 9, bot id = 7997483559)
+2025-04-21 10:50:46,788 - INFO - Polling stopped
+2025-04-21 10:50:47,045 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 10:50:47,047 - INFO - Бот остановлен!
+2025-04-21 11:14:06,431 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-21 11:14:06,431 - INFO - Инициализация базы данных начата...
+2025-04-21 11:14:06,432 - INFO - Создание таблицы users...
+2025-04-21 11:14:06,433 - INFO - Создание таблицы direction...
+2025-04-21 11:14:06,433 - INFO - Создание таблицы directionList...
+2025-04-21 11:14:06,434 - INFO - Создание таблицы banList...
+2025-04-21 11:14:06,434 - INFO - Создание таблицы report...
+2025-04-21 11:14:06,434 - INFO - База данных успешно инициализирована.
+2025-04-21 11:14:06,435 - INFO - База данных успешно инициализирована.
+2025-04-21 11:14:06,837 - INFO - Бот успешно запущен!
+2025-04-21 11:14:06,837 - INFO - Start polling
+2025-04-21 11:14:06,943 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 11:14:07,058 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:07,058 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7997483559)
+2025-04-21 11:14:11,166 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:11,166 - WARNING - Sleep for 1.247798 seconds and try again... (tryings = 1, bot id = 7997483559)
+2025-04-21 11:14:12,520 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:12,521 - WARNING - Sleep for 1.475336 seconds and try again... (tryings = 2, bot id = 7997483559)
+2025-04-21 11:14:17,114 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:17,115 - WARNING - Sleep for 2.113966 seconds and try again... (tryings = 3, bot id = 7997483559)
+2025-04-21 11:14:19,335 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:19,335 - WARNING - Sleep for 2.886770 seconds and try again... (tryings = 4, bot id = 7997483559)
+2025-04-21 11:14:22,341 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:22,341 - WARNING - Sleep for 3.629053 seconds and try again... (tryings = 5, bot id = 7997483559)
+2025-04-21 11:14:26,087 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:26,087 - WARNING - Sleep for 4.477403 seconds and try again... (tryings = 6, bot id = 7997483559)
+2025-04-21 11:14:30,673 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:30,673 - WARNING - Sleep for 4.939543 seconds and try again... (tryings = 7, bot id = 7997483559)
+2025-04-21 11:14:35,730 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:35,731 - WARNING - Sleep for 4.966437 seconds and try again... (tryings = 8, bot id = 7997483559)
+2025-04-21 11:14:40,807 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+2025-04-21 11:14:40,807 - WARNING - Sleep for 4.938373 seconds and try again... (tryings = 9, bot id = 7997483559)
+2025-04-21 11:14:43,146 - INFO - Polling stopped
+2025-04-21 11:14:43,395 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 11:14:43,396 - INFO - Бот остановлен!
+2025-04-21 11:15:01,380 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-21 11:15:01,711 - INFO - Webhook успешно удален.
+2025-04-21 11:15:01,711 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-21 11:15:01,711 - INFO - Инициализация базы данных начата...
+2025-04-21 11:15:01,712 - INFO - Создание таблицы users...
+2025-04-21 11:15:01,713 - INFO - Создание таблицы direction...
+2025-04-21 11:15:01,713 - INFO - Создание таблицы directionList...
+2025-04-21 11:15:01,713 - INFO - Создание таблицы banList...
+2025-04-21 11:15:01,714 - INFO - Создание таблицы report...
+2025-04-21 11:15:01,714 - INFO - База данных успешно инициализирована.
+2025-04-21 11:15:01,714 - INFO - База данных успешно инициализирована.
+2025-04-21 11:15:01,825 - INFO - Бот успешно запущен!
+2025-04-21 11:15:01,825 - INFO - Start polling
+2025-04-21 11:15:01,933 - INFO - Run polling for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 11:15:36,403 - INFO - Polling stopped
+2025-04-21 11:15:36,660 - INFO - Polling stopped for bot @LogisticsTender_Bot id=7997483559 - 'test_logic'
+2025-04-21 11:15:36,661 - INFO - Бот остановлен!

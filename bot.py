@@ -55,12 +55,24 @@ async def on_startup():
     Действия при запуске бота.
     """
     logging.info("Бот запускается...")
-    await set_bot_commands(bot)  # Передаем объект bot
+
+    # Удаляем активный webhook перед запуском long polling
+    try:
+        await bot.delete_webhook(drop_pending_updates=True)
+        logging.info("Webhook успешно удален.")
+    except Exception as e:
+        logging.error(f"Ошибка при удалении webhook: {e}")
+
+    # Устанавливаем команды бота
+    await set_bot_commands(bot)
+
+    # Получаем список пользователей и заблокированных пользователей
     all_ids = get_all_telegram_ids()
     ban_list = get_ban_ids()
     logging.info(f"Список заблокированных пользователей: {ban_list}")
     logging.info(f"Список всех пользователей: {all_ids}")
 
+    # Уведомляем пользователей о перезапуске бота
     for user_id in all_ids:
         try:
             await bot.send_message(
@@ -98,6 +110,15 @@ async def main():
     """
     Основная функция запуска бота.
     """
+    # Удаляем активный webhook перед запуском long polling
+    logging.info("Удаление активного webhook перед запуском бота...")
+    try:
+        await bot.delete_webhook(drop_pending_updates=True)
+        logging.info("Webhook успешно удален.")
+    except Exception as e:
+        logging.error(f"Ошибка при удалении webhook: {e}")
+        return  # Прерываем запуск, если не удалось удалить webhook
+
     # Инициализация базы данных перед запуском бота
     logging.info("Инициализация базы данных перед запуском бота...")
     try:
@@ -112,7 +133,6 @@ async def main():
 
     # Регистрация обработчиков
     register_handlers(dp)
-
 
     logging.info("Бот успешно запущен!")
     try:
