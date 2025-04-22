@@ -12221,3 +12221,429 @@ ValueError: too many values to unpack (expected 2)
 2025-04-22 14:25:26,158 - INFO - Polling stopped
 2025-04-22 14:25:26,413 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
 2025-04-22 14:25:26,415 - INFO - Бот остановлен!
+2025-04-22 14:25:47,653 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 14:25:47,953 - INFO - Webhook успешно удален.
+2025-04-22 14:25:49,954 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 14:25:49,954 - INFO - Инициализация базы данных начата...
+2025-04-22 14:25:49,955 - INFO - Создание таблицы users...
+2025-04-22 14:25:49,956 - INFO - Создание таблицы direction...
+2025-04-22 14:25:49,956 - INFO - Создание таблицы directionList...
+2025-04-22 14:25:49,956 - INFO - Создание таблицы banList...
+2025-04-22 14:25:49,957 - INFO - Создание таблицы report...
+2025-04-22 14:25:49,957 - INFO - База данных успешно инициализирована.
+2025-04-22 14:25:49,957 - INFO - База данных успешно инициализирована.
+2025-04-22 14:25:50,089 - INFO - Бот успешно запущен!
+2025-04-22 14:25:50,089 - INFO - Start polling
+2025-04-22 14:25:50,187 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:25:58,189 - INFO - Update id=979760790 is handled. Duration 343 ms by bot id=6711885344
+2025-04-22 14:26:04,987 - INFO - Update id=979760791 is handled. Duration 109 ms by bot id=6711885344
+2025-04-22 14:26:06,596 - INFO - Update id=979760792 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:26:09,723 - INFO - Update id=979760793 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 14:27:35,079 - INFO - Update id=979760794 is handled. Duration 328 ms by bot id=6711885344
+2025-04-22 14:27:37,718 - INFO - Update id=979760795 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 14:27:38,969 - INFO - Update id=979760796 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:27:40,796 - INFO - Update id=979760797 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 14:28:16,396 - INFO - Update id=979760798 is handled. Duration 858 ms by bot id=6711885344
+2025-04-22 14:28:17,469 - INFO - Update id=979760799 is handled. Duration 265 ms by bot id=6711885344
+2025-04-22 14:28:17,882 - INFO - Update id=979760800 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 14:28:18,512 - INFO - Update id=979760801 is handled. Duration 171 ms by bot id=6711885344
+2025-04-22 14:28:23,274 - INFO - Update id=979760802 is handled. Duration 264 ms by bot id=6711885344
+2025-04-22 14:28:27,672 - INFO - Update id=979760803 is handled. Duration 235 ms by bot id=6711885344
+2025-04-22 14:28:34,787 - INFO - Update id=979760804 is handled. Duration 312 ms by bot id=6711885344
+2025-04-22 14:28:39,352 - INFO - Update id=979760805 is handled. Duration 3719 ms by bot id=6711885344
+2025-04-22 14:28:43,965 - INFO - Update id=979760806 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 14:28:54,389 - INFO - Update id=979760807 is handled. Duration 233 ms by bot id=6711885344
+2025-04-22 14:29:50,035 - INFO - Update id=979760808 is handled. Duration 328 ms by bot id=6711885344
+2025-04-22 14:29:50,975 - INFO - Update id=979760809 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:29:52,193 - INFO - Update id=979760810 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:29:53,538 - INFO - Update id=979760811 is handled. Duration 109 ms by bot id=6711885344
+2025-04-22 14:29:55,648 - INFO - Update id=979760813 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 14:29:56,657 - INFO - Update id=979760814 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:29:57,051 - INFO - Update id=979760812 is handled. Duration 2719 ms by bot id=6711885344
+2025-04-22 14:30:03,299 - INFO - Update id=979760815 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 14:30:08,500 - INFO - Update id=979760816 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:30:11,359 - INFO - Update id=979760817 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 14:30:15,005 - INFO - Update id=979760818 is handled. Duration 2530 ms by bot id=6711885344
+2025-04-22 14:30:16,381 - INFO - Update id=979760819 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 14:30:58,764 - INFO - Update id=979760820 is handled. Duration 358 ms by bot id=6711885344
+2025-04-22 14:31:40,154 - INFO - Update id=979760821 is handled. Duration 500 ms by bot id=6711885344
+2025-04-22 14:32:41,537 - INFO - Update id=979760822 is handled. Duration 312 ms by bot id=6711885344
+2025-04-22 14:32:45,657 - INFO - Update id=979760823 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:32:50,043 - INFO - Update id=979760824 is handled. Duration 109 ms by bot id=6711885344
+2025-04-22 14:32:55,083 - INFO - Update id=979760825 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 14:33:17,849 - INFO - Update id=979760826 is handled. Duration 344 ms by bot id=6711885344
+2025-04-22 14:33:18,953 - INFO - Update id=979760827 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:33:20,851 - INFO - Update id=979760828 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 14:33:22,580 - INFO - Update id=979760829 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 14:33:27,113 - INFO - Update id=979760830 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:33:28,481 - INFO - Update id=979760831 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 14:33:32,573 - INFO - Update id=979760832 is handled. Duration 218 ms by bot id=6711885344
+2025-04-22 14:33:34,531 - INFO - Update id=979760833 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 14:35:01,981 - INFO - Update id=979760834 is handled. Duration 312 ms by bot id=6711885344
+2025-04-22 14:35:04,933 - INFO - Update id=979760835 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 14:35:06,379 - INFO - Update id=979760836 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 14:35:22,941 - INFO - Update id=979760837 is handled. Duration 297 ms by bot id=6711885344
+2025-04-22 14:35:26,727 - INFO - Update id=979760838 is handled. Duration 265 ms by bot id=6711885344
+2025-04-22 14:36:38,209 - INFO - Update id=979760839 is handled. Duration 344 ms by bot id=6711885344
+2025-04-22 14:40:11,533 - INFO - Polling stopped
+2025-04-22 14:40:11,792 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:40:11,793 - INFO - Бот остановлен!
+2025-04-22 14:40:11,916 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000268C0166540>
+2025-04-22 14:40:26,482 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 14:40:26,807 - INFO - Webhook успешно удален.
+2025-04-22 14:40:28,816 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 14:40:28,816 - INFO - Инициализация базы данных начата...
+2025-04-22 14:40:28,817 - INFO - Создание таблицы users...
+2025-04-22 14:40:28,817 - INFO - Создание таблицы direction...
+2025-04-22 14:40:28,818 - INFO - Создание таблицы directionList...
+2025-04-22 14:40:28,818 - INFO - Создание таблицы banList...
+2025-04-22 14:40:28,818 - INFO - Создание таблицы report...
+2025-04-22 14:40:28,819 - INFO - База данных успешно инициализирована.
+2025-04-22 14:40:28,819 - INFO - База данных успешно инициализирована.
+2025-04-22 14:40:28,962 - INFO - Бот успешно запущен!
+2025-04-22 14:40:28,962 - INFO - Start polling
+2025-04-22 14:40:29,070 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 16:19:42,209 - INFO - Update id=979760840 is handled. Duration 688 ms by bot id=6711885344
+2025-04-22 17:40:41,763 - INFO - Update id=979760841 is handled. Duration 360 ms by bot id=6711885344
+2025-04-22 17:40:43,162 - INFO - Update id=979760842 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 17:40:44,472 - INFO - Update id=979760843 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 17:40:46,225 - INFO - Update id=979760844 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 17:40:50,030 - INFO - Update id=979760845 is handled. Duration 2750 ms by bot id=6711885344
+2025-04-22 17:41:59,752 - INFO - Update id=979760846 is handled. Duration 360 ms by bot id=6711885344
+2025-04-22 17:42:00,791 - INFO - Update id=979760847 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:51:07,926 - INFO - Update id=979760848 is handled. Duration 407 ms by bot id=6711885344
+2025-04-22 17:51:09,505 - INFO - Update id=979760849 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:51:10,684 - INFO - Update id=979760850 is handled. Duration 203 ms by bot id=6711885344
+2025-04-22 17:51:43,975 - INFO - Update id=979760854 is handled. Duration 360 ms by bot id=6711885344
+2025-04-22 17:51:43,980 - INFO - Update id=979760851 is handled. Duration 360 ms by bot id=6711885344
+2025-04-22 17:51:44,006 - INFO - Update id=979760852 is handled. Duration 390 ms by bot id=6711885344
+2025-04-22 17:51:45,046 - INFO - Update id=979760853 is handled. Duration 1438 ms by bot id=6711885344
+2025-04-22 17:51:48,968 - INFO - Update id=979760855 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:51:52,551 - INFO - Update id=979760856 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 17:51:58,740 - INFO - Update id=979760857 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:52:07,846 - INFO - Update id=979760858 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:52:10,720 - INFO - Update id=979760859 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:52:16,377 - INFO - Update id=979760860 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 17:52:18,964 - INFO - Update id=979760861 is not handled. Duration 94 ms by bot id=6711885344
+2025-04-22 17:52:18,964 - ERROR - Cause exception while process update id=979760861 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 98, in show_users_for_removal
+    await callback_query.message.edit_text("📝 Выберите пользователя для удаления:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 17:52:27,556 - INFO - Update id=979760862 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 17:52:35,442 - INFO - Update id=979760863 is not handled. Duration 109 ms by bot id=6711885344
+2025-04-22 17:52:35,442 - ERROR - Cause exception while process update id=979760863 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 98, in show_users_for_removal
+    await callback_query.message.edit_text("📝 Выберите пользователя для удаления:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 17:52:44,281 - INFO - Update id=979760864 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:52:48,062 - INFO - Update id=979760865 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:52:49,720 - INFO - Update id=979760866 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:52:57,970 - INFO - Update id=979760867 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:52:58,186 - INFO - Update id=979760868 is not handled. Duration 109 ms by bot id=6711885344
+2025-04-22 17:52:58,186 - ERROR - Cause exception while process update id=979760868 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 98, in show_users_for_removal
+    await callback_query.message.edit_text("📝 Выберите пользователя для удаления:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 17:53:03,000 - INFO - Update id=979760869 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 17:53:04,421 - INFO - Update id=979760870 is not handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:53:04,421 - ERROR - Cause exception while process update id=979760870 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 98, in show_users_for_removal
+    await callback_query.message.edit_text("📝 Выберите пользователя для удаления:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 17:53:56,533 - INFO - Polling stopped
+2025-04-22 17:53:56,788 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 17:53:56,790 - INFO - Бот остановлен!
+2025-04-22 17:53:56,945 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E3D66C5A90>
+2025-04-22 17:54:03,754 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 17:54:04,076 - INFO - Webhook успешно удален.
+2025-04-22 17:54:06,087 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 17:54:06,087 - INFO - Инициализация базы данных начата...
+2025-04-22 17:54:06,088 - INFO - Создание таблицы users...
+2025-04-22 17:54:06,088 - INFO - Создание таблицы direction...
+2025-04-22 17:54:06,089 - INFO - Создание таблицы directionList...
+2025-04-22 17:54:06,089 - INFO - Создание таблицы banList...
+2025-04-22 17:54:06,090 - INFO - Создание таблицы report...
+2025-04-22 17:54:06,090 - INFO - База данных успешно инициализирована.
+2025-04-22 17:54:06,090 - INFO - База данных успешно инициализирована.
+2025-04-22 17:54:06,202 - INFO - Бот успешно запущен!
+2025-04-22 17:54:06,203 - INFO - Start polling
+2025-04-22 17:54:06,306 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 17:54:12,610 - INFO - Update id=979760871 is handled. Duration 389 ms by bot id=6711885344
+2025-04-22 17:54:13,761 - INFO - Update id=979760872 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:54:14,888 - INFO - Update id=979760873 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 17:54:17,282 - INFO - Update id=979760874 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:54:19,835 - INFO - Update id=979760875 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:54:21,036 - INFO - Update id=979760876 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 17:54:23,316 - INFO - Update id=979760877 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:54:24,406 - INFO - Update id=979760878 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:54:25,318 - INFO - Update id=979760879 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:54:26,383 - INFO - Update id=979760880 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:54:27,205 - INFO - Update id=979760881 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 17:54:27,862 - INFO - Update id=979760882 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 17:54:28,933 - INFO - Update id=979760883 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 17:54:31,572 - INFO - Update id=979760884 is handled. Duration 109 ms by bot id=6711885344
+2025-04-22 17:54:33,008 - INFO - Update id=979760885 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:54:38,806 - INFO - Update id=979760886 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 17:54:43,458 - INFO - Update id=979760887 is handled. Duration 203 ms by bot id=6711885344
+2025-04-22 17:54:45,113 - INFO - Update id=979760888 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 17:58:35,125 - INFO - Polling stopped
+2025-04-22 17:58:35,388 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 17:58:35,389 - INFO - Бот остановлен!

@@ -77,15 +77,15 @@ async def show_users_for_removal(callback_query: types.CallbackQuery):
 
     if user_role and user_role[0] == 'admin':
         # Получаем список пользователей
-        users = await get_all_username_without_you_id(ID)
+        users = await get_all_username_without_you_id(ID)  # Возвращает список кортежей (telegram_id, username)
         if not users:
             await callback_query.message.edit_text("❌ Список пользователей пуст.")
             return
 
         # Создаём список кнопок
         buttons = [
-            [InlineKeyboardButton(text=f"{name}", callback_data=f"confirm_remove_user:{name}")]
-            for name in users
+            [InlineKeyboardButton(text=username, callback_data=f"confirm_remove_user:{telegram_id}")]
+            for telegram_id, username in users
         ]
 
         # Добавляем кнопку для возврата
