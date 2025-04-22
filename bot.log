@@ -9873,3 +9873,2351 @@ TypeError: 'NoneType' object is not subscriptable
 2025-04-21 12:23:22,686 - INFO - Бот остановлен!
 2025-04-21 12:23:22,821 - ERROR - Unclosed client session
 client_session: <aiohttp.client.ClientSession object at 0x00000239A8242600>
+2025-04-21 12:34:33,884 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-21 12:34:34,228 - INFO - Webhook успешно удален.
+2025-04-21 12:34:36,232 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-21 12:34:36,232 - INFO - Инициализация базы данных начата...
+2025-04-21 12:34:36,233 - INFO - Создание таблицы users...
+2025-04-21 12:34:36,234 - INFO - Создание таблицы direction...
+2025-04-21 12:34:36,234 - INFO - Создание таблицы directionList...
+2025-04-21 12:34:36,234 - INFO - Создание таблицы banList...
+2025-04-21 12:34:36,235 - INFO - Создание таблицы report...
+2025-04-21 12:34:36,235 - INFO - База данных успешно инициализирована.
+2025-04-21 12:34:36,235 - INFO - База данных успешно инициализирована.
+2025-04-21 12:34:36,424 - INFO - Бот успешно запущен!
+2025-04-21 12:34:36,425 - INFO - Start polling
+2025-04-21 12:34:36,535 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-21 12:34:45,034 - INFO - Update id=979760287 is handled. Duration 375 ms by bot id=6711885344
+2025-04-21 12:34:58,410 - INFO - Update id=979760288 is handled. Duration 155 ms by bot id=6711885344
+2025-04-21 12:35:37,744 - INFO - Update id=979760289 is handled. Duration 359 ms by bot id=6711885344
+2025-04-21 12:35:45,899 - INFO - Update id=979760290 is handled. Duration 280 ms by bot id=6711885344
+2025-04-21 12:35:47,668 - INFO - Update id=979760291 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:35:52,151 - INFO - Update id=979760292 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:35:53,347 - INFO - Update id=979760293 is handled. Duration 157 ms by bot id=6711885344
+2025-04-21 12:35:54,401 - INFO - Update id=979760294 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:35:56,015 - INFO - Update id=979760295 is handled. Duration 217 ms by bot id=6711885344
+2025-04-21 12:35:57,918 - INFO - Update id=979760296 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:35:59,403 - INFO - Update id=979760297 is handled. Duration 234 ms by bot id=6711885344
+2025-04-21 12:36:02,970 - INFO - Update id=979760298 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:36:04,251 - INFO - Update id=979760299 is handled. Duration 171 ms by bot id=6711885344
+2025-04-21 12:36:06,217 - INFO - Update id=979760300 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:36:07,768 - INFO - Update id=979760301 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:36:15,092 - INFO - Update id=979760302 is handled. Duration 171 ms by bot id=6711885344
+2025-04-21 12:37:44,425 - INFO - Update id=979760303 is handled. Duration 407 ms by bot id=6711885344
+2025-04-21 12:38:30,497 - INFO - Update id=979760304 is handled. Duration 375 ms by bot id=6711885344
+2025-04-21 12:38:49,611 - INFO - Update id=979760305 is handled. Duration 390 ms by bot id=6711885344
+2025-04-21 12:38:57,821 - INFO - Update id=979760306 is handled. Duration 155 ms by bot id=6711885344
+2025-04-21 12:38:59,585 - INFO - Update id=979760307 is handled. Duration 250 ms by bot id=6711885344
+2025-04-21 12:39:00,889 - INFO - Update id=979760308 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:39:02,049 - INFO - Update id=979760309 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:39:03,116 - INFO - Update id=979760310 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:39:05,973 - INFO - Update id=979760311 is handled. Duration 265 ms by bot id=6711885344
+2025-04-21 12:39:07,712 - INFO - Update id=979760312 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:39:12,875 - INFO - Update id=979760313 is handled. Duration 171 ms by bot id=6711885344
+2025-04-21 12:39:14,199 - INFO - Update id=979760314 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:39:19,108 - INFO - Update id=979760315 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:39:26,146 - INFO - Update id=979760316 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 12:39:27,664 - INFO - Update id=979760317 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 12:39:29,891 - INFO - Update id=979760318 is handled. Duration 203 ms by bot id=6711885344
+2025-04-21 13:04:41,390 - INFO - Update id=979760319 is handled. Duration 389 ms by bot id=6711885344
+2025-04-21 13:04:46,112 - INFO - Update id=979760320 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 13:04:47,750 - INFO - Update id=979760321 is handled. Duration 172 ms by bot id=6711885344
+2025-04-21 13:04:49,168 - INFO - Update id=979760322 is handled. Duration 155 ms by bot id=6711885344
+2025-04-21 13:04:50,242 - INFO - Update id=979760323 is handled. Duration 218 ms by bot id=6711885344
+2025-04-21 13:04:51,365 - INFO - Update id=979760324 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 13:04:53,314 - INFO - Update id=979760325 is handled. Duration 186 ms by bot id=6711885344
+2025-04-21 14:00:56,789 - INFO - Update id=979760326 is handled. Duration 530 ms by bot id=6711885344
+2025-04-21 14:01:02,910 - INFO - Update id=979760327 is handled. Duration 172 ms by bot id=6711885344
+2025-04-21 14:01:05,016 - INFO - Update id=979760328 is handled. Duration 250 ms by bot id=6711885344
+2025-04-21 14:01:07,164 - INFO - Update id=979760329 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 14:01:08,613 - INFO - Update id=979760330 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 14:01:09,574 - INFO - Update id=979760331 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 14:01:16,274 - INFO - Update id=979760332 is handled. Duration 156 ms by bot id=6711885344
+2025-04-21 14:01:22,196 - INFO - Update id=979760333 is handled. Duration 218 ms by bot id=6711885344
+2025-04-21 14:01:24,821 - INFO - Update id=979760334 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 14:29:45,017 - INFO - Update id=979760335 is handled. Duration 421 ms by bot id=6711885344
+2025-04-21 14:29:47,013 - INFO - Update id=979760336 is handled. Duration 203 ms by bot id=6711885344
+2025-04-21 14:29:49,423 - INFO - Update id=979760337 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 14:29:50,986 - INFO - Update id=979760338 is handled. Duration 296 ms by bot id=6711885344
+2025-04-21 14:29:52,595 - INFO - Update id=979760339 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 14:29:54,196 - INFO - Update id=979760340 is handled. Duration 125 ms by bot id=6711885344
+2025-04-21 16:52:40,111 - INFO - Update id=979760341 is handled. Duration 344 ms by bot id=6711885344
+2025-04-21 16:52:41,921 - INFO - Update id=979760342 is handled. Duration 140 ms by bot id=6711885344
+2025-04-21 16:52:43,061 - INFO - Update id=979760343 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 09:05:12,030 - INFO - Update id=979760344 is handled. Duration 484 ms by bot id=6711885344
+2025-04-22 09:05:17,987 - INFO - Update id=979760345 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 09:05:32,843 - INFO - Update id=979760346 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 09:05:38,061 - INFO - Update id=979760347 is handled. Duration 171 ms by bot id=6711885344
+2025-04-22 09:05:41,401 - INFO - Update id=979760348 is not handled. Duration 1468 ms by bot id=6711885344
+2025-04-22 09:05:41,401 - ERROR - Cause exception while process update id=979760348 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 09:05:46,877 - INFO - Update id=979760349 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 09:05:48,499 - INFO - Update id=979760350 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 09:05:50,092 - INFO - Update id=979760351 is handled. Duration 312 ms by bot id=6711885344
+2025-04-22 09:05:51,337 - INFO - Update id=979760352 is handled. Duration 218 ms by bot id=6711885344
+2025-04-22 09:05:56,914 - INFO - Update id=979760353 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 09:05:59,841 - INFO - Update id=979760354 is handled. Duration 296 ms by bot id=6711885344
+2025-04-22 09:06:01,642 - INFO - Update id=979760355 is handled. Duration 264 ms by bot id=6711885344
+2025-04-22 09:06:04,009 - INFO - Update id=979760356 is handled. Duration 218 ms by bot id=6711885344
+2025-04-22 09:06:06,218 - INFO - Update id=979760357 is handled. Duration 235 ms by bot id=6711885344
+2025-04-22 09:06:09,801 - INFO - Update id=979760358 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:06:11,397 - INFO - Update id=979760359 is handled. Duration 514 ms by bot id=6711885344
+2025-04-22 09:06:34,534 - INFO - Update id=979760360 is handled. Duration 328 ms by bot id=6711885344
+2025-04-22 09:08:01,583 - INFO - Update id=979760361 is handled. Duration 358 ms by bot id=6711885344
+2025-04-22 09:08:03,699 - INFO - Update id=979760362 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 09:08:06,233 - INFO - Update id=979760363 is not handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:08:06,233 - ERROR - Cause exception while process update id=979760363 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 376, in show_users_for_manager_addition
+    await callback_query.message.edit_text("🚹 Выберите пользователя для назначения менеджером:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 09:08:16,105 - INFO - Update id=979760364 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:08:18,288 - INFO - Update id=979760365 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 09:08:19,337 - INFO - Update id=979760366 is not handled. Duration 141 ms by bot id=6711885344
+2025-04-22 09:08:19,337 - ERROR - Cause exception while process update id=979760366 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 376, in show_users_for_manager_addition
+    await callback_query.message.edit_text("🚹 Выберите пользователя для назначения менеджером:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 09:08:22,039 - INFO - Update id=979760367 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 09:08:25,157 - INFO - Update id=979760368 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 09:08:26,507 - INFO - Update id=979760369 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:08:34,186 - INFO - Update id=979760370 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:08:50,685 - INFO - Update id=979760371 is handled. Duration 358 ms by bot id=6711885344
+2025-04-22 09:08:55,849 - INFO - Update id=979760372 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:03,098 - INFO - Update id=979760373 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:03,391 - INFO - Update id=979760374 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:04,743 - INFO - Update id=979760375 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 09:09:06,278 - INFO - Update id=979760376 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 09:09:08,591 - INFO - Update id=979760377 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:21,962 - INFO - Update id=979760378 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:23,810 - INFO - Update id=979760379 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 09:09:26,514 - INFO - Update id=979760380 is handled. Duration 187 ms by bot id=6711885344
+2025-04-22 09:09:26,849 - INFO - Update id=979760381 is handled. Duration 360 ms by bot id=6711885344
+2025-04-22 09:09:27,639 - INFO - Update id=979760382 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 09:09:34,254 - INFO - Update id=979760383 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:42,200 - INFO - Update id=979760384 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 09:09:46,046 - INFO - Update id=979760385 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:09:49,618 - INFO - Update id=979760386 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 09:09:52,311 - INFO - Update id=979760387 is handled. Duration 1436 ms by bot id=6711885344
+2025-04-22 09:09:58,997 - INFO - Update id=979760388 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 09:10:00,016 - INFO - Update id=979760389 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:01,017 - INFO - Update id=979760390 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 09:10:04,579 - INFO - Update id=979760391 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:07,184 - INFO - Update id=979760393 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:07,552 - INFO - Update id=979760392 is handled. Duration 1906 ms by bot id=6711885344
+2025-04-22 09:10:08,570 - INFO - Update id=979760394 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 09:10:10,517 - INFO - Update id=979760395 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:12,400 - INFO - Update id=979760396 is handled. Duration 171 ms by bot id=6711885344
+2025-04-22 09:10:13,599 - INFO - Update id=979760397 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 09:10:14,927 - INFO - Update id=979760398 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 09:10:16,025 - INFO - Update id=979760399 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:17,480 - INFO - Update id=979760400 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 09:10:19,874 - INFO - Update id=979760401 is handled. Duration 1406 ms by bot id=6711885344
+2025-04-22 09:10:20,547 - INFO - Update id=979760402 is handled. Duration 281 ms by bot id=6711885344
+2025-04-22 09:10:21,842 - INFO - Update id=979760403 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:24,392 - INFO - Update id=979760404 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:10:31,418 - INFO - Update id=979760405 is handled. Duration 109 ms by bot id=6711885344
+2025-04-22 09:11:03,828 - INFO - Update id=979760406 is handled. Duration 327 ms by bot id=6711885344
+2025-04-22 09:11:06,944 - INFO - Update id=979760407 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 09:11:08,236 - INFO - Update id=979760408 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 09:14:08,667 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-04-22 09:14:08,675 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6711885344)
+2025-04-22 09:14:09,678 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:14:09,678 - WARNING - Sleep for 1.315688 seconds and try again... (tryings = 1, bot id = 6711885344)
+2025-04-22 09:14:11,000 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:14:11,001 - WARNING - Sleep for 1.478868 seconds and try again... (tryings = 2, bot id = 6711885344)
+2025-04-22 09:14:12,491 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:14:12,492 - WARNING - Sleep for 1.908105 seconds and try again... (tryings = 3, bot id = 6711885344)
+2025-04-22 09:14:24,739 - INFO - Connection established (tryings = 4, bot id = 6711885344)
+2025-04-22 09:22:39,567 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-04-22 09:22:39,574 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6711885344)
+2025-04-22 09:22:40,593 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:40,594 - WARNING - Sleep for 1.199301 seconds and try again... (tryings = 1, bot id = 6711885344)
+2025-04-22 09:22:41,807 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:41,808 - WARNING - Sleep for 1.437456 seconds and try again... (tryings = 2, bot id = 6711885344)
+2025-04-22 09:22:43,259 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:43,260 - WARNING - Sleep for 1.734830 seconds and try again... (tryings = 3, bot id = 6711885344)
+2025-04-22 09:22:44,996 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:44,997 - WARNING - Sleep for 2.230587 seconds and try again... (tryings = 4, bot id = 6711885344)
+2025-04-22 09:22:47,229 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:47,230 - WARNING - Sleep for 2.912252 seconds and try again... (tryings = 5, bot id = 6711885344)
+2025-04-22 09:22:50,158 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:50,158 - WARNING - Sleep for 3.743495 seconds and try again... (tryings = 6, bot id = 6711885344)
+2025-04-22 09:22:53,912 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-04-22 09:22:53,912 - WARNING - Sleep for 4.996964 seconds and try again... (tryings = 7, bot id = 6711885344)
+2025-04-22 09:23:09,218 - INFO - Connection established (tryings = 8, bot id = 6711885344)
+2025-04-22 09:30:09,970 - INFO - Polling stopped
+2025-04-22 09:30:10,232 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 09:30:10,233 - INFO - Бот остановлен!
+2025-04-22 09:30:10,367 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001D89F69DC10>
+2025-04-22 09:32:20,286 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 09:32:32,346 - ERROR - Ошибка при удалении webhook: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-04-22 09:32:32,455 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000227628195B0>
+2025-04-22 10:02:20,956 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 10:02:21,440 - INFO - Webhook успешно удален.
+2025-04-22 10:02:23,441 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 10:02:23,441 - INFO - Инициализация базы данных начата...
+2025-04-22 10:02:23,442 - INFO - Создание таблицы users...
+2025-04-22 10:02:23,450 - INFO - Создание таблицы direction...
+2025-04-22 10:02:23,450 - INFO - Создание таблицы directionList...
+2025-04-22 10:02:23,451 - INFO - Создание таблицы banList...
+2025-04-22 10:02:23,451 - INFO - Создание таблицы report...
+2025-04-22 10:02:23,451 - INFO - База данных успешно инициализирована.
+2025-04-22 10:02:23,452 - INFO - База данных успешно инициализирована.
+2025-04-22 10:02:23,556 - INFO - Бот успешно запущен!
+2025-04-22 10:02:23,556 - INFO - Start polling
+2025-04-22 10:02:23,657 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 10:09:01,547 - INFO - Update id=979760409 is handled. Duration 391 ms by bot id=6711885344
+2025-04-22 10:09:12,302 - INFO - Update id=979760410 is handled. Duration 157 ms by bot id=6711885344
+2025-04-22 10:09:20,018 - INFO - Update id=979760411 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:09:25,067 - INFO - Update id=979760412 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:09:26,820 - INFO - Update id=979760413 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:09:31,308 - INFO - Update id=979760414 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:09:32,549 - INFO - Update id=979760415 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:09:33,880 - INFO - Update id=979760416 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:09:35,309 - INFO - Update id=979760417 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:09:36,487 - INFO - Update id=979760418 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:09:38,567 - INFO - Update id=979760419 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:09:48,634 - INFO - Update id=979760420 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:10:02,822 - INFO - Update id=979760421 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:10:40,283 - INFO - Update id=979760422 is handled. Duration 358 ms by bot id=6711885344
+2025-04-22 10:10:53,268 - INFO - Update id=979760423 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:10:57,224 - INFO - Update id=979760424 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:10:59,684 - INFO - Update id=979760425 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:11:02,008 - INFO - Update id=979760426 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:11:11,263 - INFO - Update id=979760427 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:11:12,561 - INFO - Update id=979760428 is handled. Duration 186 ms by bot id=6711885344
+2025-04-22 10:11:17,698 - INFO - Update id=979760429 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:11:24,943 - INFO - Update id=979760430 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:11:30,514 - INFO - Update id=979760431 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:11:32,946 - INFO - Update id=979760432 is handled. Duration 1358 ms by bot id=6711885344
+2025-04-22 10:11:37,513 - INFO - Update id=979760433 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:11:38,797 - INFO - Update id=979760434 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:11:42,064 - INFO - Update id=979760435 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:11:42,065 - ERROR - Cause exception while process update id=979760435 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:11:42,971 - INFO - Update id=979760436 is handled. Duration 157 ms by bot id=6711885344
+2025-04-22 10:11:45,298 - INFO - Update id=979760437 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:11:48,961 - INFO - Update id=979760438 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:11:48,961 - ERROR - Cause exception while process update id=979760438 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:11:52,116 - INFO - Update id=979760439 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:11:53,816 - INFO - Update id=979760440 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:11:54,927 - INFO - Update id=979760441 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:11:56,064 - INFO - Update id=979760442 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:11:57,520 - INFO - Update id=979760443 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:11:58,767 - INFO - Update id=979760444 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:12:00,918 - INFO - Update id=979760445 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:12:02,311 - INFO - Update id=979760446 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:12:03,665 - INFO - Update id=979760447 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:12:04,964 - INFO - Update id=979760448 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:12:06,327 - INFO - Update id=979760449 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:12:07,142 - INFO - Update id=979760450 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:12:07,485 - INFO - Update id=979760451 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:12:08,446 - INFO - Update id=979760452 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:12:08,781 - INFO - Update id=979760453 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:12:09,585 - INFO - Update id=979760454 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:12:10,079 - INFO - Update id=979760455 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:12:11,064 - INFO - Update id=979760456 is handled. Duration 280 ms by bot id=6711885344
+2025-04-22 10:12:11,410 - INFO - Update id=979760457 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:12:12,353 - INFO - Update id=979760458 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:12:12,354 - ERROR - Cause exception while process update id=979760458 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:12:16,874 - INFO - Update id=979760459 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:12:16,874 - ERROR - Cause exception while process update id=979760459 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:12:43,969 - INFO - Update id=979760460 is handled. Duration 344 ms by bot id=6711885344
+2025-04-22 10:12:51,093 - INFO - Update id=979760461 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:12:51,094 - ERROR - Cause exception while process update id=979760461 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:12:52,278 - INFO - Update id=979760462 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:13:06,613 - INFO - Update id=979760463 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:13:10,895 - INFO - Update id=979760464 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:13:11,822 - INFO - Update id=979760465 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:13:12,907 - INFO - Update id=979760466 is handled. Duration 311 ms by bot id=6711885344
+2025-04-22 10:13:14,065 - INFO - Update id=979760467 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:13:15,196 - INFO - Update id=979760468 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:13:15,484 - INFO - Update id=979760469 is handled. Duration 327 ms by bot id=6711885344
+2025-04-22 10:13:16,554 - INFO - Update id=979760470 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:13:17,650 - INFO - Update id=979760471 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:13:18,751 - INFO - Update id=979760472 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:13:23,454 - INFO - Update id=979760473 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:13:23,455 - ERROR - Cause exception while process update id=979760473 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:13:27,207 - INFO - Update id=979760474 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:13:31,814 - INFO - Update id=979760475 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:13:36,888 - INFO - Update id=979760476 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:13:45,985 - INFO - Update id=979760477 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:13:47,699 - INFO - Update id=979760478 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:13:58,642 - INFO - Update id=979760479 is handled. Duration 217 ms by bot id=6711885344
+2025-04-22 10:14:06,025 - INFO - Update id=979760480 is handled. Duration 217 ms by bot id=6711885344
+2025-04-22 10:14:09,577 - INFO - Update id=979760481 is handled. Duration 280 ms by bot id=6711885344
+2025-04-22 10:14:11,863 - INFO - Update id=979760482 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:14:12,468 - INFO - Update id=979760483 is not handled. Duration 16 ms by bot id=6711885344
+2025-04-22 10:14:13,057 - INFO - Update id=979760484 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:14:14,324 - INFO - Update id=979760485 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:14:15,326 - INFO - Update id=979760486 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:14:15,757 - INFO - Update id=979760487 is handled. Duration 452 ms by bot id=6711885344
+2025-04-22 10:14:16,579 - INFO - Update id=979760488 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:14:16,757 - INFO - Update id=979760489 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:14:18,023 - INFO - Update id=979760490 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:14:18,668 - INFO - Update id=979760491 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:14:19,063 - INFO - Update id=979760492 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:14:21,751 - INFO - Update id=979760493 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:14:21,751 - ERROR - Cause exception while process update id=979760493 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:14:23,732 - INFO - Update id=979760494 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:14:23,733 - ERROR - Cause exception while process update id=979760494 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:14:29,509 - INFO - Update id=979760495 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:14:29,509 - ERROR - Cause exception while process update id=979760495 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:14:33,038 - INFO - Update id=979760496 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:14:46,556 - INFO - Update id=979760497 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:14:55,474 - INFO - Update id=979760498 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:15:08,345 - INFO - Update id=979760499 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:15:12,006 - INFO - Update id=979760500 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:15:17,124 - INFO - Update id=979760501 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:15:19,940 - INFO - Update id=979760502 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:15:22,306 - INFO - Update id=979760503 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:15:43,940 - INFO - Update id=979760504 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:15:51,683 - INFO - Update id=979760505 is handled. Duration 391 ms by bot id=6711885344
+2025-04-22 10:15:57,923 - INFO - Update id=979760506 is not handled. Duration 16 ms by bot id=6711885344
+2025-04-22 10:15:59,319 - INFO - Update id=979760507 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:16:01,847 - INFO - Update id=979760508 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:16:11,851 - INFO - Update id=979760509 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:16:33,311 - INFO - Update id=979760510 is handled. Duration 483 ms by bot id=6711885344
+2025-04-22 10:16:34,787 - INFO - Update id=979760511 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:16:36,479 - INFO - Update id=979760512 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:16:37,752 - INFO - Update id=979760513 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:16:38,898 - INFO - Update id=979760514 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:16:43,134 - INFO - Update id=979760515 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:16:43,135 - ERROR - Cause exception while process update id=979760515 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:16:49,691 - INFO - Update id=979760516 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:16:51,399 - INFO - Update id=979760517 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:16:52,794 - INFO - Update id=979760518 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:16:54,037 - INFO - Update id=979760519 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:16:55,267 - INFO - Update id=979760520 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:16:56,449 - INFO - Update id=979760521 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:03,177 - INFO - Update id=979760522 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:17:06,757 - INFO - Update id=979760523 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:17:06,758 - ERROR - Cause exception while process update id=979760523 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '300 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '300 000'
+2025-04-22 10:17:14,838 - INFO - Update id=979760524 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:17:15,868 - INFO - Update id=979760525 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:17:22,394 - INFO - Update id=979760526 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:25,313 - INFO - Update id=979760527 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:30,706 - INFO - Update id=979760528 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:17:33,662 - INFO - Update id=979760529 is handled. Duration 2061 ms by bot id=6711885344
+2025-04-22 10:17:36,063 - INFO - Update id=979760530 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:37,570 - INFO - Update id=979760531 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:17:39,740 - INFO - Update id=979760532 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:17:39,910 - INFO - Update id=979760533 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:40,991 - INFO - Update id=979760534 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:41,226 - INFO - Update id=979760535 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:43,357 - INFO - Update id=979760536 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:43,673 - INFO - Update id=979760537 is handled. Duration 344 ms by bot id=6711885344
+2025-04-22 10:17:43,877 - INFO - Update id=979760538 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:17:44,196 - INFO - Update id=979760539 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:44,381 - INFO - Update id=979760540 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:17:45,483 - INFO - Update id=979760542 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:46,550 - INFO - Update id=979760541 is not handled. Duration 1313 ms by bot id=6711885344
+2025-04-22 10:17:46,550 - ERROR - Cause exception while process update id=979760541 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:17:46,836 - INFO - Update id=979760543 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:47,635 - INFO - Update id=979760544 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:17:47,864 - INFO - Update id=979760545 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:49,315 - INFO - Update id=979760546 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:49,679 - INFO - Update id=979760548 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:50,490 - INFO - Update id=979760547 is not handled. Duration 1030 ms by bot id=6711885344
+2025-04-22 10:17:50,490 - ERROR - Cause exception while process update id=979760547 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:17:50,746 - INFO - Update id=979760549 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:17:52,401 - INFO - Update id=979760550 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:52,607 - INFO - Update id=979760551 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:52,775 - INFO - Update id=979760552 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:17:54,008 - INFO - Update id=979760553 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:54,544 - INFO - Update id=979760554 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:17:55,696 - INFO - Update id=979760555 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:17:55,934 - INFO - Update id=979760556 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:17:56,883 - INFO - Update id=979760557 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:17:57,741 - INFO - Update id=979760558 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:17:58,178 - INFO - Update id=979760560 is handled. Duration 313 ms by bot id=6711885344
+2025-04-22 10:17:58,822 - INFO - Update id=979760559 is not handled. Duration 1061 ms by bot id=6711885344
+2025-04-22 10:17:58,822 - ERROR - Cause exception while process update id=979760559 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:17:58,861 - INFO - Update id=979760561 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:00,587 - INFO - Update id=979760562 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:18:00,990 - INFO - Update id=979760563 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:18:01,623 - INFO - Update id=979760564 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:18:02,879 - INFO - Update id=979760565 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:04,133 - INFO - Update id=979760566 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:18:05,456 - INFO - Update id=979760567 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:07,068 - INFO - Update id=979760568 is handled. Duration 375 ms by bot id=6711885344
+2025-04-22 10:18:07,651 - INFO - Update id=979760569 is handled. Duration 842 ms by bot id=6711885344
+2025-04-22 10:18:08,894 - INFO - Update id=979760570 is not handled. Duration 1139 ms by bot id=6711885344
+2025-04-22 10:18:08,894 - ERROR - Cause exception while process update id=979760570 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:18:11,136 - INFO - Update id=979760571 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:18:12,284 - INFO - Update id=979760572 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:13,856 - INFO - Update id=979760573 is handled. Duration 157 ms by bot id=6711885344
+2025-04-22 10:18:14,733 - INFO - Update id=979760574 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:15,960 - INFO - Update id=979760575 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:16,357 - INFO - Update id=979760576 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:17,368 - INFO - Update id=979760577 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:18,705 - INFO - Update id=979760578 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:20,463 - INFO - Update id=979760579 is handled. Duration 266 ms by bot id=6711885344
+2025-04-22 10:18:23,544 - INFO - Update id=979760580 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:24,997 - INFO - Update id=979760581 is handled. Duration 483 ms by bot id=6711885344
+2025-04-22 10:18:29,511 - INFO - Update id=979760582 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:18:30,435 - INFO - Update id=979760583 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:18:31,939 - INFO - Update id=979760584 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:34,006 - INFO - Update id=979760585 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:35,509 - INFO - Update id=979760586 is handled. Duration 485 ms by bot id=6711885344
+2025-04-22 10:18:39,020 - INFO - Update id=979760587 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:18:41,521 - INFO - Update id=979760588 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:42,514 - INFO - Update id=979760589 is handled. Duration 217 ms by bot id=6711885344
+2025-04-22 10:18:44,508 - INFO - Update id=979760590 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:45,802 - INFO - Update id=979760591 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:18:46,644 - INFO - Update id=979760592 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:46,973 - INFO - Update id=979760593 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:18:48,205 - INFO - Update id=979760594 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:18:49,290 - INFO - Update id=979760595 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:18:49,840 - INFO - Update id=979760596 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:18:51,329 - INFO - Update id=979760597 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:18:52,415 - INFO - Update id=979760598 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:03,196 - INFO - Update id=979760599 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:04,614 - INFO - Update id=979760600 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:06,741 - INFO - Update id=979760601 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:07,913 - INFO - Update id=979760602 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:10,004 - INFO - Update id=979760603 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:11,971 - INFO - Update id=979760604 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:19:19,922 - INFO - Update id=979760605 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:19:22,020 - INFO - Update id=979760606 is handled. Duration 514 ms by bot id=6711885344
+2025-04-22 10:19:51,788 - INFO - Update id=979760607 is handled. Duration 358 ms by bot id=6711885344
+2025-04-22 10:19:52,953 - INFO - Update id=979760608 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:19:54,482 - INFO - Update id=979760609 is handled. Duration 157 ms by bot id=6711885344
+2025-04-22 10:19:57,517 - INFO - Update id=979760610 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 10:20:00,300 - INFO - Update id=979760612 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:20:01,416 - INFO - Update id=979760611 is handled. Duration 2750 ms by bot id=6711885344
+2025-04-22 10:20:01,913 - INFO - Update id=979760613 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:20:03,061 - INFO - Update id=979760614 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:20:05,146 - INFO - Update id=979760615 is handled. Duration 186 ms by bot id=6711885344
+2025-04-22 10:20:09,030 - INFO - Update id=979760616 is handled. Duration 2891 ms by bot id=6711885344
+2025-04-22 10:20:10,702 - INFO - Update id=979760617 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:20:11,860 - INFO - Update id=979760618 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:20:20,698 - INFO - Update id=979760619 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:20:25,402 - INFO - Update id=979760620 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:20:29,575 - INFO - Update id=979760621 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:20:32,401 - INFO - Update id=979760622 is handled. Duration 1780 ms by bot id=6711885344
+2025-04-22 10:20:35,364 - INFO - Update id=979760623 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:21:03,931 - INFO - Update id=979760624 is handled. Duration 313 ms by bot id=6711885344
+2025-04-22 10:21:05,575 - INFO - Update id=979760625 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:21:08,689 - INFO - Update id=979760626 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:21:10,212 - INFO - Update id=979760627 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:21:10,212 - ERROR - Cause exception while process update id=979760627 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '250 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '250 000'
+2025-04-22 10:21:14,782 - INFO - Update id=979760628 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:21:17,044 - INFO - Update id=979760629 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:21:18,527 - INFO - Update id=979760630 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:21:20,283 - INFO - Update id=979760631 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:21:24,041 - INFO - Update id=979760632 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:21:24,041 - ERROR - Cause exception while process update id=979760632 by bot id=6711885344
+ValueError: invalid literal for int() with base 10: '250 000'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 463, in countine_setn_you_price
+    direction_start_price = int(direction_all_info[5])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '250 000'
+2025-04-22 10:22:01,451 - INFO - Update id=979760633 is handled. Duration 327 ms by bot id=6711885344
+2025-04-22 10:22:02,465 - INFO - Update id=979760634 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:05,003 - INFO - Update id=979760635 is handled. Duration 313 ms by bot id=6711885344
+2025-04-22 10:22:07,644 - INFO - Update id=979760637 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:22:08,796 - INFO - Update id=979760638 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:22:08,825 - INFO - Update id=979760636 is handled. Duration 2639 ms by bot id=6711885344
+2025-04-22 10:22:14,279 - INFO - Update id=979760639 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:22:14,568 - INFO - Update id=979760640 is handled. Duration 342 ms by bot id=6711885344
+2025-04-22 10:22:17,258 - INFO - Update id=979760641 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:18,000 - INFO - Update id=979760642 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:18,492 - INFO - Update id=979760643 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:22:20,813 - INFO - Update id=979760644 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:24,481 - INFO - Update id=979760645 is handled. Duration 2438 ms by bot id=6711885344
+2025-04-22 10:22:26,306 - INFO - Update id=979760646 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:22:26,994 - INFO - Update id=979760647 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:27,222 - INFO - Update id=979760648 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:22:28,251 - INFO - Update id=979760649 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:28,698 - INFO - Update id=979760650 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:22:29,306 - INFO - Update id=979760651 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:22:33,767 - INFO - Update id=979760652 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:36,059 - INFO - Update id=979760653 is not handled. Duration 1202 ms by bot id=6711885344
+2025-04-22 10:22:36,059 - ERROR - Cause exception while process update id=979760653 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:22:37,012 - INFO - Update id=979760654 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:39,888 - INFO - Update id=979760655 is not handled. Duration 1452 ms by bot id=6711885344
+2025-04-22 10:22:39,888 - ERROR - Cause exception while process update id=979760655 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:22:41,514 - INFO - Update id=979760656 is handled. Duration 342 ms by bot id=6711885344
+2025-04-22 10:22:45,660 - INFO - Update id=979760657 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:47,191 - INFO - Update id=979760658 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:47,687 - INFO - Update id=979760659 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:48,201 - INFO - Update id=979760660 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:49,107 - INFO - Update id=979760661 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:22:49,419 - INFO - Update id=979760662 is handled. Duration 327 ms by bot id=6711885344
+2025-04-22 10:22:50,060 - INFO - Update id=979760663 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:22:51,332 - INFO - Update id=979760664 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:53,025 - INFO - Update id=979760665 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:22:53,481 - INFO - Update id=979760666 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:22:54,770 - INFO - Update id=979760667 is handled. Duration 186 ms by bot id=6711885344
+2025-04-22 10:22:55,798 - INFO - Update id=979760668 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:22:57,038 - INFO - Update id=979760671 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:22:57,174 - INFO - Update id=979760669 is handled. Duration 532 ms by bot id=6711885344
+2025-04-22 10:22:58,141 - INFO - Update id=979760670 is not handled. Duration 1358 ms by bot id=6711885344
+2025-04-22 10:22:58,142 - ERROR - Cause exception while process update id=979760670 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:23:05,517 - INFO - Update id=979760672 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:08,931 - INFO - Update id=979760673 is handled. Duration 157 ms by bot id=6711885344
+2025-04-22 10:23:13,105 - INFO - Update id=979760674 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:23:13,380 - INFO - Update id=979760675 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:16,025 - INFO - Update id=979760676 is not handled. Duration 1170 ms by bot id=6711885344
+2025-04-22 10:23:16,025 - ERROR - Cause exception while process update id=979760676 by bot id=6711885344
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 603, in create_new_direction_price
+    await bot.send_message(
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\directions.py", line 611, in create_new_direction_price
+    except aiogram.utils.exceptions.ChatNotFound:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'aiogram.utils' has no attribute 'exceptions'
+2025-04-22 10:23:20,176 - INFO - Update id=979760677 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:40,354 - INFO - Update id=979760678 is handled. Duration 313 ms by bot id=6711885344
+2025-04-22 10:23:41,901 - INFO - Update id=979760679 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:23:43,451 - INFO - Update id=979760680 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:45,375 - INFO - Update id=979760681 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:46,457 - INFO - Update id=979760682 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:46,793 - INFO - Update id=979760683 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:23:47,541 - INFO - Update id=979760684 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:23:48,133 - INFO - Update id=979760685 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:23:48,921 - INFO - Update id=979760686 is handled. Duration 282 ms by bot id=6711885344
+2025-04-22 10:23:50,174 - INFO - Update id=979760687 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:51,178 - INFO - Update id=979760688 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:52,210 - INFO - Update id=979760689 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:23:52,495 - INFO - Update id=979760690 is handled. Duration 297 ms by bot id=6711885344
+2025-04-22 10:23:54,855 - INFO - Update id=979760691 is handled. Duration 719 ms by bot id=6711885344
+2025-04-22 10:23:56,434 - INFO - Update id=979760692 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 10:23:57,769 - INFO - Update id=979760693 is handled. Duration 264 ms by bot id=6711885344
+2025-04-22 10:24:23,234 - INFO - Update id=979760694 is handled. Duration 344 ms by bot id=6711885344
+2025-04-22 10:24:24,577 - INFO - Update id=979760695 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:24:26,367 - INFO - Update id=979760696 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:24:32,577 - INFO - Update id=979760697 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:24:34,569 - INFO - Update id=979760698 is handled. Duration 500 ms by bot id=6711885344
+2025-04-22 10:24:46,802 - INFO - Update id=979760699 is handled. Duration 157 ms by bot id=6711885344
+2025-04-22 10:24:48,565 - INFO - Update id=979760700 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:24:49,664 - INFO - Update id=979760701 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:24:51,190 - INFO - Update id=979760702 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:24:52,224 - INFO - Update id=979760703 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:24:53,832 - INFO - Update id=979760704 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:24:55,115 - INFO - Update id=979760705 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:24:56,311 - INFO - Update id=979760706 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:24:57,840 - INFO - Update id=979760707 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:24:58,785 - INFO - Update id=979760708 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:25:04,126 - INFO - Update id=979760709 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:25:05,198 - INFO - Update id=979760710 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:25:06,344 - INFO - Update id=979760711 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:25:06,693 - INFO - Update id=979760712 is handled. Duration 375 ms by bot id=6711885344
+2025-04-22 10:25:07,572 - INFO - Update id=979760713 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:25:08,222 - INFO - Update id=979760714 is handled. Duration 204 ms by bot id=6711885344
+2025-04-22 10:25:08,837 - INFO - Update id=979760715 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:25:09,847 - INFO - Update id=979760716 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:25:09,955 - INFO - Update id=979760717 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:25:11,008 - INFO - Update id=979760718 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:25:11,891 - INFO - Update id=979760719 is handled. Duration 170 ms by bot id=6711885344
+2025-04-22 10:25:12,532 - INFO - Update id=979760720 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 10:25:13,157 - INFO - Update id=979760721 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:25:13,967 - INFO - Update id=979760722 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:25:14,402 - INFO - Update id=979760723 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:25:15,383 - INFO - Update id=979760724 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:25:16,823 - INFO - Update id=979760725 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:25:17,766 - INFO - Update id=979760726 is handled. Duration 233 ms by bot id=6711885344
+2025-04-22 10:25:23,317 - INFO - Update id=979760727 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:25:24,995 - INFO - Update id=979760728 is handled. Duration 469 ms by bot id=6711885344
+2025-04-22 10:25:41,726 - INFO - Update id=979760729 is handled. Duration 375 ms by bot id=6711885344
+2025-04-22 10:25:43,488 - INFO - Update id=979760730 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:25:44,716 - INFO - Update id=979760731 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:25:48,798 - INFO - Update id=979760732 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:25:50,771 - INFO - Update id=979760733 is handled. Duration 514 ms by bot id=6711885344
+2025-04-22 10:26:20,381 - INFO - Update id=979760734 is handled. Duration 327 ms by bot id=6711885344
+2025-04-22 10:26:21,622 - INFO - Update id=979760735 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 10:26:22,769 - INFO - Update id=979760736 is handled. Duration 170 ms by bot id=6711885344
+2025-04-22 10:26:24,372 - INFO - Update id=979760737 is handled. Duration 186 ms by bot id=6711885344
+2025-04-22 10:26:25,659 - INFO - Update id=979760738 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:26:26,704 - INFO - Update id=979760739 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:26:27,562 - INFO - Update id=979760740 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:26:29,355 - INFO - Update id=979760741 is handled. Duration 188 ms by bot id=6711885344
+2025-04-22 10:26:30,509 - INFO - Update id=979760742 is handled. Duration 219 ms by bot id=6711885344
+2025-04-22 10:26:32,364 - INFO - Update id=979760743 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:26:33,301 - INFO - Update id=979760744 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 10:26:35,380 - INFO - Update id=979760745 is handled. Duration 719 ms by bot id=6711885344
+2025-04-22 10:26:36,921 - INFO - Update id=979760746 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:26:38,262 - INFO - Update id=979760747 is handled. Duration 280 ms by bot id=6711885344
+2025-04-22 10:26:46,197 - INFO - Update id=979760748 is handled. Duration 108 ms by bot id=6711885344
+2025-04-22 10:26:47,166 - INFO - Update id=979760749 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:26:49,782 - INFO - Update id=979760750 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:26:51,675 - INFO - Update id=979760751 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:26:55,710 - INFO - Update id=979760752 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:26:56,852 - INFO - Update id=979760753 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:26:57,824 - INFO - Update id=979760754 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:27:00,801 - INFO - Update id=979760755 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:27:03,000 - INFO - Update id=979760756 is handled. Duration 1188 ms by bot id=6711885344
+2025-04-22 10:27:42,382 - INFO - Update id=979760757 is handled. Duration 891 ms by bot id=6711885344
+2025-04-22 10:27:46,619 - INFO - Update id=979760758 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 10:27:50,652 - INFO - Update id=979760759 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:27:55,826 - INFO - Update id=979760760 is handled. Duration 250 ms by bot id=6711885344
+2025-04-22 10:27:57,929 - INFO - Update id=979760761 is handled. Duration 1172 ms by bot id=6711885344
+2025-04-22 10:28:01,840 - INFO - Update id=979760762 is handled. Duration 155 ms by bot id=6711885344
+2025-04-22 10:28:03,589 - INFO - Update id=979760763 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 10:28:04,786 - INFO - Update id=979760764 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 10:28:06,429 - INFO - Update id=979760765 is handled. Duration 141 ms by bot id=6711885344
+2025-04-22 10:28:08,760 - INFO - Update id=979760767 is not handled. Duration 0 ms by bot id=6711885344
+2025-04-22 10:28:09,462 - INFO - Update id=979760766 is handled. Duration 2063 ms by bot id=6711885344
+2025-04-22 13:30:57,262 - INFO - Update id=979760768 is handled. Duration 344 ms by bot id=6711885344
+2025-04-22 13:31:00,598 - INFO - Update id=979760769 is handled. Duration 110 ms by bot id=6711885344
+2025-04-22 13:31:03,001 - INFO - Update id=979760770 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 13:31:14,922 - INFO - Update id=979760771 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 13:31:17,812 - INFO - Update id=979760772 is handled. Duration 140 ms by bot id=6711885344
+2025-04-22 13:31:19,596 - INFO - Update id=979760773 is handled. Duration 203 ms by bot id=6711885344
+2025-04-22 13:31:20,897 - INFO - Update id=979760774 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 13:31:23,271 - INFO - Update id=979760775 is handled. Duration 156 ms by bot id=6711885344
+2025-04-22 13:31:30,524 - INFO - Update id=979760776 is handled. Duration 281 ms by bot id=6711885344
+2025-04-22 13:31:33,644 - INFO - Update id=979760777 is not handled. Duration 139 ms by bot id=6711885344
+2025-04-22 13:31:33,644 - ERROR - Cause exception while process update id=979760777 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 376, in show_users_for_manager_addition
+    await callback_query.message.edit_text("🚹 Выберите пользователя для назначения менеджером:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 14:18:07,967 - INFO - Polling stopped
+2025-04-22 14:18:08,217 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:18:08,219 - INFO - Бот остановлен!
+2025-04-22 14:18:08,363 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FC6213C3B0>
+2025-04-22 14:18:13,266 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 14:18:13,591 - INFO - Webhook успешно удален.
+2025-04-22 14:18:15,593 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 14:18:15,593 - INFO - Инициализация базы данных начата...
+2025-04-22 14:18:15,594 - INFO - Создание таблицы users...
+2025-04-22 14:18:15,595 - INFO - Создание таблицы direction...
+2025-04-22 14:18:15,595 - INFO - Создание таблицы directionList...
+2025-04-22 14:18:15,595 - INFO - Создание таблицы banList...
+2025-04-22 14:18:15,596 - INFO - Создание таблицы report...
+2025-04-22 14:18:15,597 - INFO - База данных успешно инициализирована.
+2025-04-22 14:18:15,597 - INFO - База данных успешно инициализирована.
+2025-04-22 14:18:15,845 - INFO - Бот успешно запущен!
+2025-04-22 14:18:15,846 - INFO - Start polling
+2025-04-22 14:18:15,953 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:18:22,328 - INFO - Update id=979760778 is handled. Duration 405 ms by bot id=6711885344
+2025-04-22 14:18:23,686 - INFO - Update id=979760779 is handled. Duration 172 ms by bot id=6711885344
+2025-04-22 14:18:25,207 - INFO - Update id=979760780 is not handled. Duration 140 ms by bot id=6711885344
+2025-04-22 14:18:25,208 - ERROR - Cause exception while process update id=979760780 by bot id=6711885344
+TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 376, in show_users_for_manager_addition
+    await callback_query.message.edit_text(text="🚹 Выберите пользователя для назначения менеджером:", reply_markup=keyboard)
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID
+2025-04-22 14:22:00,072 - INFO - Polling stopped
+2025-04-22 14:22:00,332 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:22:00,335 - INFO - Бот остановлен!
+2025-04-22 14:22:05,372 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 14:22:05,695 - INFO - Webhook успешно удален.
+2025-04-22 14:22:07,705 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 14:22:07,705 - INFO - Инициализация базы данных начата...
+2025-04-22 14:22:07,706 - INFO - Создание таблицы users...
+2025-04-22 14:22:07,707 - INFO - Создание таблицы direction...
+2025-04-22 14:22:07,707 - INFO - Создание таблицы directionList...
+2025-04-22 14:22:07,707 - INFO - Создание таблицы banList...
+2025-04-22 14:22:07,708 - INFO - Создание таблицы report...
+2025-04-22 14:22:07,708 - INFO - База данных успешно инициализирована.
+2025-04-22 14:22:07,708 - INFO - База данных успешно инициализирована.
+2025-04-22 14:22:07,833 - INFO - Бот успешно запущен!
+2025-04-22 14:22:07,834 - INFO - Start polling
+2025-04-22 14:22:07,939 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:22:11,665 - INFO - Update id=979760781 is handled. Duration 375 ms by bot id=6711885344
+2025-04-22 14:22:13,108 - INFO - Update id=979760782 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:22:14,060 - INFO - Update id=979760783 is not handled. Duration 14 ms by bot id=6711885344
+2025-04-22 14:22:14,060 - ERROR - Cause exception while process update id=979760783 by bot id=6711885344
+ValueError: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\WorkStation\Tender_bot\handlers\user_management.py", line 366, in show_users_for_manager_addition
+    for telegram_id, username in users
+        ^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-22 14:24:31,446 - INFO - Polling stopped
+2025-04-22 14:24:31,698 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:24:31,700 - INFO - Бот остановлен!
+2025-04-22 14:24:56,591 - INFO - Удаление активного webhook перед запуском бота...
+2025-04-22 14:24:56,979 - INFO - Webhook успешно удален.
+2025-04-22 14:24:58,987 - INFO - Инициализация базы данных перед запуском бота...
+2025-04-22 14:24:58,988 - INFO - Инициализация базы данных начата...
+2025-04-22 14:24:58,989 - INFO - Создание таблицы users...
+2025-04-22 14:24:58,989 - INFO - Создание таблицы direction...
+2025-04-22 14:24:58,990 - INFO - Создание таблицы directionList...
+2025-04-22 14:24:58,990 - INFO - Создание таблицы banList...
+2025-04-22 14:24:58,990 - INFO - Создание таблицы report...
+2025-04-22 14:24:58,991 - INFO - База данных успешно инициализирована.
+2025-04-22 14:24:58,991 - INFO - База данных успешно инициализирована.
+2025-04-22 14:24:59,100 - INFO - Бот успешно запущен!
+2025-04-22 14:24:59,100 - INFO - Start polling
+2025-04-22 14:24:59,204 - INFO - Run polling for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:25:02,530 - INFO - Update id=979760784 is handled. Duration 469 ms by bot id=6711885344
+2025-04-22 14:25:03,491 - INFO - Update id=979760785 is handled. Duration 139 ms by bot id=6711885344
+2025-04-22 14:25:04,669 - INFO - Update id=979760786 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:25:12,496 - INFO - Update id=979760787 is handled. Duration 109 ms by bot id=6711885344
+2025-04-22 14:25:17,340 - INFO - Update id=979760788 is handled. Duration 125 ms by bot id=6711885344
+2025-04-22 14:25:20,118 - INFO - Update id=979760789 is handled. Duration 202 ms by bot id=6711885344
+2025-04-22 14:25:26,158 - INFO - Polling stopped
+2025-04-22 14:25:26,413 - INFO - Polling stopped for bot @Tender_Star_Brands_Asia_bot id=6711885344 - 'Тендер Star Brands Asia'
+2025-04-22 14:25:26,415 - INFO - Бот остановлен!

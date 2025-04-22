@@ -355,15 +355,15 @@ async def show_users_for_manager_addition(callback_query: types.CallbackQuery):
 
     if user_role and user_role[0] == 'admin':
         # Получаем список пользователей с ролью 'user'
-        usernames = await get_all_username_without_you_id(ID)  # Возвращает список username
-        if not usernames:
+        users = await get_all_username_without_you_id(ID)  # Возвращает список кортежей (telegram_id, username)
+        if not users:
             await callback_query.message.edit_text("🚹 Список пользователей с ролью 'user' пуст.")
             return
 
         # Создаём список кнопок
         buttons = [
-            [InlineKeyboardButton(text=username, callback_data=f"confirm_add_manager:{username}")]
-            for username in usernames
+            [InlineKeyboardButton(text=username, callback_data=f"confirm_add_manager:{telegram_id}")]
+            for telegram_id, username in users
         ]
 
         # Добавляем кнопку для возврата
@@ -373,7 +373,7 @@ async def show_users_for_manager_addition(callback_query: types.CallbackQuery):
         keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
 
         # Отправляем сообщение с клавиатурой
-        await callback_query.message.edit_text("🚹 Выберите пользователя для назначения менеджером:", reply_markup=keyboard)
+        await callback_query.message.edit_text(text="🚹 Выберите пользователя для назначения менеджером:", reply_markup=keyboard)
     else:
         await callback_query.message.edit_text("❌ У вас нет прав.")
 

@@ -470,17 +470,17 @@ async def get_admin_and_managers_ids():
 
 async def get_all_username_without_you_id(ID: str):
     """
-    Асинхронное получение всех имен пользователей, кроме указанного Telegram ID.
+    Асинхронное получение всех пользователей (telegram_id и username), кроме указанного Telegram ID.
     """
     async with aiosqlite.connect(DATABASE_PATH) as db:
         select_query = '''
-        SELECT username
+        SELECT telegram_id, username
         FROM users
         WHERE telegram_id != ?
         '''
         cursor = await db.execute(select_query, (ID,))
-        usernames = [row[0] for row in await cursor.fetchall()]
-        return usernames
+        users = await cursor.fetchall()  # Возвращает список кортежей (telegram_id, username)
+        return users
 
 async def check_user_correct_username(username_from_deactivation: str):
     """
